@@ -85,10 +85,15 @@
     </div>
     <div class="battle-hp-row">
       <div class="hp-block"><span class="hp-label">你</span><div class="hp-bar"><div id="hp-player" class="hp-fill"></div></div></div>
-      <div class="hp-block"><span class="hp-label" id="hp-enemy-name">考官</span><div class="hp-bar"><div id="hp-enemy" class="hp-fill enemy"></div></div></div>
+      <div class="combo-indicator">連擊<br><span id="combo-count">0</span></div>
+      <div class="hp-block hp-block-enemy">
+        <span class="hp-label" id="hp-enemy-name">考官</span>
+        <div class="hp-enemy-row">
+          <img id="battle-enemy-portrait" class="battle-enemy-portrait hidden" alt="考官立繪">
+          <div class="hp-bar"><div id="hp-enemy" class="hp-fill enemy"></div></div>
+        </div>
+      </div>
     </div>
-    <div class="combo-indicator">連擊 <span id="combo-count">0</span></div>
-    <img id="battle-enemy-portrait" class="battle-enemy-portrait hidden" alt="考官立繪">
     <div class="quiz-card" id="battle-card"></div>
     <div id="battle-roster" class="roster-grid"></div>
   </section>

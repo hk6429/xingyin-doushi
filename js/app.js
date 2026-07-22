@@ -17,11 +17,20 @@ const XYApp = (() => {
   function renderDaily() {
     const { prog } = XYStore.getDaily();
     const GOALS = { correct: 10, mastered: 3 };
-    const row = (label, key) => {
-      const done = prog[key] >= GOALS[key];
-      return `<div class="quest-row ${done ? 'done' : ''}">${done ? '✓' : '○'} ${label}：${Math.min(prog[key], GOALS[key])}/${GOALS[key]}</div>`;
+    const row = (icon, label, key) => {
+      const val = Math.min(prog[key], GOALS[key]);
+      const done = val >= GOALS[key];
+      const pct = Math.round((val / GOALS[key]) * 100);
+      return `<div class="quest-row ${done ? 'done' : ''}">
+        <span class="quest-icon">${done ? '✓' : icon}</span>
+        <div class="quest-body">
+          <div class="quest-label">${label}</div>
+          <div class="quest-track"><div class="quest-fill" style="width:${pct}%"></div></div>
+        </div>
+        <span class="quest-count">${val}/${GOALS[key]}</span>
+      </div>`;
     };
-    $('#daily-quest-panel').innerHTML = row('今日答對', 'correct') + row('今日新精通', 'mastered');
+    $('#daily-quest-panel').innerHTML = row('答', '今日答對', 'correct') + row('精', '今日新精通', 'mastered');
   }
 
   function poolForMode(mode) {
