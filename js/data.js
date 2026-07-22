@@ -12,6 +12,13 @@ const XYData = (() => {
     return a;
   }
 
+  function splitAnswers(answers) {
+    return (answers || [])
+      .flatMap((a) => String(a).split('\n'))
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
   function addCharIndex(char, unitId) {
     if (!char) return;
     if (!charIndex.has(char)) charIndex.set(char, []);
@@ -28,7 +35,7 @@ const XYData = (() => {
           const options = it.parts.map((p) => ({
             sentence: p.sentence,
             isCorrectAsIs: p.isCorrectAsIs,
-            answers: p.answers || [],
+            answers: splitAnswers(p.answers),
           }));
           const correctIndex = options.findIndex((o) => o.isCorrectAsIs);
           const unitId = `${it.id}#pick`;
@@ -42,7 +49,10 @@ const XYData = (() => {
           if (p.mode === 'judge') {
             units.push({
               id: unitId, kind: 'judge', meta,
-              sentence: p.sentence, isCorrectAsIs: p.isCorrectAsIs, answers: p.answers || [],
+              sentence: p.sentence, isCorrectAsIs: p.isCorrectAsIs,
+              // 原始資料偶爾把兩處訂正塞進同一個字串（以換行分隔），
+              // 拆開才會一處一個作答框。
+              answers: splitAnswers(p.answers),
             });
           } else {
             // char or reading: multiple-choice pick the right character
@@ -73,7 +83,7 @@ const XYData = (() => {
   }
 
   async function load() {
-    const res = await fetch('data/items.json');
+    const res = await fetch('data/items.json?v=202607230036');
     items = await res.json();
     buildUnits();
     return units;

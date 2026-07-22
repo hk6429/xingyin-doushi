@@ -53,6 +53,7 @@ const XYApp = (() => {
     XYQuestionUI.render($('#quiz-card'), unit, {
       onDone: (result) => onAnswered(unit, result),
       onNext: advance,
+      progress: { idx: session.idx + 1, total: session.units.length },
     });
   }
 

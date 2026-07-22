@@ -82,7 +82,10 @@ const XYQuestionUI = (() => {
 
   // render(container, unit, { onDone(result), showNextButton, onNext })
   function render(container, unit, opts) {
-    container.innerHTML = html(unit);
+    const progressHTML = opts.progress
+      ? `<div class="quiz-progress"><div class="quiz-progress-fill" style="width:${Math.round((opts.progress.idx / opts.progress.total) * 100)}%"></div></div>`
+      : '';
+    container.innerHTML = progressHTML + html(unit);
     const feedbackEl = () => container.querySelector('#feedback');
 
     teardown();

@@ -8,7 +8,8 @@ const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css
 const ROOT = new URL('..', import.meta.url).pathname;
 
 const server = createServer(async (req, res) => {
-  const path = req.url === '/' ? '/index.html' : req.url;
+  // 剝掉 ?v=… 快取破壞用的查詢字串（真 CDN 會自己處理，這台簡易伺服器要手動剝）
+  const path = req.url === '/' ? '/index.html' : req.url.split('?')[0];
   try {
     const body = await readFile(join(ROOT, path));
     res.writeHead(200, { 'Content-Type': MIME[extname(path)] || 'text/plain' });
