@@ -102,12 +102,11 @@ main { max-width: 720px; margin: 0 auto; padding: 16px; }
   box-shadow: 0 1px 3px rgba(43,74,111,0.15);
 }
 .mode-icon {
-  width: 42px; height: 42px;
+  width: 52px; height: 52px;
   border-radius: 50%;
   border: 2px solid var(--indigo);
-  color: var(--indigo);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.3rem; font-weight: bold;
+  object-fit: cover;
+  background: #fdfaf2;
 }
 .mode-title { font-weight: bold; }
 .mode-desc { font-size: 0.75rem; color: #6b5d4a; }
