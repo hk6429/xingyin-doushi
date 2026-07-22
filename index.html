@@ -8,13 +8,17 @@
 </head>
 <body>
 <header class="topbar">
-  <h1>形音鬥士</h1>
-  <p class="subtitle">歷屆基測會考字形字音總複習</p>
+  <img class="topbar-mascot" src="assets/art/mascot-cangjie.png" alt="倉頡吉祥物">
+  <div>
+    <h1>形音鬥士</h1>
+    <p class="subtitle">歷屆基測會考字形字音總複習</p>
+  </div>
 </header>
 
 <main id="app">
 
   <section id="view-home" class="view">
+    <img class="hero-banner" src="assets/art/hero-banner.png" alt="倉頡造字">
     <div class="paper-note">資料來源：歷屆基測（90～102）／會考（103～）官方試題教師版整理，共 <span id="stat-total">427</span> 題原始題目。</div>
     <div class="mode-grid">
       <button class="mode-card" data-mode="xingxing">
@@ -78,6 +82,7 @@
       <div class="hp-block"><span class="hp-label" id="hp-enemy-name">考官</span><div class="hp-bar"><div id="hp-enemy" class="hp-fill enemy"></div></div></div>
     </div>
     <div class="combo-indicator">連擊 <span id="combo-count">0</span></div>
+    <img id="battle-enemy-portrait" class="battle-enemy-portrait hidden" alt="考官立繪">
     <div class="quiz-card" id="battle-card"></div>
     <div id="battle-roster" class="roster-grid"></div>
   </section>

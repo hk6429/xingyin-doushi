@@ -6,3 +6,6 @@ node_modules/
 
 # Local Netlify folder
 .netlify
+
+# codex-image2 生圖 lane 工作目錄（auth 連結＋原始生成暫存，成品已複製到 assets/art）
+.codex-lane-*/

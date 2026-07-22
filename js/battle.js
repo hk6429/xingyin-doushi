@@ -3,14 +3,14 @@
 const XYBattle = (() => {
   const MAX_HP = 100;
   const ROSTER = [
-    { name: '代理老師', atk: 6 },
-    { name: '段考出題委員', atk: 8 },
-    { name: '基測命題老師', atk: 10 },
-    { name: '會考命題老師', atk: 12 },
-    { name: '國文科輔導員', atk: 14 },
-    { name: '國編館審定委員', atk: 16 },
-    { name: '歷屆狀元教練', atk: 19 },
-    { name: '字形字音總召', atk: 24 },
+    { name: '甲骨文使者', atk: 6, art: 'opp-oracle' },
+    { name: '金文尚書', atk: 8, art: 'opp-bronze' },
+    { name: '大篆博士', atk: 10, art: 'opp-greatseal' },
+    { name: '小篆丞相', atk: 12, art: 'opp-smallseal' },
+    { name: '隸書刀筆吏', atk: 14, art: 'opp-clerical' },
+    { name: '楷書大家', atk: 16, art: 'opp-regular' },
+    { name: '說文解字許慎', atk: 19, art: 'opp-xushen' },
+    { name: '倉頡本尊', atk: 24, art: 'opp-cangjie-boss' },
   ];
 
   let state = null;
@@ -21,11 +21,15 @@ const XYBattle = (() => {
     const battleData = XYStore.getBattle();
     const grid = $('#battle-roster');
     $('#battle-title').textContent = '';
+    $('#battle-enemy-portrait').classList.add('hidden');
     $('#battle-card').innerHTML = '<p class="paper-note">選擇一位考官挑戰，答對出招、連擊加成傷害。</p>';
     grid.innerHTML = ROSTER.map((r, i) => {
       const locked = i >= battleData.unlocked;
       const cleared = i < battleData.wins;
-      return `<button class="roster-item ${locked ? 'locked' : ''} ${cleared ? 'cleared' : ''}" data-i="${i}" ${locked ? 'disabled' : ''}>${r.name}</button>`;
+      return `<button class="roster-item ${locked ? 'locked' : ''} ${cleared ? 'cleared' : ''}" data-i="${i}" ${locked ? 'disabled' : ''}>
+        <img class="roster-portrait" src="assets/art/${r.art}.png" alt="${r.name}">
+        <span>${r.name}</span>
+      </button>`;
     }).join('');
     grid.querySelectorAll('.roster-item:not(.locked)').forEach((btn) => {
       btn.addEventListener('click', () => startBattle(Number(btn.dataset.i)));
@@ -38,6 +42,8 @@ const XYBattle = (() => {
     $('#battle-roster').innerHTML = '';
     $('#battle-title').textContent = `對戰中：${opp.name}`;
     $('#hp-enemy-name').textContent = opp.name;
+    $('#battle-enemy-portrait').src = `assets/art/${opp.art}.png`;
+    $('#battle-enemy-portrait').classList.remove('hidden');
     updateHpBars();
     nextQuestion();
   }
