@@ -72,4 +72,32 @@ function loadStore() {
   assert.ok(Math.abs(m.ratio - 2 / 3) < 1e-9);
 }
 
+// 6. daily quest progress: correct answers and newly-mastered chars bump today's counters
+{
+  const S = loadStore();
+  S.recordAnswer('d1', true, ['驅']);
+  S.recordAnswer('d2', false, []);
+  const daily = S.getDaily();
+  assert.strictEqual(daily.prog.correct, 1, 'only the correct answer should bump prog.correct');
+  assert.strictEqual(daily.prog.mastered, 1, 'newly-mastered char should bump prog.mastered once');
+  S.recordAnswer('d1', true, ['驅']); // already mastered -- should not double-count
+  assert.strictEqual(S.getDaily().prog.mastered, 1, 're-mastering the same unit should not bump again');
+}
+
+// 7. export/import round-trips boxes/stats/wrong/battle/daily through a fresh store instance
+{
+  const S1 = loadStore();
+  S1.recordAnswer('e1', true, ['字']);
+  S1.recordAnswer('e2', false, []);
+  S1.saveBattle({ wins: 3, unlocked: 4 });
+  const dump = S1.exportProgress();
+
+  const S2 = loadStore();
+  S2.importProgress(dump);
+  assert.strictEqual(S2.isMastered('e1'), true, 'imported mastery should match source');
+  assert.deepStrictEqual(S2.wrongBookUnitIds(), ['e2'], 'imported wrongbook should match source');
+  assert.deepStrictEqual(S2.getBattle(), { wins: 3, unlocked: 4 }, 'imported battle progress should match source');
+  assert.strictEqual(S2.getDaily().prog.correct, 1, 'imported daily quest progress should match source');
+}
+
 console.log('store.test.mjs: all assertions passed');

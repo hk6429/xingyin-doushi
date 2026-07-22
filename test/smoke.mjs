@@ -33,6 +33,33 @@ await page.waitForSelector('#view-home:not(.hidden)');
 await page.waitForSelector('.mode-card');
 const modeCount = await page.$$eval('.mode-card', (els) => els.length);
 
+// 0. 鍵盤作答：數字鍵 1 選第一個選項，空白鍵推進下一題
+await page.click('[data-mode="mix"]');
+await page.waitForSelector('#view-quiz:not(.hidden)');
+await page.waitForSelector('#quiz-card button:not([disabled])');
+const kbdKind = await page.$eval('#quiz-card', (el) => {
+  if (el.querySelector('.opt-grid')) return 'mc';
+  if (el.querySelector('.judge-row')) return 'judge';
+  return 'other';
+});
+if (kbdKind === 'mc' || kbdKind === 'judge') {
+  await page.keyboard.press('1');
+  await page.waitForSelector('#quiz-card .feedback-bar');
+  if (kbdKind === 'judge') {
+    const fillBtn = await page.$('#quiz-card [data-action="submit-fill"]');
+    if (fillBtn) { await fillBtn.click(); await page.waitForSelector('#quiz-card .feedback-bar'); }
+  }
+  const scoreBefore = await page.$eval('#quiz-index', (el) => el.textContent);
+  await page.keyboard.press(' ');
+  await page.waitForFunction(
+    (prev) => document.querySelector('#quiz-index')?.textContent !== prev,
+    scoreBefore,
+  );
+}
+await page.click('#view-quiz [data-action="home"]');
+await page.waitForSelector('#view-home:not(.hidden)');
+const dailyPanelText = await page.$eval('#daily-quest-panel', (el) => el.textContent);
+
 // 1. 字形挑戰模式：作答直到出現結果頁
 await page.click('[data-mode="xingxing"]');
 await page.waitForSelector('#view-quiz:not(.hidden)');
@@ -90,20 +117,29 @@ await page.waitForSelector('#view-dex:not(.hidden)');
 await page.waitForSelector('.dex-card');
 const dexCount = await page.$$eval('.dex-card', (els) => els.length);
 
+// 5. 備份／還原：匯出框應該非空，還原按鈕可觸發不炸頁面
+await page.click('#view-dex [data-action="home"]');
+await page.waitForSelector('#view-home:not(.hidden)');
+await page.click('[data-action="backup-open"]');
+await page.waitForSelector('#view-backup:not(.hidden)');
+const exportLen = await page.$eval('#backup-export', (el) => el.value.length);
+
 await browser.close();
 server.close();
 
 console.log('mode cards:', modeCount);
+console.log('daily quest panel after keyboard-answered question:', dailyPanelText);
 console.log('round result:', resultText);
 console.log('wrongbook after round:', wrongbookText);
 console.log('battle enemy hp bar width after 1 hit:', hpEnemyWidth);
 console.log('dex cards rendered:', dexCount);
+console.log('backup export textarea length:', exportLen);
 console.log('console/page errors:', errors.length);
 if (errors.length) {
   errors.forEach((e) => console.log(' -', e));
   process.exit(1);
 }
-if (modeCount < 6 || dexCount < 1) {
+if (modeCount < 6 || dexCount < 1 || exportLen < 10) {
   console.log('FAIL: unexpected render counts');
   process.exit(1);
 }

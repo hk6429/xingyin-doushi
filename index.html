@@ -20,6 +20,7 @@
   <section id="view-home" class="view">
     <img class="hero-banner" src="assets/art/hero-banner.png" alt="倉頡造字">
     <div class="paper-note">資料來源：歷屆基測（90～102）／會考（103～）官方試題教師版整理，共 <span id="stat-total">427</span> 題原始題目。</div>
+    <div id="daily-quest-panel" class="quest-panel"></div>
     <div class="mode-grid">
       <button class="mode-card" data-mode="xingxing">
         <span class="mode-icon">形</span>
@@ -52,6 +53,7 @@
         <span class="mode-desc">字靈圖鑑</span>
       </button>
     </div>
+    <button class="btn-link" data-action="backup-open">備份／還原</button>
   </section>
 
   <section id="view-quiz" class="view hidden">
@@ -95,6 +97,26 @@
     <div id="dex-grid" class="dex-grid"></div>
   </section>
 
+  <section id="view-backup" class="view hidden">
+    <div class="quiz-topbar">
+      <button class="btn-back" data-action="home">← 返回</button>
+      <div>備份／還原</div>
+    </div>
+    <div class="paper-note">匯出目前進度備份，或貼上／上傳先前的備份來還原。還原會覆蓋目前的練習紀錄，請謹慎操作。</div>
+    <p class="backup-label">目前進度（可複製或下載）</p>
+    <textarea id="backup-export" class="backup-textarea" readonly></textarea>
+    <div class="backup-actions">
+      <button class="btn-secondary" data-action="backup-copy">複製</button>
+      <button class="btn-secondary" data-action="backup-download">下載成檔案</button>
+    </div>
+    <p class="backup-label">還原進度</p>
+    <textarea id="backup-import" class="backup-textarea" placeholder="貼上備份內容"></textarea>
+    <div class="backup-actions">
+      <button class="btn-primary" data-action="backup-restore">還原</button>
+      <label class="btn-secondary backup-file-label">從檔案匯入<input type="file" id="backup-file" accept="application/json" hidden></label>
+    </div>
+  </section>
+
 </main>
 
 <script src="js/data.js"></script>
@@ -103,6 +125,10 @@
 <script src="js/questionui.js"></script>
 <script src="js/dex.js"></script>
 <script src="js/battle.js"></script>
+<script src="js/backup.js"></script>
 <script src="js/app.js"></script>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=hk6429.xingyin-doushi" alt="訪客人數" loading="lazy" style="position:fixed;right:14px;bottom:14px;z-index:2147483000;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);">
+<script>window.goatcounter = {path: p => location.host + p}</script>
+<script data-goatcounter="https://hk6429.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

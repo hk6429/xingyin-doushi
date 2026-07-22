@@ -13,14 +13,14 @@ const XYQuestionUI = (() => {
       return `
         <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.target)}</div>
         <div class="qlabel">${label}</div>
-        <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${o}</button>`).join('')}</div>
+        <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${kbdHint(i)}${o}</button>`).join('')}</div>
         <div id="feedback"></div>`;
     }
     if (unit.kind === 'mc-zhuyin') {
       return `
         <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.char)}</div>
         <div class="qlabel">「${unit.char}」在這裡的正確注音是？</div>
-        <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${o}</button>`).join('')}</div>
+        <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${kbdHint(i)}${o}</button>`).join('')}</div>
         <div id="feedback"></div>`;
     }
     if (unit.kind === 'judge') {
@@ -28,8 +28,8 @@ const XYQuestionUI = (() => {
         <div class="quiz-sentence">${unit.sentence}</div>
         <div class="qlabel">這句用字完全正確嗎？</div>
         <div class="judge-row">
-          <button class="judge-btn" data-v="true">完全正確</button>
-          <button class="judge-btn" data-v="false">有錯字</button>
+          <button class="judge-btn" data-v="true" data-i="0">${kbdHint(0)}完全正確</button>
+          <button class="judge-btn" data-v="false" data-i="1">${kbdHint(1)}有錯字</button>
         </div>
         <div id="fill-area"></div>
         <div id="feedback"></div>`;
@@ -37,10 +37,31 @@ const XYQuestionUI = (() => {
     if (unit.kind === 'pick-correct') {
       return `
         <div class="qlabel">下列選項中，哪一個用字完全正確？</div>
-        <div class="pick-list" id="pick-list">${unit.options.map((o, i) => `<button class="pick-option" data-i="${i}">${o.sentence}</button>`).join('')}</div>
+        <div class="pick-list" id="pick-list">${unit.options.map((o, i) => `<button class="pick-option" data-i="${i}">${kbdHint(i)}${o.sentence}</button>`).join('')}</div>
         <div id="feedback"></div>`;
     }
     return '<p>未知題型</p>';
+  }
+
+  const KBD_LABELS = ['1 / ←', '2 / ↑', '3 / ↓', '4 / →'];
+  function kbdHint(i) {
+    return KBD_LABELS[i] ? `<span class="kbd-hint">${KBD_LABELS[i]}</span>` : '';
+  }
+
+  const KEY_TO_INDEX = {
+    '1': 0, ArrowLeft: 0,
+    '2': 1, ArrowUp: 1,
+    '3': 2, ArrowDown: 2,
+    '4': 3, ArrowRight: 3,
+  };
+
+  let activeKeyHandler = null;
+
+  function teardown() {
+    if (activeKeyHandler) {
+      document.removeEventListener('keydown', activeKeyHandler);
+      activeKeyHandler = null;
+    }
   }
 
   function correctionText(unit) {
@@ -62,6 +83,23 @@ const XYQuestionUI = (() => {
   function render(container, unit, opts) {
     container.innerHTML = html(unit);
     const feedbackEl = () => container.querySelector('#feedback');
+
+    teardown();
+    activeKeyHandler = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      if (e.key === ' ' || e.key === 'Spacebar') {
+        const primary = container.querySelector('.next-btn, [data-action="submit-fill"]');
+        if (primary) { e.preventDefault(); primary.click(); }
+        return;
+      }
+      const idx = KEY_TO_INDEX[e.key];
+      if (idx === undefined) return;
+      const btn = container.querySelector(
+        `.opt-btn[data-i="${idx}"], .judge-btn[data-i="${idx}"], .pick-option[data-i="${idx}"]`
+      );
+      if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
+    };
+    document.addEventListener('keydown', activeKeyHandler);
 
     function finish(result) {
       const fb = feedbackEl();
@@ -126,5 +164,5 @@ const XYQuestionUI = (() => {
     }
   }
 
-  return { render };
+  return { render, teardown };
 })();

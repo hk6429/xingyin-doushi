@@ -3,6 +3,7 @@ const XYStore = (() => {
   const KEY_STATS = 'xyd_charstats';
   const KEY_WRONG = 'xyd_wrongbook';
   const KEY_BATTLE = 'xyd_battle';
+  const KEY_DAILY = 'xyd_daily';
 
   const BOX_INTERVALS_MS = [0, 1, 3, 7, 14, 30].map((d) => d * 24 * 3600 * 1000);
   const MAX_BOX = BOX_INTERVALS_MS.length - 1;
@@ -25,6 +26,23 @@ const XYStore = (() => {
   function getBattle() { return readJSON(KEY_BATTLE, { wins: 0, unlocked: 1 }); }
   function saveBattle(b) { writeJSON(KEY_BATTLE, b); }
 
+  function today() { return new Date().toLocaleDateString('sv-SE'); }
+
+  // 每日任務：純打勾進度，不發任何虛擬貨幣/經驗值，只反映今天真的答對/精通了幾個。
+  function rollDaily() {
+    const d = readJSON(KEY_DAILY, null);
+    if (d && d.date === today()) return d;
+    const fresh = { date: today(), prog: { correct: 0, mastered: 0 } };
+    writeJSON(KEY_DAILY, fresh);
+    return fresh;
+  }
+  function getDaily() { return rollDaily(); }
+  function bumpDaily(field) {
+    const d = rollDaily();
+    d.prog[field] = (d.prog[field] || 0) + 1;
+    writeJSON(KEY_DAILY, d);
+  }
+
   // record answering a unit. `chars` = array of characters this unit teaches
   // (for dex mastery); `correct` = whether answered correctly.
   function recordAnswer(unitId, correctFlag, chars = []) {
@@ -42,6 +60,8 @@ const XYStore = (() => {
     boxes[unitId] = rec;
     writeJSON(KEY_BOXES, boxes);
 
+    if (correctFlag) bumpDaily('correct');
+
     // wrong book: needs 2 consecutive correct to clear once it has ever been wrong
     const wb = getWrongBook();
     if (!correctFlag) {
@@ -56,8 +76,11 @@ const XYStore = (() => {
     const stats = getCharStats();
     for (const ch of chars) {
       if (!stats[ch]) stats[ch] = { units: {} };
+      const wasMastered = !!stats[ch].units[unitId];
       const needStreak = rec.everWrong ? 2 : 1;
-      stats[ch].units[unitId] = correctFlag && rec.streak >= needStreak;
+      const nowMastered = correctFlag && rec.streak >= needStreak;
+      stats[ch].units[unitId] = nowMastered;
+      if (nowMastered && !wasMastered) bumpDaily('mastered');
     }
     writeJSON(KEY_STATS, stats);
 
@@ -97,6 +120,7 @@ const XYStore = (() => {
   function exportProgress() {
     return JSON.stringify({
       boxes: getBoxes(), stats: getCharStats(), wrong: getWrongBook(), battle: getBattle(),
+      daily: readJSON(KEY_DAILY, null),
     });
   }
   function importProgress(json) {
@@ -105,10 +129,12 @@ const XYStore = (() => {
     if (d.stats) writeJSON(KEY_STATS, d.stats);
     if (d.wrong) writeJSON(KEY_WRONG, d.wrong);
     if (d.battle) writeJSON(KEY_BATTLE, d.battle);
+    if (d.daily) writeJSON(KEY_DAILY, d.daily);
   }
 
   return {
     recordAnswer, isMastered, charMastery, dueUnits, wrongBookUnitIds,
     getBattle, saveBattle, exportProgress, importProgress,
+    rollDaily, getDaily,
   };
 })();

@@ -6,10 +6,22 @@ const XYApp = (() => {
   function show(id) {
     document.querySelectorAll('.view').forEach((v) => v.classList.add('hidden'));
     $(id).classList.remove('hidden');
+    if (id !== '#view-quiz' && id !== '#view-battle') XYQuestionUI.teardown();
   }
 
   function updateHome() {
     $('#wrongbook-count').textContent = `目前 ${XYStore.wrongBookUnitIds().length} 題待複習`;
+    renderDaily();
+  }
+
+  function renderDaily() {
+    const { prog } = XYStore.getDaily();
+    const GOALS = { correct: 10, mastered: 3 };
+    const row = (label, key) => {
+      const done = prog[key] >= GOALS[key];
+      return `<div class="quest-row ${done ? 'done' : ''}">${done ? '✓' : '○'} ${label}：${Math.min(prog[key], GOALS[key])}/${GOALS[key]}</div>`;
+    };
+    $('#daily-quest-panel').innerHTML = row('今日答對', 'correct') + row('今日新精通', 'mastered');
   }
 
   function poolForMode(mode) {
@@ -76,10 +88,16 @@ const XYApp = (() => {
     document.querySelectorAll('[data-action="retry"]').forEach((btn) => {
       btn.addEventListener('click', () => startRound(session.mode));
     });
+    document.querySelector('[data-action="backup-open"]').addEventListener('click', () => {
+      show('#view-backup');
+      XYBackup.render();
+    });
+    XYBackup.initNav();
   }
 
   async function init() {
     await XYData.load();
+    XYStore.rollDaily();
     initNav();
     updateHome();
     show('#view-home');
