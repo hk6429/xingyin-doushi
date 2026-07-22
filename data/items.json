@@ -1,0 +1,7030 @@
+[
+  {
+    "id": "xf0001",
+    "type": "xingxing",
+    "examTag": "90-1-13",
+    "year": 90,
+    "isBu": false,
+    "session": "1",
+    "qno": 13,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "並駕齊驅",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因循殆惰",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "怠"
+        ]
+      },
+      {
+        "sentence": "水乳交溶",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "融"
+        ]
+      },
+      {
+        "sentence": "天崩地烈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "裂"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0002",
+    "type": "xingxing",
+    "examTag": "90-1-26",
+    "year": 90,
+    "isBu": false,
+    "session": "1",
+    "qno": 26,
+    "level": "基測",
+    "groupMode": "labeled",
+    "parts": [
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "磋",
+        "correct": "磋",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "蹉",
+          "搓",
+          "嗟"
+        ]
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "嗟",
+        "correct": "搓",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "磋",
+          "蹉",
+          "嗟"
+        ]
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "蹉",
+        "correct": "嗟",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "磋",
+          "蹉",
+          "搓"
+        ]
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "搓",
+        "correct": "蹉",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "磋",
+          "搓",
+          "嗟"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0003",
+    "type": "xingxing",
+    "examTag": "90-2-1",
+    "year": 90,
+    "isBu": false,
+    "session": "2",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "神態和「靄」",
+        "mode": "char",
+        "target": "靄",
+        "correct": "藹",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "靄",
+          "謁",
+          "竭"
+        ]
+      },
+      {
+        "sentence": "暮「藹」沉沉",
+        "mode": "char",
+        "target": "藹",
+        "correct": "靄",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "藹",
+          "謁",
+          "竭"
+        ]
+      },
+      {
+        "sentence": "「偈」見長官",
+        "mode": "char",
+        "target": "偈",
+        "correct": "謁",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "偈",
+          "竭",
+          "靄"
+        ]
+      },
+      {
+        "sentence": "筋疲力「竭」",
+        "mode": "char",
+        "target": "竭",
+        "correct": "竭",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "謁",
+          "藹",
+          "靄"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0004",
+    "type": "xingxing",
+    "examTag": "90-2-9",
+    "year": 90,
+    "isBu": false,
+    "session": "2",
+    "qno": 9,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "等到日上三竿，市聲頂沸時，我再也沒有散步的閒情逸志了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "鼎",
+          "逸",
+          "致"
+        ]
+      },
+      {
+        "sentence": "暴風雨來襲，雷電交加，氣勢萬鈞的威力，使眾生為之震懾",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "童年所經歷的鎖事雖然細碎，卻深深地影嚮著我們的個性",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "瑣",
+          "響"
+        ]
+      },
+      {
+        "sentence": "歲月摧人啊！曾幾何時，我驕憨的小女兒已經婷婷玉立了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "嬌"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0005",
+    "type": "xingxing",
+    "examTag": "90-2-30",
+    "year": 90,
+    "isBu": false,
+    "session": "2",
+    "qno": 30,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+        "mode": "char",
+        "target": "烈",
+        "correct": "烈",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "裂",
+          "冽",
+          "洌"
+        ]
+      },
+      {
+        "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+        "mode": "char",
+        "target": "裂",
+        "correct": "裂",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "烈",
+          "冽",
+          "洌"
+        ]
+      },
+      {
+        "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+        "mode": "char",
+        "target": "梢",
+        "correct": "稍",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "梢",
+          "捎",
+          "悄"
+        ]
+      },
+      {
+        "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+        "mode": "char",
+        "target": "稍",
+        "correct": "梢",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "稍",
+          "捎",
+          "悄"
+        ]
+      },
+      {
+        "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+        "mode": "char",
+        "target": "期",
+        "correct": "期",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "旗",
+          "棋",
+          "欺"
+        ]
+      },
+      {
+        "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+        "mode": "char",
+        "target": "棋",
+        "correct": "旗",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "期",
+          "棋",
+          "欺"
+        ]
+      },
+      {
+        "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+        "mode": "char",
+        "target": "決",
+        "correct": "決",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "訣",
+          "缺",
+          "絕"
+        ]
+      },
+      {
+        "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+        "mode": "char",
+        "target": "絕",
+        "correct": "訣",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "決",
+          "絕",
+          "缺"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0006",
+    "type": "xingxing",
+    "examTag": "91-1-2",
+    "year": 91,
+    "isBu": false,
+    "session": "1",
+    "qno": 2,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "凡事箭及履及，即知即行，才易成功",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "劍"
+        ]
+      },
+      {
+        "sentence": "做任何事，均應堅持到底，貫徹始終",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "一個人若沒有智慧，又如何明辦是非",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "辨"
+        ]
+      },
+      {
+        "sentence": "不要怕困難，那是生命中最好的粹鍊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "淬"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0007",
+    "type": "xingxing",
+    "examTag": "91-1-28",
+    "year": 91,
+    "isBu": false,
+    "session": "1",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "早晨，我容光□發的上學去。在路上遇到一位老人，精神□散的跌坐路旁，我立刻上前攙扶。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "煥",
+          "渙"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0008",
+    "type": "xingxing",
+    "examTag": "91-2-32",
+    "year": 91,
+    "isBu": false,
+    "session": "2",
+    "qno": 32,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "誘人的美食廣告，總是讓人味口大開",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "胃"
+        ]
+      },
+      {
+        "sentence": "一張名信片，捎來了遠方友人的問候",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "明"
+        ]
+      },
+      {
+        "sentence": "由於同學們的群策群力，我們終於打嬴了這場球賽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "贏"
+        ]
+      },
+      {
+        "sentence": "逢年過節時，機場大廳內常擠滿了候補機位的人潮",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0009",
+    "type": "xingxing",
+    "examTag": "92-1-10",
+    "year": 92,
+    "isBu": false,
+    "session": "1",
+    "qno": 10,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "年輕人奮發向上，才能成為國家的中流柢柱",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "砥"
+        ]
+      },
+      {
+        "sentence": "多虧楊法醫明查秋毫，才能將兇手蠅之以法",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "察",
+          "繩"
+        ]
+      },
+      {
+        "sentence": "阿海玩日偈歲，偷機取巧，視讀書為苦差事",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愒",
+          "（投）"
+        ]
+      },
+      {
+        "sentence": "飢腸轆轆的老虎躲在樹叢中，伺機攫人而食",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0010",
+    "type": "xingxing",
+    "examTag": "92-2-29",
+    "year": 92,
+    "isBu": false,
+    "session": "2",
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "多年後再見面，他已經是白髮倉倉的老人，令我有蒼海桑田、蒼狗白雲之感",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "白髮「蒼蒼」\n「滄」海桑田"
+        ]
+      },
+      {
+        "sentence": "在這個人芸亦芸的年代，想在云云眾生中尋找一名有自己見解的人並不容易",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人「云」亦「云」\n「芸芸」眾生"
+        ]
+      },
+      {
+        "sentence": "放假不一定要出國，到發人思古悠情的名勝古蹟走走，也能過個幽閒的假期",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "思古「幽」情\n「悠」閒"
+        ]
+      },
+      {
+        "sentence": "我能證明，這樣做會對他造成揠苗助長的結果，你們就偃旗息鼓，別再爭了",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0011",
+    "type": "xingxing",
+    "examTag": "92-2-36",
+    "year": 92,
+    "isBu": false,
+    "session": "2",
+    "qno": 36,
+    "level": "基測",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "賽亞溪溪流中河道迂積，廢水大量排放",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "淤"
+        ]
+      },
+      {
+        "sentence": "賽亞石可以促進血液循環，達到身體健康的目的",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "賽亞國的珍貴稀有礦物，本來應該立法保存並指定保護",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "旅館、浴室、廚餘廢水及建築廢棄物等皆任意排放、丟棄於賽亞溪中",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0012",
+    "type": "xingxing",
+    "examTag": "93-1-18",
+    "year": 93,
+    "isBu": false,
+    "session": "1",
+    "qno": 18,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "本班同學的卡片設計非常有創意，令人嘆為觀止",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "今年高考，哥哥終於金榜提名，我們都為他感到高興",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "金榜「題」名"
+        ]
+      },
+      {
+        "sentence": "企鵝的超人氣招來了大批遊客，使得動物園市聲頂沸、熱鬧非凡",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "市聲「鼎」沸"
+        ]
+      },
+      {
+        "sentence": "許多家長安排孩子上才藝班，讓孩子不得休息，實在是偃苗助長",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「揠」苗助長"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0013",
+    "type": "xingxing",
+    "examTag": "93-1-21",
+    "year": 93,
+    "isBu": false,
+    "session": "1",
+    "qno": 21,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "道明寺：杉菜，為了成為配得上你的男人，我一定會憤發圖強，請相信我。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "奮"
+        ]
+      },
+      {
+        "sentence": "飛龍：劍英，你可知道這些年來，令我心醉神迷、魂遷夢縈的人只有妳！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "牽"
+        ]
+      },
+      {
+        "sentence": "恩熙：俊熙，雖然我們相愛的時光短暫如曇花一現，你在我心中永遠不可抹滅。",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "紫薇：爾康，『此情無記可消除，才下眉頭，卻上心頭』，此刻的我，無止境地想你……",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "計"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0014",
+    "type": "xingxing",
+    "examTag": "93-2-10",
+    "year": 93,
+    "isBu": false,
+    "session": "2",
+    "qno": 10,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "這部電影拍得很美，實在引人「蕸」思",
+        "mode": "char",
+        "target": "蕸",
+        "correct": "遐",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "暇",
+          "瑕",
+          "蝦"
+        ]
+      },
+      {
+        "sentence": "癩「蝦」蟆想吃天鵝肉，太自不量力了",
+        "mode": "char",
+        "target": "蝦",
+        "correct": "蝦",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "遐",
+          "暇",
+          "瑕"
+        ]
+      },
+      {
+        "sentence": "公餘之「暇」，她總是到孤兒院做義工",
+        "mode": "char",
+        "target": "暇",
+        "correct": "暇",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "遐",
+          "瑕",
+          "蝦"
+        ]
+      },
+      {
+        "sentence": "這件事的處理方式似乎稍有「瑕」疵",
+        "mode": "char",
+        "target": "瑕",
+        "correct": "瑕",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "遐",
+          "暇",
+          "蝦"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0015",
+    "type": "xingxing",
+    "examTag": "93-2-35",
+    "year": 93,
+    "isBu": false,
+    "session": "2",
+    "qno": 35,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "上司：這本契劃案是你寫的嗎？員工：不錯！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「企」劃案"
+        ]
+      },
+      {
+        "sentence": "上司：工作態度太草率了！員工：我是不拘小節！",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "上司：動作這麼慢，還說不拘小節？員工：那是辨事澈底！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「辦」事"
+        ]
+      },
+      {
+        "sentence": "上司：不認錯，太頑故！員工：此乃艱決！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "頑「固」",
+          "「堅」決"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0016",
+    "type": "xingxing",
+    "examTag": "94-1-1",
+    "year": 94,
+    "isBu": false,
+    "session": "1",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "清「徹」見底",
+        "mode": "char",
+        "target": "徹",
+        "correct": "澈",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "徹",
+          "轍",
+          "撤"
+        ]
+      },
+      {
+        "sentence": "重蹈覆「轍」",
+        "mode": "char",
+        "target": "轍",
+        "correct": "轍",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "徹",
+          "撤",
+          "澈"
+        ]
+      },
+      {
+        "sentence": "貫「撤」始終",
+        "mode": "char",
+        "target": "撤",
+        "correct": "徹",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "撤",
+          "澈",
+          "轍"
+        ]
+      },
+      {
+        "sentence": "大軍「澈」退",
+        "mode": "char",
+        "target": "澈",
+        "correct": "撤",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "徹",
+          "澈",
+          "轍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0017",
+    "type": "xingxing",
+    "examTag": "94-1-28",
+    "year": 94,
+    "isBu": false,
+    "session": "1",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "要有偉大的成就，先要有遠大的報負",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「抱」負"
+        ]
+      },
+      {
+        "sentence": "唯有建設性的見議，才是具體可行的",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「建」議"
+        ]
+      },
+      {
+        "sentence": "若是一昧要求完美，反而會勢得其反",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「味」\n「適」得其反"
+        ]
+      },
+      {
+        "sentence": "新建的大樓通常裝潢華麗，設備新穎",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0018",
+    "type": "xingxing",
+    "examTag": "94-2-4",
+    "year": 94,
+    "isBu": false,
+    "session": "2",
+    "qno": 4,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "中風為人類第二大死因，網路傳言，若有人中風，可用針刺激犯者的手指或耳垂",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「患」者"
+        ]
+      },
+      {
+        "sentence": "這倒底是謠言，還是確有醫學根據？中風的第一時間，倒底如何才能自救救人呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「到」底"
+        ]
+      },
+      {
+        "sentence": "臺灣約有十萬名中風病人，卻只有少部分人能康復。其時，中風只是生命的逗點",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "其「實」"
+        ]
+      },
+      {
+        "sentence": "如果不幸中風，生理和心理的復健一樣的重要，只要有信心，重新站立並非難事",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0019",
+    "type": "xingxing",
+    "examTag": "94-2-32",
+    "year": 94,
+    "isBu": false,
+    "session": "2",
+    "qno": 32,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "明知問題盤根錯結，難以解決，我們何必去淌這渾水",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "盤根錯「節」\n「蹚」渾水"
+        ]
+      },
+      {
+        "sentence": "聰明的他整日無所是事，渾渾厄厄的過日子，真令人惋惜",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "無所「事」事\n渾渾「噩噩」"
+        ]
+      },
+      {
+        "sentence": "我不只是局外人，而且壓根兒搞不懂狀況，這事豈容我置喙",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "人難免有肓點，因此一起討論，彼此指正，將可收集思廣義之效",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「盲」點\n集思廣「益」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0020",
+    "type": "xingxing",
+    "examTag": "95-1-28",
+    "year": 95,
+    "isBu": false,
+    "session": "1",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "金聖嘆因醉入獄，兒子前往探堅，涕泣不己。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "罪",
+          "監",
+          "已"
+        ]
+      },
+      {
+        "sentence": "金聖嘆賦詩說：蓮子心中苦，梨兒腹內酸，表達了他憐子離兒之痛，悲創之情表漏無疑。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愴",
+          "露"
+        ]
+      },
+      {
+        "sentence": "他被處決時，正值大地雪融冰消之際。",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "他翹首雲天，觸景生情之餘，又作詩自吊……。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弔"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0021",
+    "type": "xingxing",
+    "examTag": "95-1-29",
+    "year": 95,
+    "isBu": false,
+    "session": "1",
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "小明個性衝動，容易受人挑撥離間，把場面弄得劍拔弩張。出國留學前，好友們為他踐行，並且同聲勸諫他，凡事應三思而後行。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「餞」行"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0022",
+    "type": "xingxing",
+    "examTag": "95-2-7",
+    "year": 95,
+    "isBu": false,
+    "session": "2",
+    "qno": 7,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "穿流不息",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "川"
+        ]
+      },
+      {
+        "sentence": "去無存菁",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "蕪"
+        ]
+      },
+      {
+        "sentence": "幽然神往",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "悠"
+        ]
+      },
+      {
+        "sentence": "豁然開朗",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0023",
+    "type": "xingxing",
+    "examTag": "95-2-24",
+    "year": 95,
+    "isBu": false,
+    "session": "2",
+    "qno": 24,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "農夫在田裡插秧，忙到汗流夾背也不休息",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "汗流「浹」背"
+        ]
+      },
+      {
+        "sentence": "這道數學題實在太難了，老師也一籌莫展",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "本學期的模範生選舉，正如火如茶地展開",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "如火如「荼」"
+        ]
+      },
+      {
+        "sentence": "他對什麼事都寞不關心，簡直是麻木不仁",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「漠」不關心"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0024",
+    "type": "xingxing",
+    "examTag": "96-1-32",
+    "year": 96,
+    "isBu": false,
+    "session": "1",
+    "qno": 32,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我們班長IQ和身高一樣高，每次考試成積總是名列前茅",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "成「績」"
+        ]
+      },
+      {
+        "sentence": "學藝股長才華洋溢，文章經常上報，可是大名頂頂的人物呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "大名「鼎鼎」"
+        ]
+      },
+      {
+        "sentence": "康樂股長是萬人迷，總喜歡在眾目睽睽下搔首弄姿，引人注目",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "我們班人才擠擠，表現傑出，真可說是哄動武林，驚動萬教呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人才「濟濟」\n「轟」動武林"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0025",
+    "type": "xingxing",
+    "examTag": "96-1-33",
+    "year": 96,
+    "isBu": false,
+    "session": "1",
+    "qno": 33,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+        "mode": "reading",
+        "target": "ㄎㄜ",
+        "correct": "顆",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "棵",
+          "窠",
+          "顴"
+        ]
+      },
+      {
+        "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+        "mode": "reading",
+        "target": "ㄎㄜ",
+        "correct": "棵",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "顆",
+          "窠",
+          "科"
+        ]
+      },
+      {
+        "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "圖",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "途",
+          "徒",
+          "屠"
+        ]
+      },
+      {
+        "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "途",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "圖",
+          "徒",
+          "屠"
+        ]
+      },
+      {
+        "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+        "mode": "reading",
+        "target": "ㄉㄢˋ",
+        "correct": "誕",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "涎",
+          "延",
+          "蜒"
+        ]
+      },
+      {
+        "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+        "mode": "reading",
+        "target": "ㄉㄢˋ",
+        "correct": "誕",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "涎",
+          "延",
+          "蜒"
+        ]
+      },
+      {
+        "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+        "mode": "reading",
+        "target": "ㄔㄥˊ",
+        "correct": "承",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "乘",
+          "丞",
+          "成"
+        ]
+      },
+      {
+        "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+        "mode": "reading",
+        "target": "ㄔㄥˊ",
+        "correct": "乘",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "承",
+          "剩",
+          "誠"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0026",
+    "type": "xingxing",
+    "examTag": "96-2-28",
+    "year": 96,
+    "isBu": false,
+    "session": "2",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "人類最善長玩文字遊戲，像檳榔西施，其時指的是賣檳榔的小姐",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "擅",
+          "實"
+        ]
+      },
+      {
+        "sentence": "而歌星和歌手這二個詞語如何區別，也有待推敲",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "許多人追求功利現實，笑貪不笑娼的心態，使臺灣形成了一種令類的文化價值",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "貧",
+          "另"
+        ]
+      },
+      {
+        "sentence": "這種情形令人憂心沖沖，故心靈改革實為當務之急",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "忡忡"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0027",
+    "type": "xingxing",
+    "examTag": "96-2-34",
+    "year": 96,
+    "isBu": false,
+    "session": "2",
+    "qno": 34,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "摒棄陳腔、自出機杼的詩句才能撼動人心",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "將小孩視為天之嬌子般去寵愛，並非好事",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "天之「驕」子"
+        ]
+      },
+      {
+        "sentence": "即使環境險惡，他仍排除萬難，力爭上遊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "力爭上「游」"
+        ]
+      },
+      {
+        "sentence": "自成年後，他便自利更生，不再依靠父母",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "自「力」更生"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0028",
+    "type": "xingxing",
+    "examTag": "97-1-18",
+    "year": 97,
+    "isBu": false,
+    "session": "1",
+    "qno": 18,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「悵」然若失／「帳」目管理",
+        "mode": "char",
+        "target": "悵",
+        "correct": "悵",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "帳",
+          "脹",
+          "漲"
+        ]
+      },
+      {
+        "sentence": "「悵」然若失／「帳」目管理",
+        "mode": "char",
+        "target": "帳",
+        "correct": "帳",
+        "isCorrectAsIs": true,
+        "distractors": [
+          "悵",
+          "脹",
+          "漲"
+        ]
+      },
+      {
+        "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+        "mode": "char",
+        "target": "祟",
+        "correct": "崇",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "祟",
+          "嵩",
+          "崧"
+        ]
+      },
+      {
+        "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+        "mode": "char",
+        "target": "崇崇",
+        "correct": "祟",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "崇",
+          "票",
+          "祭"
+        ]
+      },
+      {
+        "sentence": "「既」時努力／「即」往不咎",
+        "mode": "char",
+        "target": "既",
+        "correct": "及",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "既",
+          "即",
+          "急"
+        ]
+      },
+      {
+        "sentence": "「既」時努力／「即」往不咎",
+        "mode": "char",
+        "target": "即",
+        "correct": "既",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "即",
+          "及",
+          "概"
+        ]
+      },
+      {
+        "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+        "mode": "char",
+        "target": "拼",
+        "correct": "拚",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "拼",
+          "抨",
+          "姘"
+        ]
+      },
+      {
+        "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+        "mode": "char",
+        "target": "拚",
+        "correct": "拼",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "拚",
+          "姘",
+          "聘"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0029",
+    "type": "xingxing",
+    "examTag": "97-1-29",
+    "year": 97,
+    "isBu": false,
+    "session": "1",
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我對數學一翹不通，面對數學考卷時，總是六神無主、手足無措",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「竅」不通"
+        ]
+      },
+      {
+        "sentence": "為爭睹巨星丰采，影展會場前的紅地毯旁，觀者如睹，盛況空前",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "觀者如「堵」"
+        ]
+      },
+      {
+        "sentence": "知名藝人酒駕肇事逃逸的新聞引發軒然大波，影歌迷們議論紛紛",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "他意想天開把頭放在影印機上，想把印出來的作品當成美術作業",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「異」想天開"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0030",
+    "type": "xingxing",
+    "examTag": "97-2-8",
+    "year": 97,
+    "isBu": false,
+    "session": "2",
+    "qno": 8,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "長夜慢慢，獨坐帳曼中，止不住的感傷寂寞向四處蔓延",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "漫漫",
+          "幔"
+        ]
+      },
+      {
+        "sentence": "元宵節到處張燈結綵，人們興高采烈欣賞著五彩繽紛的花燈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "從鼎沸的市集走入清幽的佛寺，殿前花香彿面，倍覺神清氣爽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "拂"
+        ]
+      },
+      {
+        "sentence": "他千里迢迢去美國觀磨大衛的魔術表演，認真學習，好摩練技術",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "摩",
+          "磨"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0031",
+    "type": "xingxing",
+    "examTag": "98-1-27",
+    "year": 98,
+    "isBu": false,
+    "session": "1",
+    "qno": 27,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "生活就像一出戲，不管你是主角抑或是配角，都該盡力演出",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「齣」戲"
+        ]
+      },
+      {
+        "sentence": "各聲部的音韻合諧，音質純淨，是這個合唱團最成功的地方",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「和」諧"
+        ]
+      },
+      {
+        "sentence": "能以寬廣的胸襟，包容歧異思想的衝突，是基本的民主素養",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因為每個人的關點不同，所以容忍與尊重是處世必要的修養",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「觀」點"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0032",
+    "type": "xingxing",
+    "examTag": "98-1-28",
+    "year": 98,
+    "isBu": false,
+    "session": "1",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "風靡全球的米雅音樂劇，今晚即將登臺首演。從下午起，數百樂迷在場外大排長龍等候入場，期待難得的音樂響宴。該音樂劇由二十多首某合唱團的精典名曲組成，這些三十年前曾經燴炙人口的節奏，今晚將再度重現在國人面前。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "饗",
+          "經",
+          "膾"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0033",
+    "type": "xingxing",
+    "examTag": "98-2-26",
+    "year": 98,
+    "isBu": false,
+    "session": "2",
+    "qno": 26,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "有些人大氣晚成，所以不能已小時候的表現論斷一個人的終身",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "器",
+          "以"
+        ]
+      },
+      {
+        "sentence": "各縣市政府所辦的跨年夜晚會，人潮洶湧，處處擠得水瀉不通",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "洩（泄）"
+        ]
+      },
+      {
+        "sentence": "這對年輕夫婦白手起家，胼手胝足，終於打造了一個幸福家園",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "你真不懂禮貌，請教老師問題，怎麼能用不齒下問這個詞",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "恥"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0034",
+    "type": "xingxing",
+    "examTag": "99-1-24",
+    "year": 99,
+    "isBu": false,
+    "session": "1",
+    "qno": 24,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+        "mode": "reading",
+        "target": "ㄩˊ",
+        "correct": "虞",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "娛",
+          "愚",
+          "餘"
+        ]
+      },
+      {
+        "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+        "mode": "reading",
+        "target": "ㄩˊ",
+        "correct": "餘",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "虞",
+          "娛",
+          "愚"
+        ]
+      },
+      {
+        "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+        "mode": "reading",
+        "target": "ㄍㄨㄟ",
+        "correct": "規",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "歸",
+          "閨",
+          "鮭"
+        ]
+      },
+      {
+        "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+        "mode": "reading",
+        "target": "ㄍㄨㄟ",
+        "correct": "規",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "歸",
+          "龜",
+          "閨"
+        ]
+      },
+      {
+        "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+        "mode": "reading",
+        "target": "ㄎㄨㄤ",
+        "correct": "眶",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "框",
+          "匡",
+          "筐"
+        ]
+      },
+      {
+        "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+        "mode": "reading",
+        "target": "ㄎㄨㄤ",
+        "correct": "筐",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "框",
+          "眶",
+          "匡"
+        ]
+      },
+      {
+        "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄛˋ",
+        "correct": "擴",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "闊",
+          "廓",
+          "括"
+        ]
+      },
+      {
+        "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄛˋ",
+        "correct": "闊",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "擴",
+          "廓",
+          "括"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0035",
+    "type": "xingxing",
+    "examTag": "99-1-25",
+    "year": 99,
+    "isBu": false,
+    "session": "1",
+    "qno": 25,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "秋風吹來，小徑鋪滿落葉，集目眺望，仍不見路的盡頭",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「極」目眺望"
+        ]
+      },
+      {
+        "sentence": "籠冬時，大雪覆蓋大地，人聲鳥聲俱絕，一片寂寥寧靜",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「隆」冬"
+        ]
+      },
+      {
+        "sentence": "夜間，從山頂俯瞰市區，縱橫交錯的萬家燈火燦爛耀眼",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "這間套房的設計可真是將心獨具，配色大膽、風格前衛",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「匠」心獨具"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0036",
+    "type": "xingxing",
+    "examTag": "99-2-17",
+    "year": 99,
+    "isBu": false,
+    "session": "2",
+    "qno": 17,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+        "mode": "reading",
+        "target": "ㄒㄧㄝˊ",
+        "correct": "諧",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "協",
+          "偕",
+          "擷"
+        ]
+      },
+      {
+        "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+        "mode": "reading",
+        "target": "ㄒㄧㄝˊ",
+        "correct": "協",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "諧",
+          "偕",
+          "脅"
+        ]
+      },
+      {
+        "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+        "mode": "reading",
+        "target": "ㄓㄢˋ",
+        "correct": "湛",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "站",
+          "棧",
+          "蘸"
+        ]
+      },
+      {
+        "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+        "mode": "reading",
+        "target": "ㄓㄢˋ",
+        "correct": "湛",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "站",
+          "棧",
+          "蘸"
+        ]
+      },
+      {
+        "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+        "mode": "reading",
+        "target": "ㄐㄧㄡˋ",
+        "correct": "究",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "咎",
+          "舅",
+          "疚"
+        ]
+      },
+      {
+        "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+        "mode": "reading",
+        "target": "ㄐㄧㄡˋ",
+        "correct": "咎",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "究",
+          "疚",
+          "舅"
+        ]
+      },
+      {
+        "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+        "mode": "reading",
+        "target": "ㄉㄧˇ",
+        "correct": "砥",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "抵",
+          "牴",
+          "邸"
+        ]
+      },
+      {
+        "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+        "mode": "reading",
+        "target": "ㄉㄧˇ",
+        "correct": "抵",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "砥",
+          "牴",
+          "邸"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0037",
+    "type": "xingxing",
+    "examTag": "100-1-1",
+    "year": 100,
+    "isBu": false,
+    "session": "1",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "盜版光喋猖獗，嚴重侵害智慧財產權",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "碟"
+        ]
+      },
+      {
+        "sentence": "股票漲碟是家常便飯，不必終日掛慮",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "跌"
+        ]
+      },
+      {
+        "sentence": "他牒牒不休的暢談，聽者卻心不在焉",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "喋喋"
+        ]
+      },
+      {
+        "sentence": "商業間諜無孔不入，企業界人人自危",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0038",
+    "type": "xingxing",
+    "examTag": "100-1-25",
+    "year": 100,
+    "isBu": false,
+    "session": "1",
+    "qno": 25,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我努力負出，成績卻慘不忍睹，真另人沮喪",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「付」出\n「令」人沮喪"
+        ]
+      },
+      {
+        "sentence": "僅管考前我再三溫習，卻還是考不及格，真倒楣",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「儘」管"
+        ]
+      },
+      {
+        "sentence": "雖然這次考差了，我仍然會以勤補拙，堅持不懈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "我因該要發憤圖強，畢竟過了暑假，我就升上國三了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「應」該"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0039",
+    "type": "xingxing",
+    "examTag": "100-北北基-17",
+    "year": 100,
+    "isBu": false,
+    "session": "北北基",
+    "qno": 17,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "野人現曝",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "獻"
+        ]
+      },
+      {
+        "sentence": "銀貨兩訖",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "負岌求學",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "笈"
+        ]
+      },
+      {
+        "sentence": "詞不答意",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "達"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0040",
+    "type": "xingxing",
+    "examTag": "100-北北基-28",
+    "year": 100,
+    "isBu": false,
+    "session": "北北基",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "一陣暈旋之後，地震已造成了巨大傷害",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "暈「眩」"
+        ]
+      },
+      {
+        "sentence": "目睹災後慘狀，善心人士紛紛解囊抒困",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「紓」困"
+        ]
+      },
+      {
+        "sentence": "賑災計畫經費的編列過於浮爛，遭人詬病",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "浮「濫」"
+        ]
+      },
+      {
+        "sentence": "天災無法避免，但人謀不藏的禍害應該杜絕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人謀不「臧」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0041",
+    "type": "xingxing",
+    "examTag": "100-2-23",
+    "year": 100,
+    "isBu": false,
+    "session": "2",
+    "qno": 23,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+        "mode": "reading",
+        "target": "ㄒㄧ",
+        "correct": "蟋",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "蜥",
+          "悉",
+          "息"
+        ]
+      },
+      {
+        "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+        "mode": "reading",
+        "target": "ㄒㄧ",
+        "correct": "蜥",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "蟋",
+          "晰",
+          "析"
+        ]
+      },
+      {
+        "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+        "mode": "reading",
+        "target": "ㄗㄞˋ",
+        "correct": "載",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "再",
+          "在",
+          "宰"
+        ]
+      },
+      {
+        "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+        "mode": "reading",
+        "target": "ㄗㄞˋ",
+        "correct": "載",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "再",
+          "在",
+          "栽"
+        ]
+      },
+      {
+        "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+        "mode": "reading",
+        "target": "ㄋㄨㄥˊ",
+        "correct": "膿",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "濃",
+          "農",
+          "儂"
+        ]
+      },
+      {
+        "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+        "mode": "reading",
+        "target": "ㄋㄨㄥˊ",
+        "correct": "濃",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "膿",
+          "儂",
+          "農"
+        ]
+      },
+      {
+        "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "匱",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "潰",
+          "饋",
+          "簣"
+        ]
+      },
+      {
+        "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "潰",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "匱",
+          "饋",
+          "簣"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0042",
+    "type": "xingxing",
+    "examTag": "100-2-34",
+    "year": 100,
+    "isBu": false,
+    "session": "2",
+    "qno": 34,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "宿夜匪懈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "夙"
+        ]
+      },
+      {
+        "sentence": "濫芋充數",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "竽"
+        ]
+      },
+      {
+        "sentence": "徇私舞弊",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "眾志成誠",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "城"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0043",
+    "type": "xingxing",
+    "examTag": "101-5",
+    "year": 101,
+    "isBu": false,
+    "session": null,
+    "qno": 5,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "地震發生時，突然感到一陣劇烈搖晃，一幢幢房屋隨之倒塌",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "漫步於輕翠的山谷間，好風拂面，溪水潺潺，真是至樂享受",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「青」翠"
+        ]
+      },
+      {
+        "sentence": "莊維在寧謐的咖啡廳裡高聲笑鬧，囂張的行徑引起旁人惻目",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「側」目"
+        ]
+      },
+      {
+        "sentence": "賈樂玩世不躬、遊戲人間的生活態度，令他的父親憂心忡忡",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "玩世不「恭」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0044",
+    "type": "xingxing",
+    "examTag": "101-33",
+    "year": 101,
+    "isBu": false,
+    "session": null,
+    "qno": 33,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "今天放學後，胖虎說他最崇拜歌神張學友高吭的歌聲。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "亢"
+        ]
+      },
+      {
+        "sentence": "胖虎說完，立刻放聲高歌，手舞足到地表演起來。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "蹈"
+        ]
+      },
+      {
+        "sentence": "在一旁的大雄受不了胖虎荒腔走版的歌聲，",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "板"
+        ]
+      },
+      {
+        "sentence": "摀起耳朵，直呼：你真是玷汙了歌神的名號！",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0045",
+    "type": "xingxing",
+    "examTag": "102-25",
+    "year": 102,
+    "isBu": false,
+    "session": null,
+    "qno": 25,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "忍辱負眾→眾志成城",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "忍辱負「重」"
+        ]
+      },
+      {
+        "sentence": "集思廣益→益於言表",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「溢」於言表"
+        ]
+      },
+      {
+        "sentence": "怒髮衝冠→冠蓋雲集",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "表裡一致→致理名言",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「至」理名言"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0046",
+    "type": "xingxing",
+    "examTag": "103-5",
+    "year": 103,
+    "isBu": false,
+    "session": null,
+    "qno": 5,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "千載難逢",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "日績月累",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "積"
+        ]
+      },
+      {
+        "sentence": "時過境牽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "遷"
+        ]
+      },
+      {
+        "sentence": "光陰似劍",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "箭"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0047",
+    "type": "xingxing",
+    "examTag": "102-29",
+    "year": 102,
+    "isBu": false,
+    "session": null,
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "她不繼前嫌地推舉人才，展現寬大雍容的氣度",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不「計」前嫌"
+        ]
+      },
+      {
+        "sentence": "經過整日的奔波勞累，他已肌腸轆轆，身心疲憊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「飢」腸轆轆"
+        ]
+      },
+      {
+        "sentence": "驚魂甫定的災民說到強震發生時的情形，無不餘悸猶存",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "不找出問題癥結，只在意枝微末節，根本就是本末倒至",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "本末倒「置」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0048",
+    "type": "xingxing",
+    "examTag": "103-15",
+    "year": 103,
+    "isBu": false,
+    "session": null,
+    "qno": 15,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "古剎中靜肅的木雕佛像，滿是歲月的珠網塵埃",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「蛛」網塵埃"
+        ]
+      },
+      {
+        "sentence": "牆上攀附的瓜藤，在深夜步履合緩地遊走探路",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「和」緩地"
+        ]
+      },
+      {
+        "sentence": "即性的樂章從指間輕輕流瀉，瞬間征服了滿堂賓客",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "即「興」"
+        ]
+      },
+      {
+        "sentence": "雪花紛飛彷如小精靈，輕盈曼妙地飛舞於天地之間",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0049",
+    "type": "xingxing",
+    "examTag": "104-6",
+    "year": 104,
+    "isBu": false,
+    "session": null,
+    "qno": 6,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "營私舞幣",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弊"
+        ]
+      },
+      {
+        "sentence": "武功祕笈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "試目以待",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "拭"
+        ]
+      },
+      {
+        "sentence": "時代先軀",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "驅"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0050",
+    "type": "xingxing",
+    "examTag": "104-22",
+    "year": 104,
+    "isBu": false,
+    "session": null,
+    "qno": 22,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "各種跡象一再顯示他有犯罪嫌疑",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "紐約是個交通便利、人口綢密的都市",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「稠」密"
+        ]
+      },
+      {
+        "sentence": "認真負責的態度，是他履創佳績的關鍵",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「屢」創佳績"
+        ]
+      },
+      {
+        "sentence": "你整天遊手好閒，只是突然虛度光陰罷了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「徒」然"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0051",
+    "type": "xingxing",
+    "examTag": "105-23",
+    "year": 105,
+    "isBu": false,
+    "session": null,
+    "qno": 23,
+    "level": "會考",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "香遠易清，亭亭淨植",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "香遠「益」清"
+        ]
+      },
+      {
+        "sentence": "萬里赴戒機，關山度若飛",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「戎」機"
+        ]
+      },
+      {
+        "sentence": "忽有龐然大物，拔山搗樹而來",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「倒」樹"
+        ]
+      },
+      {
+        "sentence": "孔明乃披鶴氅，戴官巾，焚香彈琴",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "戴「綸」巾"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0052",
+    "type": "xingxing",
+    "examTag": "106-20",
+    "year": 106,
+    "isBu": false,
+    "session": null,
+    "qno": 20,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "這款保養品的效果極佳，才剛上市，名聲便不逕而走",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不「脛」而走"
+        ]
+      },
+      {
+        "sentence": "實驗已接近完成，卻因一時疏忽而功虧一簣，令人惋惜",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "廢寢忘食地苦練後，他的演出果然不同反響，贏得滿堂喝采",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不同「凡」響"
+        ]
+      },
+      {
+        "sentence": "昏睡中的乘客面對電車突如奇來的警鈴聲，一時間有些不知所措",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "突如「其」來"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0053",
+    "type": "xingxing",
+    "examTag": "107-13",
+    "year": 107,
+    "isBu": false,
+    "session": null,
+    "qno": 13,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "他倆研究方法不同，卻殊徒同歸，得出相同的結論",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "殊「途」同歸"
+        ]
+      },
+      {
+        "sentence": "經過老師的開導之後，他茅塞頓開，心情豁然開朗",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因為嬌矜自滿的態度，他的成績始終無法大幅進步",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「驕」矜自滿"
+        ]
+      },
+      {
+        "sentence": "他的穿著總是一層不變，終年都是一套藏青色西裝",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「成」不變"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0054",
+    "type": "xingxing",
+    "examTag": "107-27",
+    "year": 107,
+    "isBu": false,
+    "session": null,
+    "qno": 27,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "簣",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "匱",
+          "潰",
+          "饋"
+        ]
+      },
+      {
+        "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "匱",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "潰",
+          "簣",
+          "饋"
+        ]
+      },
+      {
+        "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+        "mode": "reading",
+        "target": "ㄍㄨㄢ",
+        "correct": "冠",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "官",
+          "關",
+          "觀"
+        ]
+      },
+      {
+        "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+        "mode": "reading",
+        "target": "ㄍㄨㄢ",
+        "correct": "綸",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "倫",
+          "論",
+          "輪"
+        ]
+      },
+      {
+        "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+        "mode": "reading",
+        "target": "ㄔㄡˊ",
+        "correct": "籌",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "愁",
+          "酬",
+          "稠"
+        ]
+      },
+      {
+        "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+        "mode": "reading",
+        "target": "ㄔㄡˊ",
+        "correct": "籌",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "愁",
+          "酬",
+          "稠"
+        ]
+      },
+      {
+        "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+        "mode": "reading",
+        "target": "ㄩㄥ",
+        "correct": "雍",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "庸",
+          "擁",
+          "傭"
+        ]
+      },
+      {
+        "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+        "mode": "reading",
+        "target": "ㄩㄥ",
+        "correct": "庸",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "雍",
+          "擁",
+          "傭"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0055",
+    "type": "xingxing",
+    "examTag": "108-13",
+    "year": 108,
+    "isBu": false,
+    "session": null,
+    "qno": 13,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "未來充滿變數，生活總是戰戰競競",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "戰戰「兢兢」"
+        ]
+      },
+      {
+        "sentence": "能受到民眾愛載，全因為他的魅力",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愛「戴」"
+        ]
+      },
+      {
+        "sentence": "事情發展如此詭譎，讓人忐忑不安",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "聽到這個噩號，令我不知如何是好",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "噩「耗」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0056",
+    "type": "xingxing",
+    "examTag": "109-31",
+    "year": 109,
+    "isBu": false,
+    "session": null,
+    "qno": 31,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "藝術電影叫好不叫座，觀眾寥寥可數",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "本公司通訊報名截止日期以郵戮為憑",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "郵「戳」"
+        ]
+      },
+      {
+        "sentence": "半掩的門扉後，漏出一張天真爛漫的笑臉",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「露」出"
+        ]
+      },
+      {
+        "sentence": "求職屢屢碰壁的迥境，打擊了一顆年輕的心",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「窘」境"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0057",
+    "type": "xingxing",
+    "examTag": "109補-22",
+    "year": 109,
+    "isBu": true,
+    "session": null,
+    "qno": 22,
+    "level": "會考",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "孔明率兵五千人到西城搬運糧草，忽有探子急報說：司馬懿率大軍十五萬，撲天蓋地，直奔西城而來。眾將聽到這個消息，嚇得驚慌失措，心膽劇烈。唯獨孔明處變不驚，出奇不異地使用了空城計，在千鈞一髮之際，解除了西城的燃眉之急，他的膽識及勇氣，真令人佩服。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「鋪」天蓋地\n「俱裂」\n出「其」不「意」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0058",
+    "type": "xingxing",
+    "examTag": "110-23",
+    "year": 110,
+    "isBu": false,
+    "session": null,
+    "qno": 23,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+        "mode": "reading",
+        "target": "ㄨㄤˋ",
+        "correct": "妄",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "忘",
+          "亡",
+          "望"
+        ]
+      },
+      {
+        "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+        "mode": "reading",
+        "target": "ㄨㄤˋ",
+        "correct": "妄",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "忘",
+          "亡",
+          "望"
+        ]
+      },
+      {
+        "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "塗",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "途",
+          "徒",
+          "圖"
+        ]
+      },
+      {
+        "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "荼",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "茶",
+          "塗",
+          "途"
+        ]
+      },
+      {
+        "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+        "mode": "reading",
+        "target": "ㄍㄨㄥ",
+        "correct": "功",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "工",
+          "攻",
+          "公"
+        ]
+      },
+      {
+        "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+        "mode": "reading",
+        "target": "ㄍㄨㄥ",
+        "correct": "工",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "功",
+          "攻",
+          "公"
+        ]
+      },
+      {
+        "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+        "mode": "reading",
+        "target": "ㄏㄢˋ",
+        "correct": "憾",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "撼",
+          "悍",
+          "捍"
+        ]
+      },
+      {
+        "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+        "mode": "reading",
+        "target": "ㄏㄢˋ",
+        "correct": "撼",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "憾",
+          "悍",
+          "捍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0059",
+    "type": "xingxing",
+    "examTag": "110補-29",
+    "year": 110,
+    "isBu": true,
+    "session": null,
+    "qno": 29,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "小松家境清寒，因而輟學打工，這樣的選擇時在是出於無奈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「實」在"
+        ]
+      },
+      {
+        "sentence": "人人提高警覺，杜絕貪念，狡猾的詐騙集團就只能白費心機",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "小穎個性溫和，與他人發生衝突時，總是採取習事寧人的態度",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「息」事寧人"
+        ]
+      },
+      {
+        "sentence": "這家餐廳原為小吃攤，因生意興隆，才兩年就闊張為今日規模",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「擴」張"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0060",
+    "type": "xingxing",
+    "examTag": "111-19",
+    "year": 111,
+    "isBu": false,
+    "session": null,
+    "qno": 19,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+        "mode": "reading",
+        "target": "ㄧㄡ",
+        "correct": "憂",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "優",
+          "悠",
+          "幽"
+        ]
+      },
+      {
+        "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+        "mode": "reading",
+        "target": "ㄧㄡ",
+        "correct": "優",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "憂",
+          "悠",
+          "幽"
+        ]
+      },
+      {
+        "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+        "mode": "reading",
+        "target": "ㄅㄢ",
+        "correct": "斑",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "班",
+          "搬",
+          "扳"
+        ]
+      },
+      {
+        "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+        "mode": "reading",
+        "target": "ㄅㄢ",
+        "correct": "斑",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "班",
+          "搬",
+          "扳"
+        ]
+      },
+      {
+        "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+        "mode": "reading",
+        "target": "ㄇㄠˊ",
+        "correct": "矛",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "茅",
+          "矜",
+          "袤"
+        ]
+      },
+      {
+        "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+        "mode": "reading",
+        "target": "ㄇㄠˊ",
+        "correct": "茅",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "矛",
+          "錨",
+          "茆"
+        ]
+      },
+      {
+        "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+        "mode": "reading",
+        "target": "ㄇㄢˋ",
+        "correct": "慢",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "漫",
+          "曼",
+          "饅"
+        ]
+      },
+      {
+        "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+        "mode": "reading",
+        "target": "ㄇㄢˋ",
+        "correct": "漫",
+        "isCorrectAsIs": false,
+        "distractors": [
+          "慢",
+          "曼",
+          "饅"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0061",
+    "type": "xingxing",
+    "examTag": "111補-21",
+    "year": 111,
+    "isBu": true,
+    "session": null,
+    "qno": 21,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "冰山一腳",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "角"
+        ]
+      },
+      {
+        "sentence": "衝耳不聞",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "充"
+        ]
+      },
+      {
+        "sentence": "段章取義",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "斷"
+        ]
+      },
+      {
+        "sentence": "意興闌珊",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0062",
+    "type": "xingxing",
+    "examTag": "112-11",
+    "year": 112,
+    "isBu": false,
+    "session": null,
+    "qno": 11,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "大考將近，更要懂得善用索碎的時間",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「瑣」碎"
+        ]
+      },
+      {
+        "sentence": "來到默生的環境不免會令人感到緊張",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「陌」生"
+        ]
+      },
+      {
+        "sentence": "我忘了帶錢，拜託你先幫我代墊報名費",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "這項工程是讓我國邁向現代化的里程盃",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "里程「碑」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0063",
+    "type": "xingxing",
+    "examTag": "112補-1",
+    "year": 112,
+    "isBu": true,
+    "session": null,
+    "qno": 1,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "這種小人，真是防不慎防",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "防不「勝」防"
+        ]
+      },
+      {
+        "sentence": "我一看到太魯閣的美景，就一見終情",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一見「鍾」情"
+        ]
+      },
+      {
+        "sentence": "看你弱不金風的樣子，竟能登上玉山",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弱不「禁」風"
+        ]
+      },
+      {
+        "sentence": "他總是怨天尤人，從不檢討自己失敗的原因",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0064",
+    "type": "xingxing",
+    "examTag": "113-2",
+    "year": 113,
+    "isBu": false,
+    "session": null,
+    "qno": 2,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "那張字畫的真跡被竊後，至今不知所衷",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不知所「終」"
+        ]
+      },
+      {
+        "sentence": "他只知言襲前人作法，完全不懂得變通",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「沿」襲"
+        ]
+      },
+      {
+        "sentence": "你去失誤招領處詢問，也許能找回錢包",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "失「物」"
+        ]
+      },
+      {
+        "sentence": "樹欲靜而風不止，為人子女盡孝要及時",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xf0065",
+    "type": "xingxing",
+    "examTag": "114-16",
+    "year": 114,
+    "isBu": false,
+    "session": null,
+    "qno": 16,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "所謂有志竟成，努力必能得到回報",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "得饒人處且饒人，你何必趕進殺絕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "趕「盡」殺絕"
+        ]
+      },
+      {
+        "sentence": "想到他的處境，我情不自盡地落淚",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "情不自「禁」"
+        ]
+      },
+      {
+        "sentence": "眼不見為靜，把雜物塞進櫃子就好",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "眼不見為「淨」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xf0066",
+    "type": "xingxing",
+    "examTag": "115-6",
+    "year": 115,
+    "isBu": false,
+    "session": null,
+    "qno": 6,
+    "level": "會考",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "看朋友有難，他一無反顧出面幫忙",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「義」無反顧"
+        ]
+      },
+      {
+        "sentence": "我只是區區一個無名小足，人微言輕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "無名小「卒」"
+        ]
+      },
+      {
+        "sentence": "各種詐騙手法層出不窮，令人防不慎防",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "防不「勝」防"
+        ]
+      },
+      {
+        "sentence": "早上公車發生擦撞，幸好乘客都安然無恙",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": "xy0001",
+    "type": "yinyin",
+    "examTag": "90-1-19",
+    "year": 90,
+    "isBu": false,
+    "session": "1",
+    "qno": 19,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「朔」氣／「塑」膠",
+        "target": "朔",
+        "correctZhuyin": "ㄕㄨㄛˋ",
+        "zhuyinDistractors": [
+          "ㄕㄨㄛ",
+          "ㄕㄨㄛˊ",
+          "ㄙㄨㄛˋ"
+        ]
+      },
+      {
+        "sentence": "「朔」氣／「塑」膠",
+        "target": "塑",
+        "correctZhuyin": "ㄙㄨˋ",
+        "zhuyinDistractors": [
+          "ㄙㄨ",
+          "ㄙㄨˊ",
+          "ㄕㄨㄛˋ"
+        ]
+      },
+      {
+        "sentence": "「延」長「筵」席",
+        "target": "延",
+        "correctZhuyin": "ㄧㄢˊ",
+        "zhuyinDistractors": [
+          "ㄧㄢˋ",
+          "ㄧㄢˇ",
+          "ㄧㄤˊ"
+        ]
+      },
+      {
+        "sentence": "「延」長「筵」席",
+        "target": "筵",
+        "correctZhuyin": "ㄧㄢˊ",
+        "zhuyinDistractors": [
+          "ㄧㄢˋ",
+          "ㄧㄢˇ",
+          "ㄧㄢ"
+        ]
+      },
+      {
+        "sentence": "創「造」／粗「糙」",
+        "target": "造",
+        "correctZhuyin": "ㄗㄠˋ",
+        "zhuyinDistractors": [
+          "ㄗㄠ",
+          "ㄗㄠˇ",
+          "ㄘㄠˋ"
+        ]
+      },
+      {
+        "sentence": "創「造」／粗「糙」",
+        "target": "糙",
+        "correctZhuyin": "ㄘㄠ",
+        "zhuyinDistractors": [
+          "ㄘㄠˇ",
+          "ㄘㄠˋ",
+          "ㄗㄠ"
+        ]
+      },
+      {
+        "sentence": "「曾」子／「僧」侶",
+        "target": "曾",
+        "correctZhuyin": "ㄗㄥ",
+        "zhuyinDistractors": [
+          "ㄘㄥˊ",
+          "ㄗㄥˋ",
+          "ㄗㄥˊ"
+        ]
+      },
+      {
+        "sentence": "「曾」子／「僧」侶",
+        "target": "僧",
+        "correctZhuyin": "ㄙㄥ",
+        "zhuyinDistractors": [
+          "ㄙㄥˋ",
+          "ㄕㄥ",
+          "ㄙㄥˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0002",
+    "type": "yinyin",
+    "examTag": "90-2-26",
+    "year": 90,
+    "isBu": false,
+    "session": "2",
+    "qno": 26,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "戰戰「兢兢」／歌唱「競」賽",
+        "target": "兢兢",
+        "correctZhuyin": "ㄐㄧㄥ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄥˋ",
+          "ㄐㄧㄥˊ",
+          "ㄑㄧㄥ"
+        ]
+      },
+      {
+        "sentence": "戰戰「兢兢」／歌唱「競」賽",
+        "target": "競",
+        "correctZhuyin": "ㄐㄧㄥˋ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄥ",
+          "ㄐㄧㄥˇ",
+          "ㄑㄧㄥˋ"
+        ]
+      },
+      {
+        "sentence": "根深「柢」固／「抵」死不從",
+        "target": "柢",
+        "correctZhuyin": "ㄉㄧˇ",
+        "zhuyinDistractors": [
+          "ㄉㄧˋ",
+          "ㄉㄧ",
+          "ㄊㄧˇ"
+        ]
+      },
+      {
+        "sentence": "根深「柢」固／「抵」死不從",
+        "target": "抵",
+        "correctZhuyin": "ㄉㄧˇ",
+        "zhuyinDistractors": [
+          "ㄉㄧˋ",
+          "ㄉㄧ",
+          "ㄊㄧˇ"
+        ]
+      },
+      {
+        "sentence": "尖尖鳥「喙」／被鳥「啄」傷",
+        "target": "喙",
+        "correctZhuyin": "ㄏㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄏㄨㄟˊ",
+          "ㄏㄨㄟ",
+          "ㄓㄨㄛˊ"
+        ]
+      },
+      {
+        "sentence": "尖尖鳥「喙」／被鳥「啄」傷",
+        "target": "啄",
+        "correctZhuyin": "ㄓㄨㄛˊ",
+        "zhuyinDistractors": [
+          "ㄓㄨㄛ",
+          "ㄓㄨㄛˋ",
+          "ㄏㄨㄟˋ"
+        ]
+      },
+      {
+        "sentence": "「殊」途同歸／口「誅」筆伐",
+        "target": "殊",
+        "correctZhuyin": "ㄕㄨ",
+        "zhuyinDistractors": [
+          "ㄕㄨˊ",
+          "ㄕㄨˋ",
+          "ㄓㄨ"
+        ]
+      },
+      {
+        "sentence": "「殊」途同歸／口「誅」筆伐",
+        "target": "誅",
+        "correctZhuyin": "ㄓㄨ",
+        "zhuyinDistractors": [
+          "ㄓㄨˊ",
+          "ㄓㄨˋ",
+          "ㄕㄨ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0003",
+    "type": "yinyin",
+    "examTag": "91-1-1",
+    "year": 91,
+    "isBu": false,
+    "session": "1",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「禁」不起他苦苦哀求，爸爸終於解除了他「禁」止出門的命令",
+        "target": "禁",
+        "correctZhuyin": "ㄐㄧㄣ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄣˋ",
+          "ㄐㄧㄣˇ",
+          "ㄑㄧㄣ"
+        ]
+      },
+      {
+        "sentence": "「禁」不起他苦苦哀求，爸爸終於解除了他「禁」止出門的命令",
+        "target": "禁",
+        "correctZhuyin": "ㄐㄧㄣˋ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄣ",
+          "ㄐㄧㄣˇ",
+          "ㄑㄧㄣˋ"
+        ]
+      },
+      {
+        "sentence": "聽到廣「播」不斷「播」放聖誕歌曲，令人感受到寒冬中的暖意",
+        "target": "播",
+        "correctZhuyin": "ㄅㄛˋ",
+        "zhuyinDistractors": [
+          "ㄅㄛ",
+          "ㄅㄛˊ",
+          "ㄆㄛˋ"
+        ]
+      },
+      {
+        "sentence": "聽到廣「播」不斷「播」放聖誕歌曲，令人感受到寒冬中的暖意",
+        "target": "播",
+        "correctZhuyin": "ㄅㄛˋ",
+        "zhuyinDistractors": [
+          "ㄅㄛ",
+          "ㄅㄛˇ",
+          "ㄆㄛˋ"
+        ]
+      },
+      {
+        "sentence": "老闆很欣賞她，常「稱」讚她的工作表現很「稱」職",
+        "target": "稱",
+        "correctZhuyin": "ㄔㄥ",
+        "zhuyinDistractors": [
+          "ㄔㄥˋ",
+          "ㄔㄥˊ",
+          "ㄔㄣ"
+        ]
+      },
+      {
+        "sentence": "老闆很欣賞她，常「稱」讚她的工作表現很「稱」職",
+        "target": "稱",
+        "correctZhuyin": "ㄔㄥˋ",
+        "zhuyinDistractors": [
+          "ㄔㄥ",
+          "ㄔㄥˊ",
+          "ㄔㄣˋ"
+        ]
+      },
+      {
+        "sentence": "「悶」熱的天氣，逼得他只得待在家中彈琴解「悶」",
+        "target": "悶",
+        "correctZhuyin": "ㄇㄣ",
+        "zhuyinDistractors": [
+          "ㄇㄣˋ",
+          "ㄇㄥ",
+          "ㄇㄣˊ"
+        ]
+      },
+      {
+        "sentence": "「悶」熱的天氣，逼得他只得待在家中彈琴解「悶」",
+        "target": "悶",
+        "correctZhuyin": "ㄇㄣˋ",
+        "zhuyinDistractors": [
+          "ㄇㄣ",
+          "ㄇㄥˋ",
+          "ㄇㄣˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0004",
+    "type": "yinyin",
+    "examTag": "91-2-21",
+    "year": 91,
+    "isBu": false,
+    "session": "2",
+    "qno": 21,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "今夫弈之「為」數，小數也；不專心致志，則不得也",
+        "target": "為",
+        "correctZhuyin": "ㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄨㄟˋ",
+          "ㄨㄟˇ",
+          "ㄨㄟ"
+        ]
+      },
+      {
+        "sentence": "使弈秋誨二人弈，其一人專心致志，惟弈秋之「為」聽",
+        "target": "為",
+        "correctZhuyin": "ㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄨㄟˋ",
+          "ㄨㄟˇ",
+          "ㄨㄟ"
+        ]
+      },
+      {
+        "sentence": "一人雖聽之，一心以「為」有鴻鵠將至，思援弓繳而射之",
+        "target": "為",
+        "correctZhuyin": "ㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄨㄟˋ",
+          "ㄨㄟˇ",
+          "ㄨㄟ"
+        ]
+      },
+      {
+        "sentence": "雖與之俱學，弗若之矣。「為」是其智弗若與？曰：非然也",
+        "target": "為",
+        "correctZhuyin": "ㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄨㄟˊ",
+          "ㄨㄟˇ",
+          "ㄨㄟ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0005",
+    "type": "yinyin",
+    "examTag": "91-2-30",
+    "year": 91,
+    "isBu": false,
+    "session": "2",
+    "qno": 30,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "姐弟戀該受到社會的「撻」伐和「抨」擊嗎",
+        "target": "撻",
+        "correctZhuyin": "ㄊㄚˋ",
+        "zhuyinDistractors": [
+          "ㄊㄚ",
+          "ㄊㄚˊ",
+          "ㄉㄚˋ"
+        ]
+      },
+      {
+        "sentence": "姐弟戀該受到社會的「撻」伐和「抨」擊嗎",
+        "target": "抨",
+        "correctZhuyin": "ㄆㄥ",
+        "zhuyinDistractors": [
+          "ㄆㄥˊ",
+          "ㄆㄥˋ",
+          "ㄅㄥ"
+        ]
+      },
+      {
+        "sentence": "那是個人的選擇，無關道德，我不會因此「揶」「揄」他們",
+        "target": "揶",
+        "correctZhuyin": "ㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄧㄝˇ",
+          "ㄧㄝˋ",
+          "ㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "那是個人的選擇，無關道德，我不會因此「揶」「揄」他們",
+        "target": "揄",
+        "correctZhuyin": "ㄩˊ",
+        "zhuyinDistractors": [
+          "ㄩˇ",
+          "ㄩˋ",
+          "ㄩ"
+        ]
+      },
+      {
+        "sentence": "哼！媒體就愛「揭」發這類「緋」聞，加以炒作",
+        "target": "揭",
+        "correctZhuyin": "ㄐㄧㄝ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄝˊ",
+          "ㄐㄧㄝˋ",
+          "ㄑㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "哼！媒體就愛「揭」發這類「緋」聞，加以炒作",
+        "target": "緋",
+        "correctZhuyin": "ㄈㄟ",
+        "zhuyinDistractors": [
+          "ㄈㄟˊ",
+          "ㄈㄟˇ",
+          "ㄈㄟˋ"
+        ]
+      },
+      {
+        "sentence": "嘿！不要以偏概全，媒體也不乏動「中」事理，「鏗」鏘有力的報導啊",
+        "target": "中",
+        "correctZhuyin": "ㄓㄨㄥˋ",
+        "zhuyinDistractors": [
+          "ㄓㄨㄥ",
+          "ㄓㄨㄥˊ",
+          "ㄓㄨㄤˋ"
+        ]
+      },
+      {
+        "sentence": "嘿！不要以偏概全，媒體也不乏動「中」事理，「鏗」鏘有力的報導啊",
+        "target": "鏗",
+        "correctZhuyin": "ㄎㄥ",
+        "zhuyinDistractors": [
+          "ㄎㄥˊ",
+          "ㄎㄥˋ",
+          "ㄏㄥ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0006",
+    "type": "yinyin",
+    "examTag": "92-1-29",
+    "year": 92,
+    "isBu": false,
+    "session": "1",
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "她的別墅依山「傍」水，每到「傍」晚時分，風景尤佳",
+        "target": "傍",
+        "correctZhuyin": "ㄅㄤˋ",
+        "zhuyinDistractors": [
+          "ㄅㄤ",
+          "ㄅㄤˊ",
+          "ㄆㄤˋ"
+        ]
+      },
+      {
+        "sentence": "她的別墅依山「傍」水，每到「傍」晚時分，風景尤佳",
+        "target": "傍",
+        "correctZhuyin": "ㄅㄤ",
+        "zhuyinDistractors": [
+          "ㄅㄤˋ",
+          "ㄅㄤˊ",
+          "ㄆㄤ"
+        ]
+      },
+      {
+        "sentence": "凡事若能未雨綢「繆」，必定可以減少「繆」誤的發生",
+        "target": "繆",
+        "correctZhuyin": "ㄇㄡˊ",
+        "zhuyinDistractors": [
+          "ㄇㄧㄡˋ",
+          "ㄇㄡˇ",
+          "ㄇㄡˋ"
+        ]
+      },
+      {
+        "sentence": "凡事若能未雨綢「繆」，必定可以減少「繆」誤的發生",
+        "target": "繆",
+        "correctZhuyin": "ㄇㄧㄡˋ",
+        "zhuyinDistractors": [
+          "ㄇㄡˊ",
+          "ㄇㄧㄡˊ",
+          "ㄇㄧㄡˇ"
+        ]
+      },
+      {
+        "sentence": "各大媒體皆刊「載」他榮獲首獎，「載」譽歸國的消息",
+        "target": "載",
+        "correctZhuyin": "ㄗㄞˋ",
+        "zhuyinDistractors": [
+          "ㄗㄞ",
+          "ㄗㄞˇ",
+          "ㄘㄞˋ"
+        ]
+      },
+      {
+        "sentence": "各大媒體皆刊「載」他榮獲首獎，「載」譽歸國的消息",
+        "target": "載",
+        "correctZhuyin": "ㄗㄞˋ",
+        "zhuyinDistractors": [
+          "ㄗㄞ",
+          "ㄗㄞˇ",
+          "ㄘㄞˋ"
+        ]
+      },
+      {
+        "sentence": "在一連串槍林「彈」雨的抨擊中，他終於遭到「彈」劾",
+        "target": "彈",
+        "correctZhuyin": "ㄉㄢˋ",
+        "zhuyinDistractors": [
+          "ㄊㄢˊ",
+          "ㄉㄢˊ",
+          "ㄉㄢˇ"
+        ]
+      },
+      {
+        "sentence": "在一連串槍林「彈」雨的抨擊中，他終於遭到「彈」劾",
+        "target": "彈",
+        "correctZhuyin": "ㄊㄢˊ",
+        "zhuyinDistractors": [
+          "ㄉㄢˋ",
+          "ㄊㄢˇ",
+          "ㄊㄢˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0007",
+    "type": "yinyin",
+    "examTag": "93-1-7",
+    "year": 93,
+    "isBu": false,
+    "session": "1",
+    "qno": 7,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+        "target": "怠",
+        "correctZhuyin": "ㄉㄞˋ",
+        "zhuyinDistractors": [
+          "ㄉㄞ",
+          "ㄊㄞˋ",
+          "ㄊㄞˊ"
+        ]
+      },
+      {
+        "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+        "target": "殆",
+        "correctZhuyin": "ㄉㄞˋ",
+        "zhuyinDistractors": [
+          "ㄉㄞ",
+          "ㄊㄞˋ",
+          "ㄧˊ"
+        ]
+      },
+      {
+        "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+        "target": "貽",
+        "correctZhuyin": "ㄧˊ",
+        "zhuyinDistractors": [
+          "ㄧˋ",
+          "ㄧˇ",
+          "ㄉㄞˋ"
+        ]
+      },
+      {
+        "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+        "target": "揆",
+        "correctZhuyin": "ㄎㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˇ",
+          "ㄎㄨㄟˋ",
+          "ㄎㄨㄞˊ"
+        ]
+      },
+      {
+        "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+        "target": "葵",
+        "correctZhuyin": "ㄎㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˇ",
+          "ㄎㄨㄟˋ",
+          "ㄎㄨㄞˊ"
+        ]
+      },
+      {
+        "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+        "target": "睽",
+        "correctZhuyin": "ㄎㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˇ",
+          "ㄎㄨㄟˋ",
+          "ㄎㄨㄞˊ"
+        ]
+      },
+      {
+        "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+        "target": "魘",
+        "correctZhuyin": "ㄧㄢˇ",
+        "zhuyinDistractors": [
+          "ㄧㄢˋ",
+          "ㄧㄝˋ",
+          "ㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+        "target": "靨",
+        "correctZhuyin": "ㄧㄝˋ",
+        "zhuyinDistractors": [
+          "ㄧㄢˇ",
+          "ㄧㄢˋ",
+          "ㄧㄝˊ"
+        ]
+      },
+      {
+        "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+        "target": "饜",
+        "correctZhuyin": "ㄧㄢˋ",
+        "zhuyinDistractors": [
+          "ㄧㄢˇ",
+          "ㄧㄝˋ",
+          "ㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+        "target": "崖",
+        "correctZhuyin": "ㄧㄞˊ",
+        "zhuyinDistractors": [
+          "ㄧㄚˊ",
+          "ㄞˊ",
+          "ㄧㄞˋ"
+        ]
+      },
+      {
+        "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+        "target": "涯",
+        "correctZhuyin": "ㄧㄚˊ",
+        "zhuyinDistractors": [
+          "ㄧㄞˊ",
+          "ㄞˊ",
+          "ㄧㄚˋ"
+        ]
+      },
+      {
+        "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+        "target": "捱",
+        "correctZhuyin": "ㄞˊ",
+        "zhuyinDistractors": [
+          "ㄧㄞˊ",
+          "ㄧㄚˊ",
+          "ㄞˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0008",
+    "type": "yinyin",
+    "examTag": "93-1-20",
+    "year": 93,
+    "isBu": false,
+    "session": "1",
+    "qno": 20,
+    "level": "基測",
+    "groupMode": "single",
+    "parts": [
+      {
+        "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+        "target": "卷",
+        "correctZhuyin": "ㄑㄩㄢˊ",
+        "zhuyinDistractors": [
+          "ㄐㄩㄢˇ",
+          "ㄐㄩㄢˋ",
+          "ㄑㄩㄢˇ"
+        ]
+      },
+      {
+        "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+        "target": "卷",
+        "correctZhuyin": "ㄐㄩㄢˇ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄢˊ",
+          "ㄐㄩㄢˋ",
+          "ㄐㄩㄢˊ"
+        ]
+      },
+      {
+        "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+        "target": "卷",
+        "correctZhuyin": "ㄐㄩㄢˋ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄢˊ",
+          "ㄐㄩㄢˇ",
+          "ㄐㄩㄢˊ"
+        ]
+      },
+      {
+        "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+        "target": "卷",
+        "correctZhuyin": "ㄐㄩㄢˇ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄢˊ",
+          "ㄐㄩㄢˋ",
+          "ㄐㄩㄢˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0009",
+    "type": "yinyin",
+    "examTag": "93-2-24",
+    "year": 93,
+    "isBu": false,
+    "session": "2",
+    "qno": 24,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "割捨了纏綿「悱」惻的情感，他緊閉窗「扉」，足不出戶",
+        "target": "悱",
+        "correctZhuyin": "ㄈㄟˇ",
+        "zhuyinDistractors": [
+          "ㄈㄟ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "割捨了纏綿「悱」惻的情感，他緊閉窗「扉」，足不出戶",
+        "target": "扉",
+        "correctZhuyin": "ㄈㄟ",
+        "zhuyinDistractors": [
+          "ㄈㄟˇ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "影壇巨星「遽」然而逝，他所主演的連續「劇」被迫停工",
+        "target": "遽",
+        "correctZhuyin": "ㄐㄩˋ",
+        "zhuyinDistractors": [
+          "ㄐㄩ",
+          "ㄐㄩˊ",
+          "ㄐㄩˇ"
+        ]
+      },
+      {
+        "sentence": "影壇巨星「遽」然而逝，他所主演的連續「劇」被迫停工",
+        "target": "劇",
+        "correctZhuyin": "ㄐㄩˋ",
+        "zhuyinDistractors": [
+          "ㄐㄩ",
+          "ㄐㄩˊ",
+          "ㄐㄩˇ"
+        ]
+      },
+      {
+        "sentence": "母親「催」促孩子用功讀書，將來才會有「璀」璨的前途",
+        "target": "催",
+        "correctZhuyin": "ㄘㄨㄟ",
+        "zhuyinDistractors": [
+          "ㄘㄨㄟˋ",
+          "ㄘㄨㄟˊ",
+          "ㄘㄨㄟˇ"
+        ]
+      },
+      {
+        "sentence": "母親「催」促孩子用功讀書，將來才會有「璀」璨的前途",
+        "target": "璀",
+        "correctZhuyin": "ㄘㄨㄟˇ",
+        "zhuyinDistractors": [
+          "ㄘㄨㄟ",
+          "ㄘㄨㄟˋ",
+          "ㄘㄨㄟˊ"
+        ]
+      },
+      {
+        "sentence": "他勤奮不「輟」的努力後，終於將這個古物補「綴」完成",
+        "target": "輟",
+        "correctZhuyin": "ㄔㄨㄛˋ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄛ",
+          "ㄔㄨㄛˊ",
+          "ㄓㄨㄟˋ"
+        ]
+      },
+      {
+        "sentence": "他勤奮不「輟」的努力後，終於將這個古物補「綴」完成",
+        "target": "綴",
+        "correctZhuyin": "ㄓㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄓㄨㄟ",
+          "ㄓㄨㄟˊ",
+          "ㄔㄨㄛˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0010",
+    "type": "yinyin",
+    "examTag": "94-1-2",
+    "year": 94,
+    "isBu": false,
+    "session": "1",
+    "qno": 2,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "妄自「菲」薄／自視「非」凡",
+        "target": "菲",
+        "correctZhuyin": "ㄈㄟˇ",
+        "zhuyinDistractors": [
+          "ㄈㄟ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "妄自「菲」薄／自視「非」凡",
+        "target": "非",
+        "correctZhuyin": "ㄈㄟ",
+        "zhuyinDistractors": [
+          "ㄈㄟˇ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "技術精「湛」／「綻」放光芒",
+        "target": "湛",
+        "correctZhuyin": "ㄓㄢˋ",
+        "zhuyinDistractors": [
+          "ㄓㄢˊ",
+          "ㄓㄢ",
+          "ㄔㄣˋ"
+        ]
+      },
+      {
+        "sentence": "技術精「湛」／「綻」放光芒",
+        "target": "綻",
+        "correctZhuyin": "ㄓㄢˋ",
+        "zhuyinDistractors": [
+          "ㄓㄢˊ",
+          "ㄓㄢ",
+          "ㄔㄣˋ"
+        ]
+      },
+      {
+        "sentence": "「諄」諄告誡／民風「淳」樸",
+        "target": "諄",
+        "correctZhuyin": "ㄓㄨㄣ",
+        "zhuyinDistractors": [
+          "ㄓㄨㄣˊ",
+          "ㄓㄨㄣˋ",
+          "ㄔㄨㄣ"
+        ]
+      },
+      {
+        "sentence": "「諄」諄告誡／民風「淳」樸",
+        "target": "淳",
+        "correctZhuyin": "ㄔㄨㄣˊ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄣ",
+          "ㄔㄨㄣˋ",
+          "ㄓㄨㄣ"
+        ]
+      },
+      {
+        "sentence": "一「畦」菜圃／井底之「蛙」",
+        "target": "畦",
+        "correctZhuyin": "ㄑㄧˊ",
+        "zhuyinDistractors": [
+          "ㄑㄧˇ",
+          "ㄑㄧˋ",
+          "ㄒㄧˊ"
+        ]
+      },
+      {
+        "sentence": "一「畦」菜圃／井底之「蛙」",
+        "target": "蛙",
+        "correctZhuyin": "ㄨㄚ",
+        "zhuyinDistractors": [
+          "ㄨㄚˊ",
+          "ㄨㄚˇ",
+          "ㄨㄚˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0011",
+    "type": "yinyin",
+    "examTag": "94-2-33",
+    "year": 94,
+    "isBu": false,
+    "session": "2",
+    "qno": 33,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "通「緝」犯／編「輯」叢書",
+        "target": "緝",
+        "correctZhuyin": "ㄑㄧˋ",
+        "zhuyinDistractors": [
+          "ㄐㄧˊ",
+          "ㄑㄧˊ",
+          "ㄑㄧ"
+        ]
+      },
+      {
+        "sentence": "通「緝」犯／編「輯」叢書",
+        "target": "輯",
+        "correctZhuyin": "ㄐㄧˊ",
+        "zhuyinDistractors": [
+          "ㄑㄧˋ",
+          "ㄐㄧˋ",
+          "ㄐㄧ"
+        ]
+      },
+      {
+        "sentence": "如法「炮」製／大聲「咆」哮",
+        "target": "炮",
+        "correctZhuyin": "ㄆㄠˊ",
+        "zhuyinDistractors": [
+          "ㄆㄠˋ",
+          "ㄆㄠ",
+          "ㄆㄡˊ"
+        ]
+      },
+      {
+        "sentence": "如法「炮」製／大聲「咆」哮",
+        "target": "咆",
+        "correctZhuyin": "ㄆㄠˊ",
+        "zhuyinDistractors": [
+          "ㄆㄠˋ",
+          "ㄆㄠ",
+          "ㄅㄠˊ"
+        ]
+      },
+      {
+        "sentence": "「鍥」而不舍／簽定「契」約",
+        "target": "鍥",
+        "correctZhuyin": "ㄑㄧㄝˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧˋ",
+          "ㄑㄧㄝˊ",
+          "ㄑㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "「鍥」而不舍／簽定「契」約",
+        "target": "契",
+        "correctZhuyin": "ㄑㄧˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄝˋ",
+          "ㄑㄧˊ",
+          "ㄑㄧ"
+        ]
+      },
+      {
+        "sentence": "「塑」造優良典範／「朔」是農曆初一",
+        "target": "塑",
+        "correctZhuyin": "ㄙㄨˋ",
+        "zhuyinDistractors": [
+          "ㄕㄨㄛˋ",
+          "ㄙㄨㄛˋ",
+          "ㄙㄨˇ"
+        ]
+      },
+      {
+        "sentence": "「塑」造優良典範／「朔」是農曆初一",
+        "target": "朔",
+        "correctZhuyin": "ㄕㄨㄛˋ",
+        "zhuyinDistractors": [
+          "ㄙㄨˋ",
+          "ㄕㄨㄛˊ",
+          "ㄕㄨˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0012",
+    "type": "yinyin",
+    "examTag": "95-1-16",
+    "year": 95,
+    "isBu": false,
+    "session": "1",
+    "qno": 16,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "江「棕」文最愛聆聽「淙」淙的流水聲音",
+        "target": "棕",
+        "correctZhuyin": "ㄗㄨㄥ",
+        "zhuyinDistractors": [
+          "ㄗㄨㄥˇ",
+          "ㄗㄨㄥˋ",
+          "ㄘㄨㄥ"
+        ]
+      },
+      {
+        "sentence": "江「棕」文最愛聆聽「淙」淙的流水聲音",
+        "target": "淙",
+        "correctZhuyin": "ㄘㄨㄥˊ",
+        "zhuyinDistractors": [
+          "ㄗㄨㄥ",
+          "ㄘㄨㄥˋ",
+          "ㄘㄨㄥˇ"
+        ]
+      },
+      {
+        "sentence": "呂「揆」元最喜歡梵谷筆下的向日「葵」",
+        "target": "揆",
+        "correctZhuyin": "ㄎㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˇ",
+          "ㄎㄨㄟˋ",
+          "ㄍㄨㄟˊ"
+        ]
+      },
+      {
+        "sentence": "呂「揆」元最喜歡梵谷筆下的向日「葵」",
+        "target": "葵",
+        "correctZhuyin": "ㄎㄨㄟˊ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˇ",
+          "ㄎㄨㄟˋ",
+          "ㄍㄨㄟˊ"
+        ]
+      },
+      {
+        "sentence": "張豐「饒」做事具有百折不「撓」的精神",
+        "target": "饒",
+        "correctZhuyin": "ㄖㄠˊ",
+        "zhuyinDistractors": [
+          "ㄋㄠˊ",
+          "ㄖㄠˇ",
+          "ㄖㄠˋ"
+        ]
+      },
+      {
+        "sentence": "張豐「饒」做事具有百折不「撓」的精神",
+        "target": "撓",
+        "correctZhuyin": "ㄋㄠˊ",
+        "zhuyinDistractors": [
+          "ㄖㄠˊ",
+          "ㄋㄠˇ",
+          "ㄋㄠˋ"
+        ]
+      },
+      {
+        "sentence": "汪珮「臻」寫了一本關於「秦」朝的歷史小說",
+        "target": "臻",
+        "correctZhuyin": "ㄓㄣ",
+        "zhuyinDistractors": [
+          "ㄓㄣˋ",
+          "ㄓㄣˊ",
+          "ㄓㄥ"
+        ]
+      },
+      {
+        "sentence": "汪珮「臻」寫了一本關於「秦」朝的歷史小說",
+        "target": "秦",
+        "correctZhuyin": "ㄑㄧㄣˊ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄣˇ",
+          "ㄑㄧㄣˋ",
+          "ㄐㄧㄣˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0013",
+    "type": "yinyin",
+    "examTag": "95-2-01",
+    "year": 95,
+    "isBu": false,
+    "session": "2",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "他「差」人送了封信給我",
+        "target": "差",
+        "correctZhuyin": "ㄔㄞ",
+        "zhuyinDistractors": [
+          "ㄔㄚ",
+          "ㄔㄚˋ",
+          "ㄘ"
+        ]
+      },
+      {
+        "sentence": "他只會爭功諉過，真是太「差」勁了",
+        "target": "差",
+        "correctZhuyin": "ㄔㄚ",
+        "zhuyinDistractors": [
+          "ㄔㄚˋ",
+          "ㄔㄞ",
+          "ㄘ"
+        ]
+      },
+      {
+        "sentence": "他們兩人的成績，始終相「差」不多",
+        "target": "差",
+        "correctZhuyin": "ㄔㄚ",
+        "zhuyinDistractors": [
+          "ㄔㄚˋ",
+          "ㄔㄞ",
+          "ㄘ"
+        ]
+      },
+      {
+        "sentence": "你們的桌椅，老是排得參「差」不齊",
+        "target": "差",
+        "correctZhuyin": "ㄘ",
+        "zhuyinDistractors": [
+          "ㄔㄚ",
+          "ㄘˋ",
+          "ㄐㄧ"
+        ]
+      },
+      {
+        "sentence": "這個工作，只能算是個閒「差」罷了",
+        "target": "差",
+        "correctZhuyin": "ㄔㄞ",
+        "zhuyinDistractors": [
+          "ㄔㄚ",
+          "ㄔㄚˋ",
+          "ㄘ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0014",
+    "type": "yinyin",
+    "examTag": "95-2-20",
+    "year": 95,
+    "isBu": false,
+    "session": "2",
+    "qno": 20,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「緋」聞不斷╱妄自「菲」薄",
+        "target": "緋",
+        "correctZhuyin": "ㄈㄟ",
+        "zhuyinDistractors": [
+          "ㄈㄟˇ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "「緋」聞不斷╱妄自「菲」薄",
+        "target": "菲",
+        "correctZhuyin": "ㄈㄟˇ",
+        "zhuyinDistractors": [
+          "ㄈㄟ",
+          "ㄈㄟˋ",
+          "ㄈㄟˊ"
+        ]
+      },
+      {
+        "sentence": "雕「塑」作品╱撲「朔」迷離",
+        "target": "塑",
+        "correctZhuyin": "ㄙㄨˋ",
+        "zhuyinDistractors": [
+          "ㄕㄨㄛˋ",
+          "ㄙㄨㄛˋ",
+          "ㄙㄨˇ"
+        ]
+      },
+      {
+        "sentence": "雕「塑」作品╱撲「朔」迷離",
+        "target": "朔",
+        "correctZhuyin": "ㄕㄨㄛˋ",
+        "zhuyinDistractors": [
+          "ㄙㄨˋ",
+          "ㄕㄨㄛˊ",
+          "ㄕㄨˋ"
+        ]
+      },
+      {
+        "sentence": "以免向「隅」╱「愚」不可及",
+        "target": "隅",
+        "correctZhuyin": "ㄩˊ",
+        "zhuyinDistractors": [
+          "ㄩˇ",
+          "ㄩˋ",
+          "ㄨˊ"
+        ]
+      },
+      {
+        "sentence": "以免向「隅」╱「愚」不可及",
+        "target": "愚",
+        "correctZhuyin": "ㄩˊ",
+        "zhuyinDistractors": [
+          "ㄩˇ",
+          "ㄩˋ",
+          "ㄨˊ"
+        ]
+      },
+      {
+        "sentence": "「撫」平創傷╱「嫵」媚佳人",
+        "target": "撫",
+        "correctZhuyin": "ㄈㄨˇ",
+        "zhuyinDistractors": [
+          "ㄨˇ",
+          "ㄈㄨˋ",
+          "ㄈㄨ"
+        ]
+      },
+      {
+        "sentence": "「撫」平創傷╱「嫵」媚佳人",
+        "target": "嫵",
+        "correctZhuyin": "ㄨˇ",
+        "zhuyinDistractors": [
+          "ㄈㄨˇ",
+          "ㄨˋ",
+          "ㄨˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0015",
+    "type": "yinyin",
+    "examTag": "96-1-19",
+    "year": 96,
+    "isBu": false,
+    "session": "1",
+    "qno": 19,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "甄勤勞「拂」曉出發，準備徒步穿越大沙漠",
+        "target": "拂",
+        "correctZhuyin": "ㄈㄨˊ",
+        "zhuyinDistractors": [
+          "ㄈㄨˇ",
+          "ㄈㄨˋ",
+          "ㄈㄨ"
+        ]
+      },
+      {
+        "sentence": "史頑固「猝」死的消息傳來，令人非常驚愕",
+        "target": "猝",
+        "correctZhuyin": "ㄘㄨˋ",
+        "zhuyinDistractors": [
+          "ㄗㄨˋ",
+          "ㄘㄨˊ",
+          "ㄘㄨˇ"
+        ]
+      },
+      {
+        "sentence": "莊美麗歷劫歸來，衣衫「襤」褸，十分狼狽",
+        "target": "襤",
+        "correctZhuyin": "ㄌㄢˊ",
+        "zhuyinDistractors": [
+          "ㄌㄢˇ",
+          "ㄌㄢˋ",
+          "ㄋㄢˊ"
+        ]
+      },
+      {
+        "sentence": "賈聰明發明了新型的「碾」米機，十分得意",
+        "target": "碾",
+        "correctZhuyin": "ㄋㄧㄢˇ",
+        "zhuyinDistractors": [
+          "ㄋㄧㄢˊ",
+          "ㄋㄧㄢˋ",
+          "ㄌㄧㄢˇ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0016",
+    "type": "yinyin",
+    "examTag": "96-2-23",
+    "year": 96,
+    "isBu": false,
+    "session": "2",
+    "qno": 23,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "山「巒」起伏",
+        "target": "巒",
+        "correctZhuyin": "ㄌㄨㄢˊ",
+        "zhuyinDistractors": [
+          "ㄌㄨㄢˇ",
+          "ㄌㄨㄢˋ",
+          "ㄌㄢˊ"
+        ]
+      },
+      {
+        "sentence": "樹「蔭」濃密",
+        "target": "蔭",
+        "correctZhuyin": "ㄧㄣˋ",
+        "zhuyinDistractors": [
+          "ㄧㄣ",
+          "ㄧㄣˊ",
+          "ㄧㄣˇ"
+        ]
+      },
+      {
+        "sentence": "綠草如「茵」",
+        "target": "茵",
+        "correctZhuyin": "ㄧㄣ",
+        "zhuyinDistractors": [
+          "ㄧㄣˋ",
+          "ㄧㄣˊ",
+          "ㄧㄣˇ"
+        ]
+      },
+      {
+        "sentence": "陣陣漣「漪」",
+        "target": "漪",
+        "correctZhuyin": "ㄧ",
+        "zhuyinDistractors": [
+          "ㄧˊ",
+          "ㄧˇ",
+          "ㄧˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0017",
+    "type": "yinyin",
+    "examTag": "97-1-1",
+    "year": 97,
+    "isBu": false,
+    "session": "1",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "管制「塑」膠袋的使用，有利於環境保護",
+        "target": "塑",
+        "correctZhuyin": "ㄙㄨˋ",
+        "zhuyinDistractors": [
+          "ㄕㄨㄛˋ",
+          "ㄙㄨㄛˋ",
+          "ㄙㄨˇ"
+        ]
+      },
+      {
+        "sentence": "如果不多做運動，「臀」部肌肉容易鬆弛",
+        "target": "臀",
+        "correctZhuyin": "ㄊㄨㄣˊ",
+        "zhuyinDistractors": [
+          "ㄊㄨㄣˇ",
+          "ㄊㄨㄣˋ",
+          "ㄊㄨㄥˊ"
+        ]
+      },
+      {
+        "sentence": "王小明膽大妄為的行徑，真令人「咋」舌",
+        "target": "咋",
+        "correctZhuyin": "ㄗㄜˊ",
+        "zhuyinDistractors": [
+          "ㄓㄚˋ",
+          "ㄗㄚˇ",
+          "ㄗㄜˇ"
+        ]
+      },
+      {
+        "sentence": "相傳古代帝王有三宮六院，七十二「嬪」妃",
+        "target": "嬪",
+        "correctZhuyin": "ㄆㄧㄣˊ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄣˇ",
+          "ㄆㄧㄣˋ",
+          "ㄅㄧㄣˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0018",
+    "type": "yinyin",
+    "examTag": "97-2-1",
+    "year": 97,
+    "isBu": false,
+    "session": "2",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "攜帶「乾」糧╱「乾」坤大挪移",
+        "target": "乾",
+        "correctZhuyin": "ㄍㄢ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢˊ",
+          "ㄍㄢˋ",
+          "ㄍㄢˇ"
+        ]
+      },
+      {
+        "sentence": "攜帶「乾」糧╱「乾」坤大挪移",
+        "target": "乾",
+        "correctZhuyin": "ㄑㄧㄢˊ",
+        "zhuyinDistractors": [
+          "ㄍㄢ",
+          "ㄑㄧㄢˇ",
+          "ㄑㄧㄢˋ"
+        ]
+      },
+      {
+        "sentence": "「亡」羊補牢╱「亡」命天涯",
+        "target": "亡",
+        "correctZhuyin": "ㄨㄤˊ",
+        "zhuyinDistractors": [
+          "ㄨㄤˇ",
+          "ㄨㄤˋ",
+          "ㄨˊ"
+        ]
+      },
+      {
+        "sentence": "「亡」羊補牢╱「亡」命天涯",
+        "target": "亡",
+        "correctZhuyin": "ㄨㄤˊ",
+        "zhuyinDistractors": [
+          "ㄨㄤˇ",
+          "ㄨㄤˋ",
+          "ㄨˊ"
+        ]
+      },
+      {
+        "sentence": "「落」花繽紛╱丟三「落」四",
+        "target": "落",
+        "correctZhuyin": "ㄌㄨㄛˋ",
+        "zhuyinDistractors": [
+          "ㄌㄚˋ",
+          "ㄌㄠˋ",
+          "ㄌㄨㄛˊ"
+        ]
+      },
+      {
+        "sentence": "「落」花繽紛╱丟三「落」四",
+        "target": "落",
+        "correctZhuyin": "ㄌㄚˋ",
+        "zhuyinDistractors": [
+          "ㄌㄨㄛˋ",
+          "ㄌㄠˋ",
+          "ㄌㄚ"
+        ]
+      },
+      {
+        "sentence": "奉「養」父母╱「養」育子女",
+        "target": "養",
+        "correctZhuyin": "ㄧㄤˋ",
+        "zhuyinDistractors": [
+          "ㄧㄤˇ",
+          "ㄧㄤ",
+          "ㄧㄤˊ"
+        ]
+      },
+      {
+        "sentence": "奉「養」父母╱「養」育子女",
+        "target": "養",
+        "correctZhuyin": "ㄧㄤˇ",
+        "zhuyinDistractors": [
+          "ㄧㄤˋ",
+          "ㄧㄤ",
+          "ㄧㄤˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0019",
+    "type": "yinyin",
+    "examTag": "97-2-31",
+    "year": 97,
+    "isBu": false,
+    "session": "2",
+    "qno": 31,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "支票「兌」現",
+        "target": "兌",
+        "correctZhuyin": "ㄉㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄉㄨㄟˊ",
+          "ㄉㄨㄟˇ",
+          "ㄉㄨㄣˋ"
+        ]
+      },
+      {
+        "sentence": "模「稜」兩可",
+        "target": "稜",
+        "correctZhuyin": "ㄌㄥˊ",
+        "zhuyinDistractors": [
+          "ㄌㄥˇ",
+          "ㄌㄥˋ",
+          "ㄌㄧㄥˊ"
+        ]
+      },
+      {
+        "sentence": "深感哀「悼」",
+        "target": "悼",
+        "correctZhuyin": "ㄉㄠˋ",
+        "zhuyinDistractors": [
+          "ㄉㄠˇ",
+          "ㄉㄠ",
+          "ㄉㄧㄠˋ"
+        ]
+      },
+      {
+        "sentence": "「潛」力無窮",
+        "target": "潛",
+        "correctZhuyin": "ㄑㄧㄢˊ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢˇ",
+          "ㄑㄧㄢˋ",
+          "ㄑㄧㄣˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0020",
+    "type": "yinyin",
+    "examTag": "98-1-17",
+    "year": 98,
+    "isBu": false,
+    "session": "1",
+    "qno": 17,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "陰「霾」的天氣令人心情鬱悶／果子「貍」被懷疑帶有SARS的病原體",
+        "target": "霾",
+        "correctZhuyin": "ㄇㄞˊ",
+        "zhuyinDistractors": [
+          "ㄇㄞˇ",
+          "ㄇㄞˋ",
+          "ㄌㄧˊ"
+        ]
+      },
+      {
+        "sentence": "陰「霾」的天氣令人心情鬱悶／果子「貍」被懷疑帶有SARS的病原體",
+        "target": "貍",
+        "correctZhuyin": "ㄌㄧˊ",
+        "zhuyinDistractors": [
+          "ㄇㄞˊ",
+          "ㄌㄧˇ",
+          "ㄌㄧˋ"
+        ]
+      },
+      {
+        "sentence": "多吃高「纖」蔬果，有益身體健康／上臺表演的順序以抽「籤」方式來決定",
+        "target": "纖",
+        "correctZhuyin": "ㄒㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢ",
+          "ㄒㄧㄢˋ",
+          "ㄒㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "多吃高「纖」蔬果，有益身體健康／上臺表演的順序以抽「籤」方式來決定",
+        "target": "籤",
+        "correctZhuyin": "ㄑㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄢ",
+          "ㄑㄧㄢˇ",
+          "ㄑㄧㄢˋ"
+        ]
+      },
+      {
+        "sentence": "一早進來，老師和「藹」的笑容照亮了教室／濛濛暮「靄」，遮蔽了黃昏的天際",
+        "target": "藹",
+        "correctZhuyin": "ㄞˇ",
+        "zhuyinDistractors": [
+          "ㄞˊ",
+          "ㄞˋ",
+          "ㄞ"
+        ]
+      },
+      {
+        "sentence": "一早進來，老師和「藹」的笑容照亮了教室／濛濛暮「靄」，遮蔽了黃昏的天際",
+        "target": "靄",
+        "correctZhuyin": "ㄞˇ",
+        "zhuyinDistractors": [
+          "ㄞˊ",
+          "ㄞˋ",
+          "ㄞ"
+        ]
+      },
+      {
+        "sentence": "心情煩躁的他忍不住對屬下「咆」哮／天空的水蒸氣遇冷結冰，成塊下降，稱為冰「雹」",
+        "target": "咆",
+        "correctZhuyin": "ㄆㄠˊ",
+        "zhuyinDistractors": [
+          "ㄆㄠˋ",
+          "ㄆㄠ",
+          "ㄅㄠˊ"
+        ]
+      },
+      {
+        "sentence": "心情煩躁的他忍不住對屬下「咆」哮／天空的水蒸氣遇冷結冰，成塊下降，稱為冰「雹」",
+        "target": "雹",
+        "correctZhuyin": "ㄅㄠˊ",
+        "zhuyinDistractors": [
+          "ㄅㄠˋ",
+          "ㄆㄠˊ",
+          "ㄅㄠ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0021",
+    "type": "yinyin",
+    "examTag": "98-2-20",
+    "year": 98,
+    "isBu": false,
+    "session": "2",
+    "qno": 20,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "唱一「闋」詞／巍峨宮「闕」",
+        "target": "闋",
+        "correctZhuyin": "ㄑㄩㄝˋ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄝˊ",
+          "ㄑㄩㄝ",
+          "ㄐㄩㄝˋ"
+        ]
+      },
+      {
+        "sentence": "唱一「闋」詞／巍峨宮「闕」",
+        "target": "闕",
+        "correctZhuyin": "ㄑㄩㄝˋ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄝˊ",
+          "ㄑㄩㄝ",
+          "ㄐㄩㄝˋ"
+        ]
+      },
+      {
+        "sentence": "大放「厥」辭／一「蹶」不振",
+        "target": "厥",
+        "correctZhuyin": "ㄐㄩㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄩㄝˋ",
+          "ㄐㄩㄝ",
+          "ㄑㄩㄝˊ"
+        ]
+      },
+      {
+        "sentence": "大放「厥」辭／一「蹶」不振",
+        "target": "蹶",
+        "correctZhuyin": "ㄐㄩㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄩㄝˋ",
+          "ㄐㄩㄝ",
+          "ㄑㄩㄝˊ"
+        ]
+      },
+      {
+        "sentence": "經濟「拮」据／反「詰」語氣",
+        "target": "拮",
+        "correctZhuyin": "ㄐㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄝˋ",
+          "ㄐㄧㄝ",
+          "ㄑㄧㄝˊ"
+        ]
+      },
+      {
+        "sentence": "經濟「拮」据／反「詰」語氣",
+        "target": "詰",
+        "correctZhuyin": "ㄐㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄝˋ",
+          "ㄐㄧㄝ",
+          "ㄑㄧㄝˊ"
+        ]
+      },
+      {
+        "sentence": "虛無「縹」緲／「飄」洋過海",
+        "target": "縹",
+        "correctZhuyin": "ㄆㄧㄠˇ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄠ",
+          "ㄆㄧㄠˋ",
+          "ㄆㄧㄠˊ"
+        ]
+      },
+      {
+        "sentence": "虛無「縹」緲／「飄」洋過海",
+        "target": "飄",
+        "correctZhuyin": "ㄆㄧㄠ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄠˇ",
+          "ㄆㄧㄠˋ",
+          "ㄆㄧㄠˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0022",
+    "type": "yinyin",
+    "examTag": "98-2-23",
+    "year": 98,
+    "isBu": false,
+    "session": "2",
+    "qno": 23,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "小陳說：海鮮「燴」飯很美味",
+        "target": "燴",
+        "correctZhuyin": "ㄏㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄏㄨㄟˊ",
+          "ㄏㄨㄟˇ",
+          "ㄎㄨㄞˋ"
+        ]
+      },
+      {
+        "sentence": "小林說：我愛吃小魚「莧」菜",
+        "target": "莧",
+        "correctZhuyin": "ㄒㄧㄢˋ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄢˊ",
+          "ㄒㄧㄢˇ",
+          "ㄐㄧㄢˋ"
+        ]
+      },
+      {
+        "sentence": "小高說：好難忘香蕉「飴」的滋味哦",
+        "target": "飴",
+        "correctZhuyin": "ㄧˊ",
+        "zhuyinDistractors": [
+          "ㄧˇ",
+          "ㄧˋ",
+          "ㄧ"
+        ]
+      },
+      {
+        "sentence": "小胖說：火鍋內的茼「蒿」是我的最愛",
+        "target": "蒿",
+        "correctZhuyin": "ㄏㄠ",
+        "zhuyinDistractors": [
+          "ㄏㄠˇ",
+          "ㄏㄠˋ",
+          "ㄎㄠ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0023",
+    "type": "yinyin",
+    "examTag": "99-1-1",
+    "year": 99,
+    "isBu": false,
+    "session": "1",
+    "qno": 1,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「比」鄰而居／心「比」天高",
+        "target": "比",
+        "correctZhuyin": "ㄅㄧˋ",
+        "zhuyinDistractors": [
+          "ㄅㄧˇ",
+          "ㄆㄧˋ",
+          "ㄅㄧ"
+        ]
+      },
+      {
+        "sentence": "「比」鄰而居／心「比」天高",
+        "target": "比",
+        "correctZhuyin": "ㄅㄧˇ",
+        "zhuyinDistractors": [
+          "ㄅㄧˋ",
+          "ㄆㄧˇ",
+          "ㄅㄧ"
+        ]
+      },
+      {
+        "sentence": "傷痕累「累」／「累」積經驗",
+        "target": "累",
+        "correctZhuyin": "ㄌㄟˇ",
+        "zhuyinDistractors": [
+          "ㄌㄟˋ",
+          "ㄌㄟˊ",
+          "ㄌㄟ"
+        ]
+      },
+      {
+        "sentence": "傷痕累「累」／「累」積經驗",
+        "target": "累",
+        "correctZhuyin": "ㄌㄟˇ",
+        "zhuyinDistractors": [
+          "ㄌㄟˊ",
+          "ㄌㄟˋ",
+          "ㄌㄟ"
+        ]
+      },
+      {
+        "sentence": "「稱」兄道弟／表現「稱」職",
+        "target": "稱",
+        "correctZhuyin": "ㄔㄥ",
+        "zhuyinDistractors": [
+          "ㄔㄥˋ",
+          "ㄔㄣ",
+          "ㄔㄥˊ"
+        ]
+      },
+      {
+        "sentence": "「稱」兄道弟／表現「稱」職",
+        "target": "稱",
+        "correctZhuyin": "ㄔㄥˋ",
+        "zhuyinDistractors": [
+          "ㄔㄥ",
+          "ㄔㄣˋ",
+          "ㄔㄥˊ"
+        ]
+      },
+      {
+        "sentence": "「的」確無誤／漫無目「的」",
+        "target": "的",
+        "correctZhuyin": "ㄉㄧˊ",
+        "zhuyinDistractors": [
+          "ㄉㄜ˙",
+          "ㄉㄧˋ",
+          "ㄉㄧˇ"
+        ]
+      },
+      {
+        "sentence": "「的」確無誤／漫無目「的」",
+        "target": "的",
+        "correctZhuyin": "ㄉㄧˋ",
+        "zhuyinDistractors": [
+          "ㄉㄜ˙",
+          "ㄉㄧˊ",
+          "ㄉㄧ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0024",
+    "type": "yinyin",
+    "examTag": "99-2-23",
+    "year": 99,
+    "isBu": false,
+    "session": "2",
+    "qno": 23,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "韜光養「晦」／天色「晦」暗",
+        "target": "晦",
+        "correctZhuyin": "ㄏㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄏㄨㄟˊ",
+          "ㄏㄨㄟ",
+          "ㄏㄨㄚˋ"
+        ]
+      },
+      {
+        "sentence": "韜光養「晦」／天色「晦」暗",
+        "target": "晦",
+        "correctZhuyin": "ㄏㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄏㄨㄟˊ",
+          "ㄇㄟˋ",
+          "ㄏㄨㄟˇ"
+        ]
+      },
+      {
+        "sentence": "「嘔」心瀝血／存心「嘔」氣",
+        "target": "嘔",
+        "correctZhuyin": "ㄡˇ",
+        "zhuyinDistractors": [
+          "ㄡˋ",
+          "ㄡ",
+          "ㄛˇ"
+        ]
+      },
+      {
+        "sentence": "「嘔」心瀝血／存心「嘔」氣",
+        "target": "嘔",
+        "correctZhuyin": "ㄡˋ",
+        "zhuyinDistractors": [
+          "ㄡˇ",
+          "ㄡ",
+          "ㄛˋ"
+        ]
+      },
+      {
+        "sentence": "「行」步如飛／一「行」白鷺",
+        "target": "行",
+        "correctZhuyin": "ㄒㄧㄥˊ",
+        "zhuyinDistractors": [
+          "ㄏㄤˊ",
+          "ㄒㄧㄥˋ",
+          "ㄏㄤˋ"
+        ]
+      },
+      {
+        "sentence": "「行」步如飛／一「行」白鷺",
+        "target": "行",
+        "correctZhuyin": "ㄏㄤˊ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄥˊ",
+          "ㄏㄤˋ",
+          "ㄒㄧㄥˋ"
+        ]
+      },
+      {
+        "sentence": "「卒」然發怒／將帥士「卒」",
+        "target": "卒",
+        "correctZhuyin": "ㄘㄨˋ",
+        "zhuyinDistractors": [
+          "ㄗㄨˊ",
+          "ㄘㄨ",
+          "ㄗㄨˋ"
+        ]
+      },
+      {
+        "sentence": "「卒」然發怒／將帥士「卒」",
+        "target": "卒",
+        "correctZhuyin": "ㄗㄨˊ",
+        "zhuyinDistractors": [
+          "ㄘㄨˋ",
+          "ㄗㄨˋ",
+          "ㄘㄨˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0025",
+    "type": "yinyin",
+    "examTag": "100-1-29",
+    "year": 100,
+    "isBu": false,
+    "session": "1",
+    "qno": 29,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "照「耀」／跳「躍」",
+        "target": "耀",
+        "correctZhuyin": "ㄧㄠˋ",
+        "zhuyinDistractors": [
+          "ㄩㄝˋ",
+          "ㄧㄠˊ",
+          "ㄧㄡˋ"
+        ]
+      },
+      {
+        "sentence": "照「耀」／跳「躍」",
+        "target": "躍",
+        "correctZhuyin": "ㄩㄝˋ",
+        "zhuyinDistractors": [
+          "ㄧㄠˋ",
+          "ㄩㄝˊ",
+          "ㄩㄝ"
+        ]
+      },
+      {
+        "sentence": "花「蕊」／燭「芯」",
+        "target": "蕊",
+        "correctZhuyin": "ㄖㄨㄟˇ",
+        "zhuyinDistractors": [
+          "ㄖㄨㄟˊ",
+          "ㄖㄨㄟˋ",
+          "ㄖㄨˇ"
+        ]
+      },
+      {
+        "sentence": "花「蕊」／燭「芯」",
+        "target": "芯",
+        "correctZhuyin": "ㄒㄧㄣ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄣˋ",
+          "ㄒㄧㄣˊ",
+          "ㄒㄧㄥ"
+        ]
+      },
+      {
+        "sentence": "良「莠」不齊／清「秀」",
+        "target": "莠",
+        "correctZhuyin": "ㄧㄡˋ",
+        "zhuyinDistractors": [
+          "ㄧㄡˇ",
+          "ㄒㄧㄡˋ",
+          "ㄧㄡˊ"
+        ]
+      },
+      {
+        "sentence": "良「莠」不齊／清「秀」",
+        "target": "秀",
+        "correctZhuyin": "ㄒㄧㄡˋ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄡˇ",
+          "ㄒㄧㄡ",
+          "ㄒㄧㄡˊ"
+        ]
+      },
+      {
+        "sentence": "鑲金「嵌」玉／「遷」徙",
+        "target": "嵌",
+        "correctZhuyin": "ㄑㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄎㄢˋ",
+          "ㄑㄧㄢˋ",
+          "ㄑㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "鑲金「嵌」玉／「遷」徙",
+        "target": "遷",
+        "correctZhuyin": "ㄑㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢˋ",
+          "ㄑㄧㄢˊ",
+          "ㄒㄧㄢ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0026",
+    "type": "yinyin",
+    "examTag": "100-北北基-32",
+    "year": 100,
+    "isBu": false,
+    "session": "北北基",
+    "qno": 32,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "考「卷」／禮「券」",
+        "target": "卷",
+        "correctZhuyin": "ㄐㄩㄢˋ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄢˋ",
+          "ㄐㄩㄢˇ",
+          "ㄐㄩㄢ"
+        ]
+      },
+      {
+        "sentence": "考「卷」／禮「券」",
+        "target": "券",
+        "correctZhuyin": "ㄑㄩㄢˋ",
+        "zhuyinDistractors": [
+          "ㄐㄩㄢˋ",
+          "ㄑㄩㄢˊ",
+          "ㄑㄩㄢ"
+        ]
+      },
+      {
+        "sentence": "狹「隘」／洋「溢」",
+        "target": "隘",
+        "correctZhuyin": "ㄞˋ",
+        "zhuyinDistractors": [
+          "ㄞ",
+          "ㄞˊ",
+          "ㄧˋ"
+        ]
+      },
+      {
+        "sentence": "狹「隘」／洋「溢」",
+        "target": "溢",
+        "correctZhuyin": "ㄧˋ",
+        "zhuyinDistractors": [
+          "ㄞˋ",
+          "ㄧˊ",
+          "ㄧˇ"
+        ]
+      },
+      {
+        "sentence": "「弦」月／「玄」虛",
+        "target": "弦",
+        "correctZhuyin": "ㄒㄧㄢˊ",
+        "zhuyinDistractors": [
+          "ㄒㄩㄢˊ",
+          "ㄒㄧㄢˋ",
+          "ㄒㄧㄢ"
+        ]
+      },
+      {
+        "sentence": "「弦」月／「玄」虛",
+        "target": "玄",
+        "correctZhuyin": "ㄒㄩㄢˊ",
+        "zhuyinDistractors": [
+          "ㄒㄧㄢˊ",
+          "ㄒㄩㄢˋ",
+          "ㄒㄩㄢ"
+        ]
+      },
+      {
+        "sentence": "「咆」哮／「袍」澤",
+        "target": "咆",
+        "correctZhuyin": "ㄆㄠˊ",
+        "zhuyinDistractors": [
+          "ㄅㄠˊ",
+          "ㄆㄠˋ",
+          "ㄆㄠˇ"
+        ]
+      },
+      {
+        "sentence": "「咆」哮／「袍」澤",
+        "target": "袍",
+        "correctZhuyin": "ㄆㄠˊ",
+        "zhuyinDistractors": [
+          "ㄅㄠˊ",
+          "ㄆㄠˋ",
+          "ㄆㄠ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0027",
+    "type": "yinyin",
+    "examTag": "100-2-28",
+    "year": 100,
+    "isBu": false,
+    "session": "2",
+    "qno": 28,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "邂「逅」／「后」",
+        "target": "逅",
+        "correctZhuyin": "ㄏㄡˋ",
+        "zhuyinDistractors": [
+          "ㄏㄡˊ",
+          "ㄏㄡ",
+          "ㄏㄨˋ"
+        ]
+      },
+      {
+        "sentence": "邂「逅」／「后」",
+        "target": "后",
+        "correctZhuyin": "ㄏㄡˋ",
+        "zhuyinDistractors": [
+          "ㄏㄡˊ",
+          "ㄏㄡˇ",
+          "ㄏㄡ"
+        ]
+      },
+      {
+        "sentence": "「滂」沱／「旁」",
+        "target": "滂",
+        "correctZhuyin": "ㄆㄤ",
+        "zhuyinDistractors": [
+          "ㄆㄤˊ",
+          "ㄆㄤˋ",
+          "ㄅㄤ"
+        ]
+      },
+      {
+        "sentence": "「滂」沱／「旁」",
+        "target": "旁",
+        "correctZhuyin": "ㄆㄤˊ",
+        "zhuyinDistractors": [
+          "ㄆㄤ",
+          "ㄅㄤˊ",
+          "ㄆㄤˋ"
+        ]
+      },
+      {
+        "sentence": "「玷」汙／「占」",
+        "target": "玷",
+        "correctZhuyin": "ㄉㄧㄢˋ",
+        "zhuyinDistractors": [
+          "ㄓㄢˋ",
+          "ㄉㄧㄢˇ",
+          "ㄉㄧㄢ"
+        ]
+      },
+      {
+        "sentence": "「玷」汙／「占」",
+        "target": "占",
+        "correctZhuyin": "ㄓㄢˋ",
+        "zhuyinDistractors": [
+          "ㄓㄢ",
+          "ㄓㄢˇ",
+          "ㄉㄧㄢˋ"
+        ]
+      },
+      {
+        "sentence": "油「脂」／「旨」",
+        "target": "脂",
+        "correctZhuyin": "ㄓ",
+        "zhuyinDistractors": [
+          "ㄓˇ",
+          "ㄓˋ",
+          "ㄓˊ"
+        ]
+      },
+      {
+        "sentence": "油「脂」／「旨」",
+        "target": "旨",
+        "correctZhuyin": "ㄓˇ",
+        "zhuyinDistractors": [
+          "ㄓ",
+          "ㄓˋ",
+          "ㄓˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0028",
+    "type": "yinyin",
+    "examTag": "102-12",
+    "year": 102,
+    "isBu": false,
+    "session": null,
+    "qno": 12,
+    "level": "基測",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "怒不可「遏」",
+        "target": "遏",
+        "correctZhuyin": "ㄜˋ",
+        "zhuyinDistractors": [
+          "ㄜˊ",
+          "ㄜ",
+          "ㄚˋ"
+        ]
+      },
+      {
+        "sentence": "狼吞虎「噬」",
+        "target": "噬",
+        "correctZhuyin": "ㄕˋ",
+        "zhuyinDistractors": [
+          "ㄕˊ",
+          "ㄕ",
+          "ㄒㄧˋ"
+        ]
+      },
+      {
+        "sentence": "疏「宕」不拘",
+        "target": "宕",
+        "correctZhuyin": "ㄉㄤˋ",
+        "zhuyinDistractors": [
+          "ㄉㄤ",
+          "ㄉㄤˊ",
+          "ㄊㄤˋ"
+        ]
+      },
+      {
+        "sentence": "「屹」立不搖",
+        "target": "屹",
+        "correctZhuyin": "ㄧˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧˋ",
+          "ㄧˊ",
+          "ㄧˇ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0029",
+    "type": "yinyin",
+    "examTag": "103-11",
+    "year": 103,
+    "isBu": false,
+    "session": null,
+    "qno": 11,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「揣」測／「湍」急",
+        "target": "揣",
+        "correctZhuyin": "ㄔㄨㄞˇ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄞˋ",
+          "ㄔㄨㄞ",
+          "ㄊㄨㄢˇ"
+        ]
+      },
+      {
+        "sentence": "「揣」測／「湍」急",
+        "target": "湍",
+        "correctZhuyin": "ㄊㄨㄢ",
+        "zhuyinDistractors": [
+          "ㄊㄨㄢˊ",
+          "ㄔㄨㄞˇ",
+          "ㄊㄨㄢˋ"
+        ]
+      },
+      {
+        "sentence": "彩「券」／書「卷」",
+        "target": "券",
+        "correctZhuyin": "ㄑㄩㄢˋ",
+        "zhuyinDistractors": [
+          "ㄐㄩㄢˋ",
+          "ㄑㄩㄢˊ",
+          "ㄑㄩㄢ"
+        ]
+      },
+      {
+        "sentence": "彩「券」／書「卷」",
+        "target": "卷",
+        "correctZhuyin": "ㄐㄩㄢˋ",
+        "zhuyinDistractors": [
+          "ㄑㄩㄢˋ",
+          "ㄐㄩㄢˇ",
+          "ㄐㄩㄢ"
+        ]
+      },
+      {
+        "sentence": "「撇」開／「彆」扭",
+        "target": "撇",
+        "correctZhuyin": "ㄆㄧㄝ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄝˇ",
+          "ㄆㄧㄝˋ",
+          "ㄅㄧㄝˋ"
+        ]
+      },
+      {
+        "sentence": "「撇」開／「彆」扭",
+        "target": "彆",
+        "correctZhuyin": "ㄅㄧㄝˋ",
+        "zhuyinDistractors": [
+          "ㄅㄧㄝˊ",
+          "ㄆㄧㄝ",
+          "ㄅㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "反「詰」／攻「訐」",
+        "target": "詰",
+        "correctZhuyin": "ㄐㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄝˋ",
+          "ㄑㄧˋ",
+          "ㄐㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "反「詰」／攻「訐」",
+        "target": "訐",
+        "correctZhuyin": "ㄐㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄢˋ",
+          "ㄐㄧㄝˋ",
+          "ㄐㄧㄝ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0030",
+    "type": "yinyin",
+    "examTag": "104-4",
+    "year": 104,
+    "isBu": false,
+    "session": null,
+    "qno": 4,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "風聲鶴「唳」／暴「戾」之氣",
+        "target": "唳",
+        "correctZhuyin": "ㄌㄧˋ",
+        "zhuyinDistractors": [
+          "ㄌㄟˋ",
+          "ㄌㄧˊ",
+          "ㄌㄧˇ"
+        ]
+      },
+      {
+        "sentence": "風聲鶴「唳」／暴「戾」之氣",
+        "target": "戾",
+        "correctZhuyin": "ㄌㄧˋ",
+        "zhuyinDistractors": [
+          "ㄌㄟˋ",
+          "ㄌㄧˊ",
+          "ㄌㄧㄝˋ"
+        ]
+      },
+      {
+        "sentence": "「揖」讓而升／查「緝」走私",
+        "target": "揖",
+        "correctZhuyin": "ㄧ",
+        "zhuyinDistractors": [
+          "ㄐㄧˊ",
+          "ㄧˋ",
+          "ㄧˊ"
+        ]
+      },
+      {
+        "sentence": "「揖」讓而升／查「緝」走私",
+        "target": "緝",
+        "correctZhuyin": "ㄑㄧˋ",
+        "zhuyinDistractors": [
+          "ㄐㄧˊ",
+          "ㄑㄧˊ",
+          "ㄑㄧ"
+        ]
+      },
+      {
+        "sentence": "「擣」米去糠／陶「鑄」品行",
+        "target": "擣",
+        "correctZhuyin": "ㄉㄠˇ",
+        "zhuyinDistractors": [
+          "ㄉㄠˋ",
+          "ㄊㄠˇ",
+          "ㄉㄠ"
+        ]
+      },
+      {
+        "sentence": "「擣」米去糠／陶「鑄」品行",
+        "target": "鑄",
+        "correctZhuyin": "ㄓㄨˋ",
+        "zhuyinDistractors": [
+          "ㄓㄨˊ",
+          "ㄔㄨˋ",
+          "ㄓㄨˇ"
+        ]
+      },
+      {
+        "sentence": "再三叮「嚀」／滿地泥「濘」",
+        "target": "嚀",
+        "correctZhuyin": "ㄋㄧㄥˊ",
+        "zhuyinDistractors": [
+          "ㄋㄧㄥˋ",
+          "ㄋㄧㄥˇ",
+          "ㄌㄧㄥˊ"
+        ]
+      },
+      {
+        "sentence": "再三叮「嚀」／滿地泥「濘」",
+        "target": "濘",
+        "correctZhuyin": "ㄋㄧㄥˋ",
+        "zhuyinDistractors": [
+          "ㄋㄧㄥˊ",
+          "ㄋㄧㄥˇ",
+          "ㄌㄧㄥˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0031",
+    "type": "yinyin",
+    "examTag": "105-5",
+    "year": 105,
+    "isBu": false,
+    "session": null,
+    "qno": 5,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "為減輕生產痛苦，有些產婦選擇無痛分「娩」／救援投手獨撐全局，力「挽」狂瀾",
+        "target": "娩",
+        "correctZhuyin": "ㄇㄧㄢˇ",
+        "zhuyinDistractors": [
+          "ㄨㄢˇ",
+          "ㄇㄧㄢˋ",
+          "ㄇㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "為減輕生產痛苦，有些產婦選擇無痛分「娩」／救援投手獨撐全局，力「挽」狂瀾",
+        "target": "挽",
+        "correctZhuyin": "ㄨㄢˇ",
+        "zhuyinDistractors": [
+          "ㄇㄧㄢˇ",
+          "ㄨㄢˋ",
+          "ㄨㄢˊ"
+        ]
+      },
+      {
+        "sentence": "你別「呶」呶不休，讓我耳根不得清淨／雙方意見不合，僵持不下，劍拔「弩」張",
+        "target": "呶",
+        "correctZhuyin": "ㄋㄠˊ",
+        "zhuyinDistractors": [
+          "ㄋㄨˇ",
+          "ㄋㄠˇ",
+          "ㄋㄠˋ"
+        ]
+      },
+      {
+        "sentence": "你別「呶」呶不休，讓我耳根不得清淨／雙方意見不合，僵持不下，劍拔「弩」張",
+        "target": "弩",
+        "correctZhuyin": "ㄋㄨˇ",
+        "zhuyinDistractors": [
+          "ㄋㄠˊ",
+          "ㄋㄨˋ",
+          "ㄋㄨˊ"
+        ]
+      },
+      {
+        "sentence": "坊間「贗」品幾可亂真，小心上當／我們要服「膺」師長的教導，切不可一意孤行",
+        "target": "贗",
+        "correctZhuyin": "ㄧㄢˋ",
+        "zhuyinDistractors": [
+          "ㄧㄥ",
+          "ㄧㄢˊ",
+          "ㄧㄢ"
+        ]
+      },
+      {
+        "sentence": "坊間「贗」品幾可亂真，小心上當／我們要服「膺」師長的教導，切不可一意孤行",
+        "target": "膺",
+        "correctZhuyin": "ㄧㄥ",
+        "zhuyinDistractors": [
+          "ㄧㄢˋ",
+          "ㄧㄥˋ",
+          "ㄧㄥˊ"
+        ]
+      },
+      {
+        "sentence": "瞧他「躊」躇滿志的模樣，真令人反感／開放農產品進口，是我方的談判「籌」碼",
+        "target": "躊",
+        "correctZhuyin": "ㄔㄡˊ",
+        "zhuyinDistractors": [
+          "ㄔㄡˇ",
+          "ㄔㄡˋ",
+          "ㄔㄡ"
+        ]
+      },
+      {
+        "sentence": "瞧他「躊」躇滿志的模樣，真令人反感／開放農產品進口，是我方的談判「籌」碼",
+        "target": "籌",
+        "correctZhuyin": "ㄔㄡˊ",
+        "zhuyinDistractors": [
+          "ㄔㄡˇ",
+          "ㄔㄡˋ",
+          "ㄔㄡ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0032",
+    "type": "yinyin",
+    "examTag": "106-28",
+    "year": 106,
+    "isBu": false,
+    "session": null,
+    "qno": 28,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "青雲直「上」／平「上」去入",
+        "target": "上",
+        "correctZhuyin": "ㄕㄤˋ",
+        "zhuyinDistractors": [
+          "ㄕㄤˇ",
+          "ㄕㄤ",
+          "ㄕㄥˋ"
+        ]
+      },
+      {
+        "sentence": "青雲直「上」／平「上」去入",
+        "target": "上",
+        "correctZhuyin": "ㄕㄤˇ",
+        "zhuyinDistractors": [
+          "ㄕㄤˋ",
+          "ㄕㄤ",
+          "ㄕㄥˇ"
+        ]
+      },
+      {
+        "sentence": "個性倔「強」／「強」弩之末",
+        "target": "強",
+        "correctZhuyin": "ㄐㄧㄤˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄤˊ",
+          "ㄐㄧㄤ",
+          "ㄐㄧㄤˇ"
+        ]
+      },
+      {
+        "sentence": "個性倔「強」／「強」弩之末",
+        "target": "強",
+        "correctZhuyin": "ㄑㄧㄤˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄤˋ",
+          "ㄑㄧㄤˇ",
+          "ㄑㄧㄤˋ"
+        ]
+      },
+      {
+        "sentence": "「伺」機而動／茶水「伺」候",
+        "target": "伺",
+        "correctZhuyin": "ㄙˋ",
+        "zhuyinDistractors": [
+          "ㄘˋ",
+          "ㄙˇ",
+          "ㄙ"
+        ]
+      },
+      {
+        "sentence": "「伺」機而動／茶水「伺」候",
+        "target": "伺",
+        "correctZhuyin": "ㄘˋ",
+        "zhuyinDistractors": [
+          "ㄙˋ",
+          "ㄘˊ",
+          "ㄘ"
+        ]
+      },
+      {
+        "sentence": "不堪負「荷」／「荷」槍實彈",
+        "target": "荷",
+        "correctZhuyin": "ㄏㄜˋ",
+        "zhuyinDistractors": [
+          "ㄏㄜˊ",
+          "ㄏㄜ",
+          "ㄏㄨㄛˋ"
+        ]
+      },
+      {
+        "sentence": "不堪負「荷」／「荷」槍實彈",
+        "target": "荷",
+        "correctZhuyin": "ㄏㄜˋ",
+        "zhuyinDistractors": [
+          "ㄏㄜˊ",
+          "ㄏㄜ",
+          "ㄏㄨㄛˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0033",
+    "type": "yinyin",
+    "examTag": "107-6",
+    "year": 107,
+    "isBu": false,
+    "session": null,
+    "qno": 6,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "令人「咋」舌／「乍」看之下",
+        "target": "咋",
+        "correctZhuyin": "ㄗㄜˊ",
+        "zhuyinDistractors": [
+          "ㄗㄚˊ",
+          "ㄓㄚˋ",
+          "ㄗㄜˋ"
+        ]
+      },
+      {
+        "sentence": "令人「咋」舌／「乍」看之下",
+        "target": "乍",
+        "correctZhuyin": "ㄓㄚˋ",
+        "zhuyinDistractors": [
+          "ㄗㄚˋ",
+          "ㄓㄚˊ",
+          "ㄓㄚ"
+        ]
+      },
+      {
+        "sentence": "含「氟」牙膏／春風「拂」面",
+        "target": "氟",
+        "correctZhuyin": "ㄈㄨˊ",
+        "zhuyinDistractors": [
+          "ㄈㄨˋ",
+          "ㄈㄨˇ",
+          "ㄈㄨ"
+        ]
+      },
+      {
+        "sentence": "含「氟」牙膏／春風「拂」面",
+        "target": "拂",
+        "correctZhuyin": "ㄈㄨˊ",
+        "zhuyinDistractors": [
+          "ㄈㄨˋ",
+          "ㄈㄨˇ",
+          "ㄈㄨ"
+        ]
+      },
+      {
+        "sentence": "「匍」伏前進／灌溉花「圃」",
+        "target": "匍",
+        "correctZhuyin": "ㄆㄨˊ",
+        "zhuyinDistractors": [
+          "ㄆㄨˇ",
+          "ㄆㄨ",
+          "ㄆㄨˋ"
+        ]
+      },
+      {
+        "sentence": "「匍」伏前進／灌溉花「圃」",
+        "target": "圃",
+        "correctZhuyin": "ㄆㄨˇ",
+        "zhuyinDistractors": [
+          "ㄆㄨˊ",
+          "ㄆㄨ",
+          "ㄈㄨˇ"
+        ]
+      },
+      {
+        "sentence": "滿目「瘡」痍／「愴」然涕下",
+        "target": "瘡",
+        "correctZhuyin": "ㄔㄨㄤ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄤˋ",
+          "ㄔㄤ",
+          "ㄘㄤ"
+        ]
+      },
+      {
+        "sentence": "滿目「瘡」痍／「愴」然涕下",
+        "target": "愴",
+        "correctZhuyin": "ㄔㄨㄤˋ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄤ",
+          "ㄓㄨㄤˋ",
+          "ㄔㄨㄤˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0034",
+    "type": "yinyin",
+    "examTag": "108-7",
+    "year": 108,
+    "isBu": false,
+    "session": null,
+    "qno": 7,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "春寒料「峭」",
+        "target": "峭",
+        "correctZhuyin": "ㄑㄧㄠˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄠ",
+          "ㄑㄧㄠˇ",
+          "ㄒㄧㄠˋ"
+        ]
+      },
+      {
+        "sentence": "「湛」藍天空",
+        "target": "湛",
+        "correctZhuyin": "ㄓㄢˋ",
+        "zhuyinDistractors": [
+          "ㄓㄢˊ",
+          "ㄔㄣˊ",
+          "ㄓㄢ"
+        ]
+      },
+      {
+        "sentence": "一掃陰「霾」",
+        "target": "霾",
+        "correctZhuyin": "ㄇㄞˊ",
+        "zhuyinDistractors": [
+          "ㄇㄞˋ",
+          "ㄌㄧˊ",
+          "ㄇㄟˊ"
+        ]
+      },
+      {
+        "sentence": "胼手「胝」足",
+        "target": "胝",
+        "correctZhuyin": "ㄓ",
+        "zhuyinDistractors": [
+          "ㄓˇ",
+          "ㄓˋ",
+          "ㄉㄧ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0035",
+    "type": "yinyin",
+    "examTag": "109-20",
+    "year": 109,
+    "isBu": false,
+    "session": null,
+    "qno": 20,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "他對朋友的要求總是「慨」然應允",
+        "target": "慨",
+        "correctZhuyin": "ㄎㄞˇ",
+        "zhuyinDistractors": [
+          "ㄎㄞˋ",
+          "ㄎㄞ",
+          "ㄍㄞˇ"
+        ]
+      },
+      {
+        "sentence": "「囿」於成見，他一直排斥這項工作",
+        "target": "囿",
+        "correctZhuyin": "ㄧㄡˋ",
+        "zhuyinDistractors": [
+          "ㄧㄡˊ",
+          "ㄩˋ",
+          "ㄨˋ"
+        ]
+      },
+      {
+        "sentence": "警方追捕多年的通「緝」犯，終於在今日落網",
+        "target": "緝",
+        "correctZhuyin": "ㄑㄧˋ",
+        "zhuyinDistractors": [
+          "ㄐㄧˊ",
+          "ㄑㄧ",
+          "ㄐㄧ"
+        ]
+      },
+      {
+        "sentence": "這家公司處理消費糾紛的過程粗「糙」，引起民眾反彈",
+        "target": "糙",
+        "correctZhuyin": "ㄘㄠ",
+        "zhuyinDistractors": [
+          "ㄗㄠˇ",
+          "ㄘㄠˇ",
+          "ㄘㄠˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0036",
+    "type": "yinyin",
+    "examTag": "109補-27",
+    "year": 109,
+    "isBu": true,
+    "session": null,
+    "qno": 27,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "對舞者精采的表演、「嫵」媚的姿態，觀眾都「撫」掌叫好",
+        "target": "嫵",
+        "correctZhuyin": "ㄨˇ",
+        "zhuyinDistractors": [
+          "ㄈㄨˇ",
+          "ㄨˊ",
+          "ㄨˋ"
+        ]
+      },
+      {
+        "sentence": "對舞者精采的表演、「嫵」媚的姿態，觀眾都「撫」掌叫好",
+        "target": "撫",
+        "correctZhuyin": "ㄈㄨˇ",
+        "zhuyinDistractors": [
+          "ㄨˇ",
+          "ㄈㄨˊ",
+          "ㄈㄨˋ"
+        ]
+      },
+      {
+        "sentence": "勤於公事、案「牘」勞形的他，竟然遭人指控貪汙「瀆」職",
+        "target": "牘",
+        "correctZhuyin": "ㄉㄨˊ",
+        "zhuyinDistractors": [
+          "ㄉㄨˋ",
+          "ㄉㄨ",
+          "ㄊㄨˊ"
+        ]
+      },
+      {
+        "sentence": "勤於公事、案「牘」勞形的他，竟然遭人指控貪汙「瀆」職",
+        "target": "瀆",
+        "correctZhuyin": "ㄉㄨˊ",
+        "zhuyinDistractors": [
+          "ㄉㄨˋ",
+          "ㄉㄨ",
+          "ㄕㄨˊ"
+        ]
+      },
+      {
+        "sentence": "災難現場滿目「瘡」痍，受難家屬仰望「蒼」天，悲慟難平",
+        "target": "瘡",
+        "correctZhuyin": "ㄔㄨㄤ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄤˋ",
+          "ㄔㄤ",
+          "ㄘㄤ"
+        ]
+      },
+      {
+        "sentence": "災難現場滿目「瘡」痍，受難家屬仰望「蒼」天，悲慟難平",
+        "target": "蒼",
+        "correctZhuyin": "ㄘㄤ",
+        "zhuyinDistractors": [
+          "ㄘㄤˊ",
+          "ㄔㄨㄤ",
+          "ㄗㄤ"
+        ]
+      },
+      {
+        "sentence": "彩券開獎後，中獎者滿臉笑「靨」，槓龜者卻是一場夢「魘」",
+        "target": "靨",
+        "correctZhuyin": "ㄧㄝˋ",
+        "zhuyinDistractors": [
+          "ㄧㄢˇ",
+          "ㄧㄝˊ",
+          "ㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "彩券開獎後，中獎者滿臉笑「靨」，槓龜者卻是一場夢「魘」",
+        "target": "魘",
+        "correctZhuyin": "ㄧㄢˇ",
+        "zhuyinDistractors": [
+          "ㄧㄝˋ",
+          "ㄧㄢˋ",
+          "ㄧㄢ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0037",
+    "type": "yinyin",
+    "examTag": "110-4",
+    "year": 110,
+    "isBu": false,
+    "session": null,
+    "qno": 4,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「恪」守本分／獨創一「格」",
+        "target": "恪",
+        "correctZhuyin": "ㄎㄜˋ",
+        "zhuyinDistractors": [
+          "ㄍㄜˊ",
+          "ㄎㄜˊ",
+          "ㄍㄜˋ"
+        ]
+      },
+      {
+        "sentence": "「恪」守本分／獨創一「格」",
+        "target": "格",
+        "correctZhuyin": "ㄍㄜˊ",
+        "zhuyinDistractors": [
+          "ㄎㄜˋ",
+          "ㄍㄜˋ",
+          "ㄍㄜ"
+        ]
+      },
+      {
+        "sentence": "「抵」死不從／蒞臨府「邸」",
+        "target": "抵",
+        "correctZhuyin": "ㄉㄧˇ",
+        "zhuyinDistractors": [
+          "ㄉㄧˋ",
+          "ㄉㄧˊ",
+          "ㄉㄧ"
+        ]
+      },
+      {
+        "sentence": "「抵」死不從／蒞臨府「邸」",
+        "target": "邸",
+        "correctZhuyin": "ㄉㄧˇ",
+        "zhuyinDistractors": [
+          "ㄉㄧˋ",
+          "ㄉㄧˊ",
+          "ㄉㄧ"
+        ]
+      },
+      {
+        "sentence": "字「斟」句酌／「勘」正訛誤",
+        "target": "斟",
+        "correctZhuyin": "ㄓㄣ",
+        "zhuyinDistractors": [
+          "ㄓㄣˇ",
+          "ㄓㄣˋ",
+          "ㄔㄣ"
+        ]
+      },
+      {
+        "sentence": "字「斟」句酌／「勘」正訛誤",
+        "target": "勘",
+        "correctZhuyin": "ㄎㄢ",
+        "zhuyinDistractors": [
+          "ㄎㄢˋ",
+          "ㄎㄢˇ",
+          "ㄍㄢ"
+        ]
+      },
+      {
+        "sentence": "鍾靈「毓」秀／才「疏」學淺",
+        "target": "毓",
+        "correctZhuyin": "ㄩˋ",
+        "zhuyinDistractors": [
+          "ㄩˊ",
+          "ㄩ",
+          "ㄧㄡˋ"
+        ]
+      },
+      {
+        "sentence": "鍾靈「毓」秀／才「疏」學淺",
+        "target": "疏",
+        "correctZhuyin": "ㄕㄨ",
+        "zhuyinDistractors": [
+          "ㄕㄨˋ",
+          "ㄕㄨˇ",
+          "ㄕㄨˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0038",
+    "type": "yinyin",
+    "examTag": "110補-4",
+    "year": 110,
+    "isBu": true,
+    "session": null,
+    "qno": 4,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「潰」不成軍／回「饋」鄉里",
+        "target": "潰",
+        "correctZhuyin": "ㄎㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˊ",
+          "ㄨㄟˋ",
+          "ㄍㄨㄟˋ"
+        ]
+      },
+      {
+        "sentence": "「潰」不成軍／回「饋」鄉里",
+        "target": "饋",
+        "correctZhuyin": "ㄎㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄎㄨㄟˊ",
+          "ㄍㄨㄟˋ",
+          "ㄎㄨㄟ"
+        ]
+      },
+      {
+        "sentence": "險要關「隘」／滿而不「溢」",
+        "target": "隘",
+        "correctZhuyin": "ㄞˋ",
+        "zhuyinDistractors": [
+          "ㄞˊ",
+          "ㄞˇ",
+          "ㄨㄞˋ"
+        ]
+      },
+      {
+        "sentence": "險要關「隘」／滿而不「溢」",
+        "target": "溢",
+        "correctZhuyin": "ㄧˋ",
+        "zhuyinDistractors": [
+          "ㄧˊ",
+          "ㄧˇ",
+          "ㄧㄝˋ"
+        ]
+      },
+      {
+        "sentence": "雀「屏」中選／「摒」除陋習",
+        "target": "屏",
+        "correctZhuyin": "ㄆㄧㄥˊ",
+        "zhuyinDistractors": [
+          "ㄅㄧㄥˇ",
+          "ㄅㄧㄥˋ",
+          "ㄆㄧㄥ"
+        ]
+      },
+      {
+        "sentence": "雀「屏」中選／「摒」除陋習",
+        "target": "摒",
+        "correctZhuyin": "ㄅㄧㄥˋ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄥˊ",
+          "ㄅㄧㄥˇ",
+          "ㄅㄧㄥ"
+        ]
+      },
+      {
+        "sentence": "「咀」嚼玩味／風雨無「阻」",
+        "target": "咀",
+        "correctZhuyin": "ㄐㄩˇ",
+        "zhuyinDistractors": [
+          "ㄗㄨˇ",
+          "ㄐㄩ",
+          "ㄑㄩˇ"
+        ]
+      },
+      {
+        "sentence": "「咀」嚼玩味／風雨無「阻」",
+        "target": "阻",
+        "correctZhuyin": "ㄗㄨˇ",
+        "zhuyinDistractors": [
+          "ㄐㄩˇ",
+          "ㄗㄨˋ",
+          "ㄗㄨ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0039",
+    "type": "yinyin",
+    "examTag": "111-12",
+    "year": 111,
+    "isBu": false,
+    "session": null,
+    "qno": 12,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "悲傷哽「咽」／食不下「咽」",
+        "target": "咽",
+        "correctZhuyin": "ㄧㄝˋ",
+        "zhuyinDistractors": [
+          "ㄧㄢ",
+          "ㄧㄢˋ",
+          "ㄧㄝˊ"
+        ]
+      },
+      {
+        "sentence": "悲傷哽「咽」／食不下「咽」",
+        "target": "咽",
+        "correctZhuyin": "ㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄧㄝˋ",
+          "ㄧㄢˋ",
+          "ㄧㄢˊ"
+        ]
+      },
+      {
+        "sentence": "悶不「吭」聲／引「吭」高歌",
+        "target": "吭",
+        "correctZhuyin": "ㄎㄥ",
+        "zhuyinDistractors": [
+          "ㄏㄤˊ",
+          "ㄎㄥˋ",
+          "ㄎㄥˊ"
+        ]
+      },
+      {
+        "sentence": "悶不「吭」聲／引「吭」高歌",
+        "target": "吭",
+        "correctZhuyin": "ㄏㄤˊ",
+        "zhuyinDistractors": [
+          "ㄎㄥ",
+          "ㄏㄤˋ",
+          "ㄏㄤ"
+        ]
+      },
+      {
+        "sentence": "語帶「禪」機／「禪」讓政治",
+        "target": "禪",
+        "correctZhuyin": "ㄔㄢˊ",
+        "zhuyinDistractors": [
+          "ㄕㄢˋ",
+          "ㄔㄢˋ",
+          "ㄔㄢ"
+        ]
+      },
+      {
+        "sentence": "語帶「禪」機／「禪」讓政治",
+        "target": "禪",
+        "correctZhuyin": "ㄕㄢˋ",
+        "zhuyinDistractors": [
+          "ㄔㄢˊ",
+          "ㄕㄢˊ",
+          "ㄕㄢ"
+        ]
+      },
+      {
+        "sentence": "「撒」謊成習／恃寵「撒」嬌",
+        "target": "撒",
+        "correctZhuyin": "ㄙㄚ",
+        "zhuyinDistractors": [
+          "ㄙㄚˇ",
+          "ㄙㄚˋ",
+          "ㄕㄚ"
+        ]
+      },
+      {
+        "sentence": "「撒」謊成習／恃寵「撒」嬌",
+        "target": "撒",
+        "correctZhuyin": "ㄙㄚ",
+        "zhuyinDistractors": [
+          "ㄙㄚˇ",
+          "ㄙㄚˋ",
+          "ㄙㄢ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0040",
+    "type": "yinyin",
+    "examTag": "111補-1",
+    "year": 111,
+    "isBu": true,
+    "session": null,
+    "qno": 1,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "莫札特的音樂膾「炙」人口，流傳久遠",
+        "target": "炙",
+        "correctZhuyin": "ㄓˋ",
+        "zhuyinDistractors": [
+          "ㄓˊ",
+          "ㄓ",
+          "ㄔˋ"
+        ]
+      },
+      {
+        "sentence": "膽小的他，想到要去鬼屋探險，便頸縮股「慄」",
+        "target": "慄",
+        "correctZhuyin": "ㄌㄧˋ",
+        "zhuyinDistractors": [
+          "ㄌㄧˇ",
+          "ㄌㄧˊ",
+          "ㄌㄟˋ"
+        ]
+      },
+      {
+        "sentence": "倉「猝」之間，設想不周，難免做了錯誤的決定",
+        "target": "猝",
+        "correctZhuyin": "ㄘㄨˋ",
+        "zhuyinDistractors": [
+          "ㄗㄨˊ",
+          "ㄘㄨˊ",
+          "ㄘㄨ"
+        ]
+      },
+      {
+        "sentence": "臺灣東部「瀕」臨太平洋，搭船出遊可望看到鯨豚",
+        "target": "瀕",
+        "correctZhuyin": "ㄅㄧㄣ",
+        "zhuyinDistractors": [
+          "ㄆㄧㄣˊ",
+          "ㄅㄧㄣˋ",
+          "ㄅㄧㄣˊ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0041",
+    "type": "yinyin",
+    "examTag": "112-5",
+    "year": 112,
+    "isBu": false,
+    "session": null,
+    "qno": 5,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「迄」今未成／「屹」立不搖",
+        "target": "迄",
+        "correctZhuyin": "ㄑㄧˋ",
+        "zhuyinDistractors": [
+          "ㄧˋ",
+          "ㄑㄧˊ",
+          "ㄑㄧ"
+        ]
+      },
+      {
+        "sentence": "「迄」今未成／「屹」立不搖",
+        "target": "屹",
+        "correctZhuyin": "ㄧˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧˋ",
+          "ㄧˊ",
+          "ㄧˇ"
+        ]
+      },
+      {
+        "sentence": "金鑲玉「嵌」／命運「坎」坷",
+        "target": "嵌",
+        "correctZhuyin": "ㄑㄧㄢ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢˋ",
+          "ㄎㄢˋ",
+          "ㄎㄢˇ"
+        ]
+      },
+      {
+        "sentence": "金鑲玉「嵌」／命運「坎」坷",
+        "target": "坎",
+        "correctZhuyin": "ㄎㄢˇ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄢ",
+          "ㄎㄢˋ",
+          "ㄎㄢ"
+        ]
+      },
+      {
+        "sentence": "寂「寥」冷清／「謬」誤百出",
+        "target": "寥",
+        "correctZhuyin": "ㄌㄧㄠˊ",
+        "zhuyinDistractors": [
+          "ㄇㄧㄡˋ",
+          "ㄌㄧㄠˇ",
+          "ㄌㄧㄠˋ"
+        ]
+      },
+      {
+        "sentence": "寂「寥」冷清／「謬」誤百出",
+        "target": "謬",
+        "correctZhuyin": "ㄇㄧㄡˋ",
+        "zhuyinDistractors": [
+          "ㄌㄧㄠˊ",
+          "ㄇㄧㄡˊ",
+          "ㄇㄧㄡˇ"
+        ]
+      },
+      {
+        "sentence": "千叮萬「囑」／引人「矚」目",
+        "target": "囑",
+        "correctZhuyin": "ㄓㄨˇ",
+        "zhuyinDistractors": [
+          "ㄓㄨˋ",
+          "ㄓㄨ",
+          "ㄓㄨˊ"
+        ]
+      },
+      {
+        "sentence": "千叮萬「囑」／引人「矚」目",
+        "target": "矚",
+        "correctZhuyin": "ㄓㄨˇ",
+        "zhuyinDistractors": [
+          "ㄓㄨˋ",
+          "ㄓㄨˊ",
+          "ㄓㄨ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0042",
+    "type": "yinyin",
+    "examTag": "112補-4",
+    "year": 112,
+    "isBu": true,
+    "session": null,
+    "qno": 4,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "師恩浩蕩，刻「鏤」在學子的心頭",
+        "target": "鏤",
+        "correctZhuyin": "ㄌㄡˋ",
+        "zhuyinDistractors": [
+          "ㄌㄡˊ",
+          "ㄌㄡˇ",
+          "ㄌㄨˋ"
+        ]
+      },
+      {
+        "sentence": "他不小心受傷，痛得齜牙「咧」嘴",
+        "target": "咧",
+        "correctZhuyin": "ㄌㄧㄝˇ",
+        "zhuyinDistractors": [
+          "ㄌㄝˇ",
+          "ㄌㄧㄝˋ",
+          "ㄌㄧㄝ"
+        ]
+      },
+      {
+        "sentence": "努力多時，他「祈」望能考上理想的學校",
+        "target": "祈",
+        "correctZhuyin": "ㄑㄧˊ",
+        "zhuyinDistractors": [
+          "ㄑㄧˇ",
+          "ㄑㄧˋ",
+          "ㄐㄧˊ"
+        ]
+      },
+      {
+        "sentence": "這座國家公園裡群山「峙」立，是知名的勝景",
+        "target": "峙",
+        "correctZhuyin": "ㄓˋ",
+        "zhuyinDistractors": [
+          "ㄕˋ",
+          "ㄓˊ",
+          "ㄔˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0043",
+    "type": "yinyin",
+    "examTag": "113-8",
+    "year": 113,
+    "isBu": false,
+    "session": null,
+    "qno": 8,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "在賣場集滿點數就可「兌」換商品",
+        "target": "兌",
+        "correctZhuyin": "ㄉㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄉㄨㄟˊ",
+          "ㄉㄨㄟˇ",
+          "ㄊㄨㄟˋ"
+        ]
+      },
+      {
+        "sentence": "一望無「垠」的海面上漂流著幾艘小船",
+        "target": "垠",
+        "correctZhuyin": "ㄧㄣˊ",
+        "zhuyinDistractors": [
+          "ㄧㄣˋ",
+          "ㄧㄣˇ",
+          "ㄍㄣˊ"
+        ]
+      },
+      {
+        "sentence": "這場音樂會的門票開賣不久就售「罄」",
+        "target": "罄",
+        "correctZhuyin": "ㄑㄧㄥˋ",
+        "zhuyinDistractors": [
+          "ㄑㄧㄥˊ",
+          "ㄑㄧㄥ",
+          "ㄐㄧㄥˋ"
+        ]
+      },
+      {
+        "sentence": "櫃檯上的花瓶插了一束紫色的「桔」梗花",
+        "target": "桔",
+        "correctZhuyin": "ㄐㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄩˊ",
+          "ㄐㄧㄝˇ",
+          "ㄐㄧㄝˋ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0044",
+    "type": "yinyin",
+    "examTag": "114-14",
+    "year": 114,
+    "isBu": false,
+    "session": null,
+    "qno": 14,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "有些玩笑話沒拿捏好分寸，就可能變成「揶」揄",
+        "target": "揶",
+        "correctZhuyin": "ㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄧㄝˇ",
+          "ㄧㄝˋ",
+          "ㄩˊ"
+        ]
+      },
+      {
+        "sentence": "這家賣場備有各種「晾」晒工具，提供消費者選購",
+        "target": "晾",
+        "correctZhuyin": "ㄌㄧㄤˋ",
+        "zhuyinDistractors": [
+          "ㄌㄧㄤˊ",
+          "ㄌㄧㄤˇ",
+          "ㄌㄤˋ"
+        ]
+      },
+      {
+        "sentence": "這齣音樂劇結合不同族群的元素，打破文化的「藩」籬",
+        "target": "藩",
+        "correctZhuyin": "ㄈㄢˊ",
+        "zhuyinDistractors": [
+          "ㄈㄢ",
+          "ㄈㄢˋ",
+          "ㄆㄢˊ"
+        ]
+      },
+      {
+        "sentence": "原以為勝券在握，卻因一時疏忽，竟從雲端「栽」了下來",
+        "target": "栽",
+        "correctZhuyin": "ㄗㄞ",
+        "zhuyinDistractors": [
+          "ㄗㄞˇ",
+          "ㄗㄞˋ",
+          "ㄘㄞ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xy0045",
+    "type": "yinyin",
+    "examTag": "115-7",
+    "year": 115,
+    "isBu": false,
+    "session": null,
+    "qno": 7,
+    "level": "會考",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "海嘯過後，小鎮滿目「瘡」痍",
+        "target": "瘡",
+        "correctZhuyin": "ㄔㄨㄤ",
+        "zhuyinDistractors": [
+          "ㄔㄨㄤˋ",
+          "ㄔㄤ",
+          "ㄘㄤ"
+        ]
+      },
+      {
+        "sentence": "此事部長的心意已決，不容他人置「喙」",
+        "target": "喙",
+        "correctZhuyin": "ㄏㄨㄟˋ",
+        "zhuyinDistractors": [
+          "ㄏㄨㄟˇ",
+          "ㄏㄨㄟˊ",
+          "ㄗㄨㄟˋ"
+        ]
+      },
+      {
+        "sentence": "電影首映會當晚，導演「偕」同主要演員一起出席",
+        "target": "偕",
+        "correctZhuyin": "ㄒㄧㄝˊ",
+        "zhuyinDistractors": [
+          "ㄐㄧㄝˊ",
+          "ㄒㄧㄝˇ",
+          "ㄒㄧㄝˋ"
+        ]
+      },
+      {
+        "sentence": "這兩者「孰」輕孰重，你要考慮清楚，以免將來後悔",
+        "target": "孰",
+        "correctZhuyin": "ㄕㄨˊ",
+        "zhuyinDistractors": [
+          "ㄕㄨˇ",
+          "ㄕㄨˋ",
+          "ㄕㄨ"
+        ]
+      }
+    ]
+  }
+]

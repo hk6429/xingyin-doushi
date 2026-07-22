@@ -1,0 +1,2923 @@
+[
+  {
+    "tag": "90-1-13",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "並駕齊驅",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因循殆惰",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "怠"
+        ]
+      },
+      {
+        "sentence": "水乳交溶",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "融"
+        ]
+      },
+      {
+        "sentence": "天崩地烈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "裂"
+        ]
+      }
+    ],
+    "sourceRows": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "tag": "90-1-26",
+    "level_hint": null,
+    "groupMode": "labeled",
+    "parts": [
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "磋",
+        "correct": "磋",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "嗟",
+        "correct": "搓",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "蹉",
+        "correct": "嗟",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+        "mode": "char",
+        "target": "搓",
+        "correct": "蹉",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      4
+    ]
+  },
+  {
+    "tag": "90-2-1",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "神態和「靄」",
+        "mode": "char",
+        "target": "靄",
+        "correct": "藹",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "暮「藹」沉沉",
+        "mode": "char",
+        "target": "藹",
+        "correct": "靄",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「偈」見長官",
+        "mode": "char",
+        "target": "偈",
+        "correct": "謁",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "筋疲力「竭」",
+        "mode": "char",
+        "target": "竭",
+        "correct": "竭",
+        "isCorrectAsIs": true
+      }
+    ],
+    "sourceRows": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "tag": "90-2-9",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "等到日上三竿，市聲頂沸時，我再也沒有散步的閒情逸志了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "鼎",
+          "逸",
+          "致"
+        ]
+      },
+      {
+        "sentence": "暴風雨來襲，雷電交加，氣勢萬鈞的威力，使眾生為之震懾",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "童年所經歷的鎖事雖然細碎，卻深深地影嚮著我們的個性",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "瑣",
+          "響"
+        ]
+      },
+      {
+        "sentence": "歲月摧人啊！曾幾何時，我驕憨的小女兒已經婷婷玉立了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "嬌"
+        ]
+      }
+    ],
+    "sourceRows": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "tag": "90-2-30",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+        "mode": "char",
+        "target": "烈",
+        "correct": "烈",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+        "mode": "char",
+        "target": "裂",
+        "correct": "裂",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+        "mode": "char",
+        "target": "梢",
+        "correct": "稍",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+        "mode": "char",
+        "target": "稍",
+        "correct": "梢",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+        "mode": "char",
+        "target": "期",
+        "correct": "期",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+        "mode": "char",
+        "target": "棋",
+        "correct": "旗",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+        "mode": "char",
+        "target": "決",
+        "correct": "決",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+        "mode": "char",
+        "target": "絕",
+        "correct": "訣",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "tag": "91-1-2",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "凡事箭及履及，即知即行，才易成功",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "劍"
+        ]
+      },
+      {
+        "sentence": "做任何事，均應堅持到底，貫徹始終",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "一個人若沒有智慧，又如何明辦是非",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "辨"
+        ]
+      },
+      {
+        "sentence": "不要怕困難，那是生命中最好的粹鍊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "淬"
+        ]
+      }
+    ],
+    "sourceRows": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "tag": "91-1-28",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "早晨，我容光□發的上學去。在路上遇到一位老人，精神□散的跌坐路旁，我立刻上前攙扶。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "煥",
+          "渙"
+        ]
+      }
+    ],
+    "sourceRows": [
+      21
+    ]
+  },
+  {
+    "tag": "91-2-32",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "誘人的美食廣告，總是讓人味口大開",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "胃"
+        ]
+      },
+      {
+        "sentence": "一張名信片，捎來了遠方友人的問候",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "明"
+        ]
+      },
+      {
+        "sentence": "由於同學們的群策群力，我們終於打嬴了這場球賽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "贏"
+        ]
+      },
+      {
+        "sentence": "逢年過節時，機場大廳內常擠滿了候補機位的人潮",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "tag": "92-1-10",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "年輕人奮發向上，才能成為國家的中流柢柱",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "砥"
+        ]
+      },
+      {
+        "sentence": "多虧楊法醫明查秋毫，才能將兇手蠅之以法",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "察",
+          "繩"
+        ]
+      },
+      {
+        "sentence": "阿海玩日偈歲，偷機取巧，視讀書為苦差事",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愒",
+          "（投）"
+        ]
+      },
+      {
+        "sentence": "飢腸轆轆的老虎躲在樹叢中，伺機攫人而食",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "tag": "92-2-29",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "多年後再見面，他已經是白髮倉倉的老人，令我有蒼海桑田、蒼狗白雲之感",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "白髮「蒼蒼」\n「滄」海桑田"
+        ]
+      },
+      {
+        "sentence": "在這個人芸亦芸的年代，想在云云眾生中尋找一名有自己見解的人並不容易",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人「云」亦「云」\n「芸芸」眾生"
+        ]
+      },
+      {
+        "sentence": "放假不一定要出國，到發人思古悠情的名勝古蹟走走，也能過個幽閒的假期",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "思古「幽」情\n「悠」閒"
+        ]
+      },
+      {
+        "sentence": "我能證明，這樣做會對他造成揠苗助長的結果，你們就偃旗息鼓，別再爭了",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "tag": "92-2-36",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "賽亞溪溪流中河道迂積，廢水大量排放",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "淤"
+        ]
+      },
+      {
+        "sentence": "賽亞石可以促進血液循環，達到身體健康的目的",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "賽亞國的珍貴稀有礦物，本來應該立法保存並指定保護",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "旅館、浴室、廚餘廢水及建築廢棄物等皆任意排放、丟棄於賽亞溪中",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "tag": "93-1-18",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "本班同學的卡片設計非常有創意，令人嘆為觀止",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "今年高考，哥哥終於金榜提名，我們都為他感到高興",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "金榜「題」名"
+        ]
+      },
+      {
+        "sentence": "企鵝的超人氣招來了大批遊客，使得動物園市聲頂沸、熱鬧非凡",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "市聲「鼎」沸"
+        ]
+      },
+      {
+        "sentence": "許多家長安排孩子上才藝班，讓孩子不得休息，實在是偃苗助長",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「揠」苗助長"
+        ]
+      }
+    ],
+    "sourceRows": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "tag": "93-1-21",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "道明寺：杉菜，為了成為配得上你的男人，我一定會憤發圖強，請相信我。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "奮"
+        ]
+      },
+      {
+        "sentence": "飛龍：劍英，你可知道這些年來，令我心醉神迷、魂遷夢縈的人只有妳！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "牽"
+        ]
+      },
+      {
+        "sentence": "恩熙：俊熙，雖然我們相愛的時光短暫如曇花一現，你在我心中永遠不可抹滅。",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "紫薇：爾康，『此情無記可消除，才下眉頭，卻上心頭』，此刻的我，無止境地想你……",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "計"
+        ]
+      }
+    ],
+    "sourceRows": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "93-2-10",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "這部電影拍得很美，實在引人「蕸」思",
+        "mode": "char",
+        "target": "蕸",
+        "correct": "遐",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "癩「蝦」蟆想吃天鵝肉，太自不量力了",
+        "mode": "char",
+        "target": "蝦",
+        "correct": "蝦",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "公餘之「暇」，她總是到孤兒院做義工",
+        "mode": "char",
+        "target": "暇",
+        "correct": "暇",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "這件事的處理方式似乎稍有「瑕」疵",
+        "mode": "char",
+        "target": "瑕",
+        "correct": "瑕",
+        "isCorrectAsIs": true
+      }
+    ],
+    "sourceRows": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "tag": "93-2-35",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "上司：這本契劃案是你寫的嗎？員工：不錯！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「企」劃案"
+        ]
+      },
+      {
+        "sentence": "上司：工作態度太草率了！員工：我是不拘小節！",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "上司：動作這麼慢，還說不拘小節？員工：那是辨事澈底！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「辦」事"
+        ]
+      },
+      {
+        "sentence": "上司：不認錯，太頑故！員工：此乃艱決！",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "頑「固」",
+          "「堅」決"
+        ]
+      }
+    ],
+    "sourceRows": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "tag": "94-1-1",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "清「徹」見底",
+        "mode": "char",
+        "target": "徹",
+        "correct": "澈",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "重蹈覆「轍」",
+        "mode": "char",
+        "target": "轍",
+        "correct": "轍",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "貫「撤」始終",
+        "mode": "char",
+        "target": "撤",
+        "correct": "徹",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "大軍「澈」退",
+        "mode": "char",
+        "target": "澈",
+        "correct": "撤",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "tag": "94-1-28",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "要有偉大的成就，先要有遠大的報負",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「抱」負"
+        ]
+      },
+      {
+        "sentence": "唯有建設性的見議，才是具體可行的",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「建」議"
+        ]
+      },
+      {
+        "sentence": "若是一昧要求完美，反而會勢得其反",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「味」\n「適」得其反"
+        ]
+      },
+      {
+        "sentence": "新建的大樓通常裝潢華麗，設備新穎",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "tag": "94-2-4",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "中風為人類第二大死因，網路傳言，若有人中風，可用針刺激犯者的手指或耳垂",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「患」者"
+        ]
+      },
+      {
+        "sentence": "這倒底是謠言，還是確有醫學根據？中風的第一時間，倒底如何才能自救救人呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「到」底"
+        ]
+      },
+      {
+        "sentence": "臺灣約有十萬名中風病人，卻只有少部分人能康復。其時，中風只是生命的逗點",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "其「實」"
+        ]
+      },
+      {
+        "sentence": "如果不幸中風，生理和心理的復健一樣的重要，只要有信心，重新站立並非難事",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "tag": "94-2-32",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "明知問題盤根錯結，難以解決，我們何必去淌這渾水",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "盤根錯「節」\n「蹚」渾水"
+        ]
+      },
+      {
+        "sentence": "聰明的他整日無所是事，渾渾厄厄的過日子，真令人惋惜",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "無所「事」事\n渾渾「噩噩」"
+        ]
+      },
+      {
+        "sentence": "我不只是局外人，而且壓根兒搞不懂狀況，這事豈容我置喙",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "人難免有肓點，因此一起討論，彼此指正，將可收集思廣義之效",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「盲」點\n集思廣「益」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "tag": "95-1-28",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "金聖嘆因醉入獄，兒子前往探堅，涕泣不己。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "罪",
+          "監",
+          "已"
+        ]
+      },
+      {
+        "sentence": "金聖嘆賦詩說：蓮子心中苦，梨兒腹內酸，表達了他憐子離兒之痛，悲創之情表漏無疑。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愴",
+          "露"
+        ]
+      },
+      {
+        "sentence": "他被處決時，正值大地雪融冰消之際。",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "他翹首雲天，觸景生情之餘，又作詩自吊……。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弔"
+        ]
+      }
+    ],
+    "sourceRows": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "95-1-29",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "小明個性衝動，容易受人挑撥離間，把場面弄得劍拔弩張。出國留學前，好友們為他踐行，並且同聲勸諫他，凡事應三思而後行。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「餞」行"
+        ]
+      }
+    ],
+    "sourceRows": [
+      74
+    ]
+  },
+  {
+    "tag": "95-2-7",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "穿流不息",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "川"
+        ]
+      },
+      {
+        "sentence": "去無存菁",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "蕪"
+        ]
+      },
+      {
+        "sentence": "幽然神往",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "悠"
+        ]
+      },
+      {
+        "sentence": "豁然開朗",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "tag": "95-2-24",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "農夫在田裡插秧，忙到汗流夾背也不休息",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "汗流「浹」背"
+        ]
+      },
+      {
+        "sentence": "這道數學題實在太難了，老師也一籌莫展",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "本學期的模範生選舉，正如火如茶地展開",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "如火如「荼」"
+        ]
+      },
+      {
+        "sentence": "他對什麼事都寞不關心，簡直是麻木不仁",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「漠」不關心"
+        ]
+      }
+    ],
+    "sourceRows": [
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "tag": "96-1-32",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我們班長IQ和身高一樣高，每次考試成積總是名列前茅",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "成「績」"
+        ]
+      },
+      {
+        "sentence": "學藝股長才華洋溢，文章經常上報，可是大名頂頂的人物呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "大名「鼎鼎」"
+        ]
+      },
+      {
+        "sentence": "康樂股長是萬人迷，總喜歡在眾目睽睽下搔首弄姿，引人注目",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "我們班人才擠擠，表現傑出，真可說是哄動武林，驚動萬教呢",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人才「濟濟」\n「轟」動武林"
+        ]
+      }
+    ],
+    "sourceRows": [
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "tag": "96-1-33",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+        "mode": "reading",
+        "target": "ㄎㄜ",
+        "correct": "顆",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+        "mode": "reading",
+        "target": "ㄎㄜ",
+        "correct": "棵",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "圖",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "途",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+        "mode": "reading",
+        "target": "ㄉㄢˋ",
+        "correct": "誕",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+        "mode": "reading",
+        "target": "ㄉㄢˋ",
+        "correct": "誕",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+        "mode": "reading",
+        "target": "ㄔㄥˊ",
+        "correct": "承",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+        "mode": "reading",
+        "target": "ㄔㄥˊ",
+        "correct": "乘",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "tag": "96-2-28",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "人類最善長玩文字遊戲，像檳榔西施，其時指的是賣檳榔的小姐",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "擅",
+          "實"
+        ]
+      },
+      {
+        "sentence": "而歌星和歌手這二個詞語如何區別，也有待推敲",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "許多人追求功利現實，笑貪不笑娼的心態，使臺灣形成了一種令類的文化價值",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "貧",
+          "另"
+        ]
+      },
+      {
+        "sentence": "這種情形令人憂心沖沖，故心靈改革實為當務之急",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "忡忡"
+        ]
+      }
+    ],
+    "sourceRows": [
+      91,
+      92,
+      93,
+      94
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "96-2-34",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "摒棄陳腔、自出機杼的詩句才能撼動人心",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "將小孩視為天之嬌子般去寵愛，並非好事",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "天之「驕」子"
+        ]
+      },
+      {
+        "sentence": "即使環境險惡，他仍排除萬難，力爭上遊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "力爭上「游」"
+        ]
+      },
+      {
+        "sentence": "自成年後，他便自利更生，不再依靠父母",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "自「力」更生"
+        ]
+      }
+    ],
+    "sourceRows": [
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "tag": "97-1-18",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「悵」然若失／「帳」目管理",
+        "mode": "char",
+        "target": "悵",
+        "correct": "悵",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "「悵」然若失／「帳」目管理",
+        "mode": "char",
+        "target": "帳",
+        "correct": "帳",
+        "isCorrectAsIs": true
+      },
+      {
+        "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+        "mode": "char",
+        "target": "祟",
+        "correct": "崇",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+        "mode": "char",
+        "target": "崇崇",
+        "correct": "祟",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「既」時努力／「即」往不咎",
+        "mode": "char",
+        "target": "既",
+        "correct": "及",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「既」時努力／「即」往不咎",
+        "mode": "char",
+        "target": "即",
+        "correct": "既",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+        "mode": "char",
+        "target": "拼",
+        "correct": "拚",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+        "mode": "char",
+        "target": "拚",
+        "correct": "拼",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      99,
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "tag": "97-1-29",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我對數學一翹不通，面對數學考卷時，總是六神無主、手足無措",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「竅」不通"
+        ]
+      },
+      {
+        "sentence": "為爭睹巨星丰采，影展會場前的紅地毯旁，觀者如睹，盛況空前",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "觀者如「堵」"
+        ]
+      },
+      {
+        "sentence": "知名藝人酒駕肇事逃逸的新聞引發軒然大波，影歌迷們議論紛紛",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "他意想天開把頭放在影印機上，想把印出來的作品當成美術作業",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「異」想天開"
+        ]
+      }
+    ],
+    "sourceRows": [
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "tag": "97-2-8",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "長夜慢慢，獨坐帳曼中，止不住的感傷寂寞向四處蔓延",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "漫漫",
+          "幔"
+        ]
+      },
+      {
+        "sentence": "元宵節到處張燈結綵，人們興高采烈欣賞著五彩繽紛的花燈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "從鼎沸的市集走入清幽的佛寺，殿前花香彿面，倍覺神清氣爽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "拂"
+        ]
+      },
+      {
+        "sentence": "他千里迢迢去美國觀磨大衛的魔術表演，認真學習，好摩練技術",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "摩",
+          "磨"
+        ]
+      }
+    ],
+    "sourceRows": [
+      107,
+      108,
+      109,
+      110
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "98-1-27",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "生活就像一出戲，不管你是主角抑或是配角，都該盡力演出",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「齣」戲"
+        ]
+      },
+      {
+        "sentence": "各聲部的音韻合諧，音質純淨，是這個合唱團最成功的地方",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「和」諧"
+        ]
+      },
+      {
+        "sentence": "能以寬廣的胸襟，包容歧異思想的衝突，是基本的民主素養",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因為每個人的關點不同，所以容忍與尊重是處世必要的修養",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「觀」點"
+        ]
+      }
+    ],
+    "sourceRows": [
+      111,
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "tag": "98-1-28",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "風靡全球的米雅音樂劇，今晚即將登臺首演。從下午起，數百樂迷在場外大排長龍等候入場，期待難得的音樂響宴。該音樂劇由二十多首某合唱團的精典名曲組成，這些三十年前曾經燴炙人口的節奏，今晚將再度重現在國人面前。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "饗",
+          "經",
+          "膾"
+        ]
+      }
+    ],
+    "sourceRows": [
+      115
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "98-2-26",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "有些人大氣晚成，所以不能已小時候的表現論斷一個人的終身",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "器",
+          "以"
+        ]
+      },
+      {
+        "sentence": "各縣市政府所辦的跨年夜晚會，人潮洶湧，處處擠得水瀉不通",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "洩（泄）"
+        ]
+      },
+      {
+        "sentence": "這對年輕夫婦白手起家，胼手胝足，終於打造了一個幸福家園",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "你真不懂禮貌，請教老師問題，怎麼能用不齒下問這個詞",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "恥"
+        ]
+      }
+    ],
+    "sourceRows": [
+      116,
+      117,
+      118,
+      119
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "99-1-24",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+        "mode": "reading",
+        "target": "ㄩˊ",
+        "correct": "虞",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+        "mode": "reading",
+        "target": "ㄩˊ",
+        "correct": "餘",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+        "mode": "reading",
+        "target": "ㄍㄨㄟ",
+        "correct": "規",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+        "mode": "reading",
+        "target": "ㄍㄨㄟ",
+        "correct": "規",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+        "mode": "reading",
+        "target": "ㄎㄨㄤ",
+        "correct": "眶",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+        "mode": "reading",
+        "target": "ㄎㄨㄤ",
+        "correct": "筐",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄛˋ",
+        "correct": "擴",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄛˋ",
+        "correct": "闊",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      120,
+      121,
+      122,
+      123
+    ]
+  },
+  {
+    "tag": "99-1-25",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "秋風吹來，小徑鋪滿落葉，集目眺望，仍不見路的盡頭",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「極」目眺望"
+        ]
+      },
+      {
+        "sentence": "籠冬時，大雪覆蓋大地，人聲鳥聲俱絕，一片寂寥寧靜",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「隆」冬"
+        ]
+      },
+      {
+        "sentence": "夜間，從山頂俯瞰市區，縱橫交錯的萬家燈火燦爛耀眼",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "這間套房的設計可真是將心獨具，配色大膽、風格前衛",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「匠」心獨具"
+        ]
+      }
+    ],
+    "sourceRows": [
+      124,
+      125,
+      126,
+      127
+    ]
+  },
+  {
+    "tag": "99-2-17",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+        "mode": "reading",
+        "target": "ㄒㄧㄝˊ",
+        "correct": "諧",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+        "mode": "reading",
+        "target": "ㄒㄧㄝˊ",
+        "correct": "協",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+        "mode": "reading",
+        "target": "ㄓㄢˋ",
+        "correct": "湛",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+        "mode": "reading",
+        "target": "ㄓㄢˋ",
+        "correct": "湛",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+        "mode": "reading",
+        "target": "ㄐㄧㄡˋ",
+        "correct": "究",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+        "mode": "reading",
+        "target": "ㄐㄧㄡˋ",
+        "correct": "咎",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+        "mode": "reading",
+        "target": "ㄉㄧˇ",
+        "correct": "砥",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+        "mode": "reading",
+        "target": "ㄉㄧˇ",
+        "correct": "抵",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "tag": "100-1-1",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "盜版光喋猖獗，嚴重侵害智慧財產權",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "碟"
+        ]
+      },
+      {
+        "sentence": "股票漲碟是家常便飯，不必終日掛慮",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "跌"
+        ]
+      },
+      {
+        "sentence": "他牒牒不休的暢談，聽者卻心不在焉",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "喋喋"
+        ]
+      },
+      {
+        "sentence": "商業間諜無孔不入，企業界人人自危",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      132,
+      133,
+      134,
+      135
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "100-1-25",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "我努力負出，成績卻慘不忍睹，真另人沮喪",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「付」出\n「令」人沮喪"
+        ]
+      },
+      {
+        "sentence": "僅管考前我再三溫習，卻還是考不及格，真倒楣",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「儘」管"
+        ]
+      },
+      {
+        "sentence": "雖然這次考差了，我仍然會以勤補拙，堅持不懈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "我因該要發憤圖強，畢竟過了暑假，我就升上國三了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「應」該"
+        ]
+      }
+    ],
+    "sourceRows": [
+      136,
+      137,
+      138,
+      139
+    ]
+  },
+  {
+    "tag": "100-北北基-17",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "野人現曝",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "獻"
+        ]
+      },
+      {
+        "sentence": "銀貨兩訖",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "負岌求學",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "笈"
+        ]
+      },
+      {
+        "sentence": "詞不答意",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "達"
+        ]
+      }
+    ],
+    "sourceRows": [
+      140,
+      141,
+      142,
+      143
+    ]
+  },
+  {
+    "tag": "100-北北基-28",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "一陣暈旋之後，地震已造成了巨大傷害",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "暈「眩」"
+        ]
+      },
+      {
+        "sentence": "目睹災後慘狀，善心人士紛紛解囊抒困",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「紓」困"
+        ]
+      },
+      {
+        "sentence": "賑災計畫經費的編列過於浮爛，遭人詬病",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "浮「濫」"
+        ]
+      },
+      {
+        "sentence": "天災無法避免，但人謀不藏的禍害應該杜絕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "人謀不「臧」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      144,
+      145,
+      146,
+      147
+    ]
+  },
+  {
+    "tag": "100-2-23",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+        "mode": "reading",
+        "target": "ㄒㄧ",
+        "correct": "蟋",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+        "mode": "reading",
+        "target": "ㄒㄧ",
+        "correct": "蜥",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+        "mode": "reading",
+        "target": "ㄗㄞˋ",
+        "correct": "載",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+        "mode": "reading",
+        "target": "ㄗㄞˋ",
+        "correct": "載",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+        "mode": "reading",
+        "target": "ㄋㄨㄥˊ",
+        "correct": "膿",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+        "mode": "reading",
+        "target": "ㄋㄨㄥˊ",
+        "correct": "濃",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "匱",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "潰",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "tag": "100-2-34",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "宿夜匪懈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "夙"
+        ]
+      },
+      {
+        "sentence": "濫芋充數",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "竽"
+        ]
+      },
+      {
+        "sentence": "徇私舞弊",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "眾志成誠",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "城"
+        ]
+      }
+    ],
+    "sourceRows": [
+      152,
+      153,
+      154,
+      155
+    ]
+  },
+  {
+    "tag": "101-5",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "地震發生時，突然感到一陣劇烈搖晃，一幢幢房屋隨之倒塌",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "漫步於輕翠的山谷間，好風拂面，溪水潺潺，真是至樂享受",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「青」翠"
+        ]
+      },
+      {
+        "sentence": "莊維在寧謐的咖啡廳裡高聲笑鬧，囂張的行徑引起旁人惻目",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「側」目"
+        ]
+      },
+      {
+        "sentence": "賈樂玩世不躬、遊戲人間的生活態度，令他的父親憂心忡忡",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "玩世不「恭」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      156,
+      157,
+      158,
+      159
+    ]
+  },
+  {
+    "tag": "101-33",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "今天放學後，胖虎說他最崇拜歌神張學友高吭的歌聲。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "亢"
+        ]
+      },
+      {
+        "sentence": "胖虎說完，立刻放聲高歌，手舞足到地表演起來。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "蹈"
+        ]
+      },
+      {
+        "sentence": "在一旁的大雄受不了胖虎荒腔走版的歌聲，",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "板"
+        ]
+      },
+      {
+        "sentence": "摀起耳朵，直呼：你真是玷汙了歌神的名號！",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      160,
+      161,
+      162,
+      163
+    ],
+    "fallback": true
+  },
+  {
+    "tag": "102-25",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "忍辱負眾→眾志成城",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "忍辱負「重」"
+        ]
+      },
+      {
+        "sentence": "集思廣益→益於言表",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「溢」於言表"
+        ]
+      },
+      {
+        "sentence": "怒髮衝冠→冠蓋雲集",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "表裡一致→致理名言",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「至」理名言"
+        ]
+      }
+    ],
+    "sourceRows": [
+      164,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "tag": "103-5",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "千載難逢",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "日績月累",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "積"
+        ]
+      },
+      {
+        "sentence": "時過境牽",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "遷"
+        ]
+      },
+      {
+        "sentence": "光陰似劍",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "箭"
+        ]
+      }
+    ],
+    "sourceRows": [
+      168,
+      169,
+      170,
+      171
+    ]
+  },
+  {
+    "tag": "102-29",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "她不繼前嫌地推舉人才，展現寬大雍容的氣度",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不「計」前嫌"
+        ]
+      },
+      {
+        "sentence": "經過整日的奔波勞累，他已肌腸轆轆，身心疲憊",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「飢」腸轆轆"
+        ]
+      },
+      {
+        "sentence": "驚魂甫定的災民說到強震發生時的情形，無不餘悸猶存",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "不找出問題癥結，只在意枝微末節，根本就是本末倒至",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "本末倒「置」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      172,
+      173,
+      174,
+      175
+    ]
+  },
+  {
+    "tag": "103-15",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "古剎中靜肅的木雕佛像，滿是歲月的珠網塵埃",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「蛛」網塵埃"
+        ]
+      },
+      {
+        "sentence": "牆上攀附的瓜藤，在深夜步履合緩地遊走探路",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「和」緩地"
+        ]
+      },
+      {
+        "sentence": "即性的樂章從指間輕輕流瀉，瞬間征服了滿堂賓客",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "即「興」"
+        ]
+      },
+      {
+        "sentence": "雪花紛飛彷如小精靈，輕盈曼妙地飛舞於天地之間",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      176,
+      177,
+      178,
+      179
+    ]
+  },
+  {
+    "tag": "104-6",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "營私舞幣",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弊"
+        ]
+      },
+      {
+        "sentence": "武功祕笈",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "試目以待",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "拭"
+        ]
+      },
+      {
+        "sentence": "時代先軀",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "驅"
+        ]
+      }
+    ],
+    "sourceRows": [
+      180,
+      181,
+      182,
+      183
+    ]
+  },
+  {
+    "tag": "104-22",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "各種跡象一再顯示他有犯罪嫌疑",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "紐約是個交通便利、人口綢密的都市",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「稠」密"
+        ]
+      },
+      {
+        "sentence": "認真負責的態度，是他履創佳績的關鍵",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「屢」創佳績"
+        ]
+      },
+      {
+        "sentence": "你整天遊手好閒，只是突然虛度光陰罷了",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「徒」然"
+        ]
+      }
+    ],
+    "sourceRows": [
+      184,
+      185,
+      186,
+      187
+    ]
+  },
+  {
+    "tag": "105-23",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "香遠易清，亭亭淨植",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "香遠「益」清"
+        ]
+      },
+      {
+        "sentence": "萬里赴戒機，關山度若飛",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「戎」機"
+        ]
+      },
+      {
+        "sentence": "忽有龐然大物，拔山搗樹而來",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「倒」樹"
+        ]
+      },
+      {
+        "sentence": "孔明乃披鶴氅，戴官巾，焚香彈琴",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "戴「綸」巾"
+        ]
+      }
+    ],
+    "sourceRows": [
+      188,
+      189,
+      190,
+      191
+    ]
+  },
+  {
+    "tag": "106-20",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "這款保養品的效果極佳，才剛上市，名聲便不逕而走",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不「脛」而走"
+        ]
+      },
+      {
+        "sentence": "實驗已接近完成，卻因一時疏忽而功虧一簣，令人惋惜",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "廢寢忘食地苦練後，他的演出果然不同反響，贏得滿堂喝采",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不同「凡」響"
+        ]
+      },
+      {
+        "sentence": "昏睡中的乘客面對電車突如奇來的警鈴聲，一時間有些不知所措",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "突如「其」來"
+        ]
+      }
+    ],
+    "sourceRows": [
+      192,
+      193,
+      194,
+      195
+    ]
+  },
+  {
+    "tag": "107-13",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "他倆研究方法不同，卻殊徒同歸，得出相同的結論",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "殊「途」同歸"
+        ]
+      },
+      {
+        "sentence": "經過老師的開導之後，他茅塞頓開，心情豁然開朗",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "因為嬌矜自滿的態度，他的成績始終無法大幅進步",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「驕」矜自滿"
+        ]
+      },
+      {
+        "sentence": "他的穿著總是一層不變，終年都是一套藏青色西裝",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一「成」不變"
+        ]
+      }
+    ],
+    "sourceRows": [
+      196,
+      197,
+      198,
+      199
+    ]
+  },
+  {
+    "tag": "107-27",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "簣",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+        "mode": "reading",
+        "target": "ㄎㄨㄟˋ",
+        "correct": "匱",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+        "mode": "reading",
+        "target": "ㄍㄨㄢ",
+        "correct": "冠",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+        "mode": "reading",
+        "target": "ㄍㄨㄢ",
+        "correct": "綸",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+        "mode": "reading",
+        "target": "ㄔㄡˊ",
+        "correct": "籌",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+        "mode": "reading",
+        "target": "ㄔㄡˊ",
+        "correct": "籌",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+        "mode": "reading",
+        "target": "ㄩㄥ",
+        "correct": "雍",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+        "mode": "reading",
+        "target": "ㄩㄥ",
+        "correct": "庸",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      200,
+      201,
+      202,
+      203
+    ]
+  },
+  {
+    "tag": "108-13",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "未來充滿變數，生活總是戰戰競競",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "戰戰「兢兢」"
+        ]
+      },
+      {
+        "sentence": "能受到民眾愛載，全因為他的魅力",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "愛「戴」"
+        ]
+      },
+      {
+        "sentence": "事情發展如此詭譎，讓人忐忑不安",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "聽到這個噩號，令我不知如何是好",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "噩「耗」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      204,
+      205,
+      206,
+      207
+    ]
+  },
+  {
+    "tag": "109-31",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "藝術電影叫好不叫座，觀眾寥寥可數",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "本公司通訊報名截止日期以郵戮為憑",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "郵「戳」"
+        ]
+      },
+      {
+        "sentence": "半掩的門扉後，漏出一張天真爛漫的笑臉",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「露」出"
+        ]
+      },
+      {
+        "sentence": "求職屢屢碰壁的迥境，打擊了一顆年輕的心",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「窘」境"
+        ]
+      }
+    ],
+    "sourceRows": [
+      208,
+      209,
+      210,
+      211
+    ]
+  },
+  {
+    "tag": "109補-22",
+    "groupMode": "perOption",
+    "parts": [
+      {
+        "sentence": "孔明率兵五千人到西城搬運糧草，忽有探子急報說：司馬懿率大軍十五萬，撲天蓋地，直奔西城而來。眾將聽到這個消息，嚇得驚慌失措，心膽劇烈。唯獨孔明處變不驚，出奇不異地使用了空城計，在千鈞一髮之際，解除了西城的燃眉之急，他的膽識及勇氣，真令人佩服。",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「鋪」天蓋地\n「俱裂」\n出「其」不「意」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      212
+    ]
+  },
+  {
+    "tag": "110-23",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+        "mode": "reading",
+        "target": "ㄨㄤˋ",
+        "correct": "妄",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+        "mode": "reading",
+        "target": "ㄨㄤˋ",
+        "correct": "妄",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "塗",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+        "mode": "reading",
+        "target": "ㄊㄨˊ",
+        "correct": "荼",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+        "mode": "reading",
+        "target": "ㄍㄨㄥ",
+        "correct": "功",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+        "mode": "reading",
+        "target": "ㄍㄨㄥ",
+        "correct": "工",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+        "mode": "reading",
+        "target": "ㄏㄢˋ",
+        "correct": "憾",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+        "mode": "reading",
+        "target": "ㄏㄢˋ",
+        "correct": "撼",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      213,
+      214,
+      215,
+      216
+    ]
+  },
+  {
+    "tag": "110補-29",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "小松家境清寒，因而輟學打工，這樣的選擇時在是出於無奈",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「實」在"
+        ]
+      },
+      {
+        "sentence": "人人提高警覺，杜絕貪念，狡猾的詐騙集團就只能白費心機",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "小穎個性溫和，與他人發生衝突時，總是採取習事寧人的態度",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「息」事寧人"
+        ]
+      },
+      {
+        "sentence": "這家餐廳原為小吃攤，因生意興隆，才兩年就闊張為今日規模",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「擴」張"
+        ]
+      }
+    ],
+    "sourceRows": [
+      217,
+      218,
+      219,
+      220
+    ]
+  },
+  {
+    "tag": "111-19",
+    "groupMode": "multiSentence",
+    "parts": [
+      {
+        "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+        "mode": "reading",
+        "target": "ㄧㄡ",
+        "correct": "憂",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+        "mode": "reading",
+        "target": "ㄧㄡ",
+        "correct": "優",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+        "mode": "reading",
+        "target": "ㄅㄢ",
+        "correct": "斑",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+        "mode": "reading",
+        "target": "ㄅㄢ",
+        "correct": "斑",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+        "mode": "reading",
+        "target": "ㄇㄠˊ",
+        "correct": "矛",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+        "mode": "reading",
+        "target": "ㄇㄠˊ",
+        "correct": "茅",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+        "mode": "reading",
+        "target": "ㄇㄢˋ",
+        "correct": "慢",
+        "isCorrectAsIs": false
+      },
+      {
+        "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+        "mode": "reading",
+        "target": "ㄇㄢˋ",
+        "correct": "漫",
+        "isCorrectAsIs": false
+      }
+    ],
+    "sourceRows": [
+      221,
+      222,
+      223,
+      224
+    ]
+  },
+  {
+    "tag": "111補-21",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "冰山一腳",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "角"
+        ]
+      },
+      {
+        "sentence": "衝耳不聞",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "充"
+        ]
+      },
+      {
+        "sentence": "段章取義",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "斷"
+        ]
+      },
+      {
+        "sentence": "意興闌珊",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      225,
+      226,
+      227,
+      228
+    ]
+  },
+  {
+    "tag": "112-11",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "大考將近，更要懂得善用索碎的時間",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「瑣」碎"
+        ]
+      },
+      {
+        "sentence": "來到默生的環境不免會令人感到緊張",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「陌」生"
+        ]
+      },
+      {
+        "sentence": "我忘了帶錢，拜託你先幫我代墊報名費",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "這項工程是讓我國邁向現代化的里程盃",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "里程「碑」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      229,
+      230,
+      231,
+      232
+    ]
+  },
+  {
+    "tag": "112補-1",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "這種小人，真是防不慎防",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "防不「勝」防"
+        ]
+      },
+      {
+        "sentence": "我一看到太魯閣的美景，就一見終情",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "一見「鍾」情"
+        ]
+      },
+      {
+        "sentence": "看你弱不金風的樣子，竟能登上玉山",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "弱不「禁」風"
+        ]
+      },
+      {
+        "sentence": "他總是怨天尤人，從不檢討自己失敗的原因",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      233,
+      234,
+      235,
+      236
+    ]
+  },
+  {
+    "tag": "113-2",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "那張字畫的真跡被竊後，至今不知所衷",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "不知所「終」"
+        ]
+      },
+      {
+        "sentence": "他只知言襲前人作法，完全不懂得變通",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「沿」襲"
+        ]
+      },
+      {
+        "sentence": "你去失誤招領處詢問，也許能找回錢包",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "失「物」"
+        ]
+      },
+      {
+        "sentence": "樹欲靜而風不止，為人子女盡孝要及時",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      237,
+      238,
+      239,
+      240
+    ]
+  },
+  {
+    "tag": "114-16",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "所謂有志竟成，努力必能得到回報",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      },
+      {
+        "sentence": "得饒人處且饒人，你何必趕進殺絕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "趕「盡」殺絕"
+        ]
+      },
+      {
+        "sentence": "想到他的處境，我情不自盡地落淚",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "情不自「禁」"
+        ]
+      },
+      {
+        "sentence": "眼不見為靜，把雜物塞進櫃子就好",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "眼不見為「淨」"
+        ]
+      }
+    ],
+    "sourceRows": [
+      241,
+      242,
+      243,
+      244
+    ]
+  },
+  {
+    "tag": "115-6",
+    "groupMode": "pickCorrect",
+    "parts": [
+      {
+        "sentence": "看朋友有難，他一無反顧出面幫忙",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "「義」無反顧"
+        ]
+      },
+      {
+        "sentence": "我只是區區一個無名小足，人微言輕",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "無名小「卒」"
+        ]
+      },
+      {
+        "sentence": "各種詐騙手法層出不窮，令人防不慎防",
+        "mode": "judge",
+        "isCorrectAsIs": false,
+        "answers": [
+          "防不「勝」防"
+        ]
+      },
+      {
+        "sentence": "早上公車發生擦撞，幸好乘客都安然無恙",
+        "mode": "judge",
+        "isCorrectAsIs": true,
+        "answers": []
+      }
+    ],
+    "sourceRows": [
+      245,
+      246,
+      247,
+      248
+    ]
+  }
+]

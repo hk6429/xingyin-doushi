@@ -1,0 +1,198 @@
+[
+  {
+    "key": "xf0041#4",
+    "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+    "target": "ㄋㄨㄥˊ",
+    "correct": "膿",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#5",
+    "sentence": "傷口化「ㄋㄨㄥˊ」／蜂蜜「ㄋㄨㄥˊ」稠",
+    "target": "ㄋㄨㄥˊ",
+    "correct": "濃",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#6",
+    "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+    "target": "ㄎㄨㄟˋ",
+    "correct": "匱",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#7",
+    "sentence": "不虞「ㄎㄨㄟˋ」乏／「ㄎㄨㄟˋ」不成軍",
+    "target": "ㄎㄨㄟˋ",
+    "correct": "潰",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#0",
+    "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+    "target": "ㄎㄨㄟˋ",
+    "correct": "簣",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#1",
+    "sentence": "功虧一「ㄎㄨㄟˋ」／衣食無「ㄎㄨㄟˋ」",
+    "target": "ㄎㄨㄟˋ",
+    "correct": "匱",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#2",
+    "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+    "target": "ㄍㄨㄢ",
+    "correct": "冠",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#3",
+    "sentence": "衣「ㄍㄨㄢ」禽獸／羽扇「ㄍㄨㄢ」巾",
+    "target": "ㄍㄨㄢ",
+    "correct": "綸",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#4",
+    "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+    "target": "ㄔㄡˊ",
+    "correct": "籌",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#5",
+    "sentence": "運「ㄔㄡˊ」帷幄／拔得頭「ㄔㄡˊ」",
+    "target": "ㄔㄡˊ",
+    "correct": "籌",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#6",
+    "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+    "target": "ㄩㄥ",
+    "correct": "雍",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0054#7",
+    "sentence": "「ㄩㄥ」容華貴／「ㄩㄥ」人自擾",
+    "target": "ㄩㄥ",
+    "correct": "庸",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#0",
+    "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+    "target": "ㄨㄤˋ",
+    "correct": "妄",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#1",
+    "sentence": "無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」",
+    "target": "ㄨㄤˋ",
+    "correct": "妄",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#2",
+    "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+    "target": "ㄊㄨˊ",
+    "correct": "塗",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#3",
+    "sentence": "信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」",
+    "target": "ㄊㄨˊ",
+    "correct": "荼",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#4",
+    "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+    "target": "ㄍㄨㄥ",
+    "correct": "功",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#5",
+    "sentence": "勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作",
+    "target": "ㄍㄨㄥ",
+    "correct": "工",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#6",
+    "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+    "target": "ㄏㄢˋ",
+    "correct": "憾",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0058#7",
+    "sentence": "遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心",
+    "target": "ㄏㄢˋ",
+    "correct": "撼",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#0",
+    "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+    "target": "ㄧㄡ",
+    "correct": "憂",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#1",
+    "sentence": "杞人「ㄧㄡ」天／養尊處「ㄧㄡ」",
+    "target": "ㄧㄡ",
+    "correct": "優",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#2",
+    "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+    "target": "ㄅㄢ",
+    "correct": "斑",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#3",
+    "sentence": "「ㄅㄢ」駁陸離／「ㄅㄢ」斕奪目",
+    "target": "ㄅㄢ",
+    "correct": "斑",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#4",
+    "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+    "target": "ㄇㄠˊ",
+    "correct": "矛",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#5",
+    "sentence": "自相「ㄇㄠˊ」盾／「ㄇㄠˊ」塞頓開",
+    "target": "ㄇㄠˊ",
+    "correct": "茅",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#6",
+    "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+    "target": "ㄇㄢˋ",
+    "correct": "慢",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0060#7",
+    "sentence": "細嚼「ㄇㄢˋ」嚥／「ㄇㄢˋ」不經心",
+    "target": "ㄇㄢˋ",
+    "correct": "漫",
+    "mode": "reading"
+  }
+]

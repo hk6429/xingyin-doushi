@@ -1,0 +1,458 @@
+[
+  {
+    "key": "xy0001#0",
+    "sentence": "「朔」氣／「塑」膠",
+    "char": "朔",
+    "correctZhuyin": "ㄕㄨㄛˋ"
+  },
+  {
+    "key": "xy0001#1",
+    "sentence": "「朔」氣／「塑」膠",
+    "char": "塑",
+    "correctZhuyin": "ㄙㄨˋ"
+  },
+  {
+    "key": "xy0001#2",
+    "sentence": "「延」長「筵」席",
+    "char": "延",
+    "correctZhuyin": "ㄧㄢˊ"
+  },
+  {
+    "key": "xy0001#3",
+    "sentence": "「延」長「筵」席",
+    "char": "筵",
+    "correctZhuyin": "ㄧㄢˊ"
+  },
+  {
+    "key": "xy0001#4",
+    "sentence": "創「造」／粗「糙」",
+    "char": "造",
+    "correctZhuyin": "ㄗㄠˋ"
+  },
+  {
+    "key": "xy0001#5",
+    "sentence": "創「造」／粗「糙」",
+    "char": "糙",
+    "correctZhuyin": "ㄘㄠ"
+  },
+  {
+    "key": "xy0001#6",
+    "sentence": "「曾」子／「僧」侶",
+    "char": "曾",
+    "correctZhuyin": "ㄗㄥ"
+  },
+  {
+    "key": "xy0001#7",
+    "sentence": "「曾」子／「僧」侶",
+    "char": "僧",
+    "correctZhuyin": "ㄙㄥ"
+  },
+  {
+    "key": "xy0002#0",
+    "sentence": "戰戰「兢兢」／歌唱「競」賽",
+    "char": "兢兢",
+    "correctZhuyin": "ㄐㄧㄥ"
+  },
+  {
+    "key": "xy0002#1",
+    "sentence": "戰戰「兢兢」／歌唱「競」賽",
+    "char": "競",
+    "correctZhuyin": "ㄐㄧㄥˋ"
+  },
+  {
+    "key": "xy0002#2",
+    "sentence": "根深「柢」固／「抵」死不從",
+    "char": "柢",
+    "correctZhuyin": "ㄉㄧˇ"
+  },
+  {
+    "key": "xy0002#3",
+    "sentence": "根深「柢」固／「抵」死不從",
+    "char": "抵",
+    "correctZhuyin": "ㄉㄧˇ"
+  },
+  {
+    "key": "xy0002#4",
+    "sentence": "尖尖鳥「喙」／被鳥「啄」傷",
+    "char": "喙",
+    "correctZhuyin": "ㄏㄨㄟˋ"
+  },
+  {
+    "key": "xy0002#5",
+    "sentence": "尖尖鳥「喙」／被鳥「啄」傷",
+    "char": "啄",
+    "correctZhuyin": "ㄓㄨㄛˊ"
+  },
+  {
+    "key": "xy0002#6",
+    "sentence": "「殊」途同歸／口「誅」筆伐",
+    "char": "殊",
+    "correctZhuyin": "ㄕㄨ"
+  },
+  {
+    "key": "xy0002#7",
+    "sentence": "「殊」途同歸／口「誅」筆伐",
+    "char": "誅",
+    "correctZhuyin": "ㄓㄨ"
+  },
+  {
+    "key": "xy0003#0",
+    "sentence": "「禁」不起他苦苦哀求，爸爸終於解除了他「禁」止出門的命令",
+    "char": "禁",
+    "correctZhuyin": "ㄐㄧㄣ"
+  },
+  {
+    "key": "xy0003#1",
+    "sentence": "「禁」不起他苦苦哀求，爸爸終於解除了他「禁」止出門的命令",
+    "char": "禁",
+    "correctZhuyin": "ㄐㄧㄣˋ"
+  },
+  {
+    "key": "xy0003#2",
+    "sentence": "聽到廣「播」不斷「播」放聖誕歌曲，令人感受到寒冬中的暖意",
+    "char": "播",
+    "correctZhuyin": "ㄅㄛˋ"
+  },
+  {
+    "key": "xy0003#3",
+    "sentence": "聽到廣「播」不斷「播」放聖誕歌曲，令人感受到寒冬中的暖意",
+    "char": "播",
+    "correctZhuyin": "ㄅㄛˋ"
+  },
+  {
+    "key": "xy0003#4",
+    "sentence": "老闆很欣賞她，常「稱」讚她的工作表現很「稱」職",
+    "char": "稱",
+    "correctZhuyin": "ㄔㄥ"
+  },
+  {
+    "key": "xy0003#5",
+    "sentence": "老闆很欣賞她，常「稱」讚她的工作表現很「稱」職",
+    "char": "稱",
+    "correctZhuyin": "ㄔㄥˋ"
+  },
+  {
+    "key": "xy0003#6",
+    "sentence": "「悶」熱的天氣，逼得他只得待在家中彈琴解「悶」",
+    "char": "悶",
+    "correctZhuyin": "ㄇㄣ"
+  },
+  {
+    "key": "xy0003#7",
+    "sentence": "「悶」熱的天氣，逼得他只得待在家中彈琴解「悶」",
+    "char": "悶",
+    "correctZhuyin": "ㄇㄣˋ"
+  },
+  {
+    "key": "xy0004#0",
+    "sentence": "今夫弈之「為」數，小數也；不專心致志，則不得也",
+    "char": "為",
+    "correctZhuyin": "ㄨㄟˊ"
+  },
+  {
+    "key": "xy0004#1",
+    "sentence": "使弈秋誨二人弈，其一人專心致志，惟弈秋之「為」聽",
+    "char": "為",
+    "correctZhuyin": "ㄨㄟˊ"
+  },
+  {
+    "key": "xy0004#2",
+    "sentence": "一人雖聽之，一心以「為」有鴻鵠將至，思援弓繳而射之",
+    "char": "為",
+    "correctZhuyin": "ㄨㄟˊ"
+  },
+  {
+    "key": "xy0004#3",
+    "sentence": "雖與之俱學，弗若之矣。「為」是其智弗若與？曰：非然也",
+    "char": "為",
+    "correctZhuyin": "ㄨㄟˋ"
+  },
+  {
+    "key": "xy0005#0",
+    "sentence": "姐弟戀該受到社會的「撻」伐和「抨」擊嗎",
+    "char": "撻",
+    "correctZhuyin": "ㄊㄚˋ"
+  },
+  {
+    "key": "xy0005#1",
+    "sentence": "姐弟戀該受到社會的「撻」伐和「抨」擊嗎",
+    "char": "抨",
+    "correctZhuyin": "ㄆㄥ"
+  },
+  {
+    "key": "xy0005#2",
+    "sentence": "那是個人的選擇，無關道德，我不會因此「揶」「揄」他們",
+    "char": "揶",
+    "correctZhuyin": "ㄧㄝˊ"
+  },
+  {
+    "key": "xy0005#3",
+    "sentence": "那是個人的選擇，無關道德，我不會因此「揶」「揄」他們",
+    "char": "揄",
+    "correctZhuyin": "ㄩˊ"
+  },
+  {
+    "key": "xy0005#4",
+    "sentence": "哼！媒體就愛「揭」發這類「緋」聞，加以炒作",
+    "char": "揭",
+    "correctZhuyin": "ㄐㄧㄝ"
+  },
+  {
+    "key": "xy0005#5",
+    "sentence": "哼！媒體就愛「揭」發這類「緋」聞，加以炒作",
+    "char": "緋",
+    "correctZhuyin": "ㄈㄟ"
+  },
+  {
+    "key": "xy0005#6",
+    "sentence": "嘿！不要以偏概全，媒體也不乏動「中」事理，「鏗」鏘有力的報導啊",
+    "char": "中",
+    "correctZhuyin": "ㄓㄨㄥˋ"
+  },
+  {
+    "key": "xy0005#7",
+    "sentence": "嘿！不要以偏概全，媒體也不乏動「中」事理，「鏗」鏘有力的報導啊",
+    "char": "鏗",
+    "correctZhuyin": "ㄎㄥ"
+  },
+  {
+    "key": "xy0006#0",
+    "sentence": "她的別墅依山「傍」水，每到「傍」晚時分，風景尤佳",
+    "char": "傍",
+    "correctZhuyin": "ㄅㄤˋ"
+  },
+  {
+    "key": "xy0006#1",
+    "sentence": "她的別墅依山「傍」水，每到「傍」晚時分，風景尤佳",
+    "char": "傍",
+    "correctZhuyin": "ㄅㄤ"
+  },
+  {
+    "key": "xy0006#2",
+    "sentence": "凡事若能未雨綢「繆」，必定可以減少「繆」誤的發生",
+    "char": "繆",
+    "correctZhuyin": "ㄇㄡˊ"
+  },
+  {
+    "key": "xy0006#3",
+    "sentence": "凡事若能未雨綢「繆」，必定可以減少「繆」誤的發生",
+    "char": "繆",
+    "correctZhuyin": "ㄇㄧㄡˋ"
+  },
+  {
+    "key": "xy0006#4",
+    "sentence": "各大媒體皆刊「載」他榮獲首獎，「載」譽歸國的消息",
+    "char": "載",
+    "correctZhuyin": "ㄗㄞˋ"
+  },
+  {
+    "key": "xy0006#5",
+    "sentence": "各大媒體皆刊「載」他榮獲首獎，「載」譽歸國的消息",
+    "char": "載",
+    "correctZhuyin": "ㄗㄞˋ"
+  },
+  {
+    "key": "xy0006#6",
+    "sentence": "在一連串槍林「彈」雨的抨擊中，他終於遭到「彈」劾",
+    "char": "彈",
+    "correctZhuyin": "ㄉㄢˋ"
+  },
+  {
+    "key": "xy0006#7",
+    "sentence": "在一連串槍林「彈」雨的抨擊中，他終於遭到「彈」劾",
+    "char": "彈",
+    "correctZhuyin": "ㄊㄢˊ"
+  },
+  {
+    "key": "xy0007#0",
+    "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+    "char": "怠",
+    "correctZhuyin": "ㄉㄞˋ"
+  },
+  {
+    "key": "xy0007#1",
+    "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+    "char": "殆",
+    "correctZhuyin": "ㄉㄞˋ"
+  },
+  {
+    "key": "xy0007#2",
+    "sentence": "懈「怠」／危「殆」／「貽」笑大方",
+    "char": "貽",
+    "correctZhuyin": "ㄧˊ"
+  },
+  {
+    "key": "xy0007#3",
+    "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+    "char": "揆",
+    "correctZhuyin": "ㄎㄨㄟˊ"
+  },
+  {
+    "key": "xy0007#4",
+    "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+    "char": "葵",
+    "correctZhuyin": "ㄎㄨㄟˊ"
+  },
+  {
+    "key": "xy0007#5",
+    "sentence": "閣「揆」／向日「葵」／「睽」違已久",
+    "char": "睽",
+    "correctZhuyin": "ㄎㄨㄟˊ"
+  },
+  {
+    "key": "xy0007#6",
+    "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+    "char": "魘",
+    "correctZhuyin": "ㄧㄢˇ"
+  },
+  {
+    "key": "xy0007#7",
+    "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+    "char": "靨",
+    "correctZhuyin": "ㄧㄝˋ"
+  },
+  {
+    "key": "xy0007#8",
+    "sentence": "夢「魘」／笑「靨」如花／貪得無「饜」",
+    "char": "饜",
+    "correctZhuyin": "ㄧㄢˋ"
+  },
+  {
+    "key": "xy0007#9",
+    "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+    "char": "崖",
+    "correctZhuyin": "ㄧㄞˊ"
+  },
+  {
+    "key": "xy0007#10",
+    "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+    "char": "涯",
+    "correctZhuyin": "ㄧㄚˊ"
+  },
+  {
+    "key": "xy0007#11",
+    "sentence": "懸「崖」／天「涯」海角／飢餓難「捱」",
+    "char": "捱",
+    "correctZhuyin": "ㄞˊ"
+  },
+  {
+    "key": "xy0008#0",
+    "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+    "char": "卷",
+    "correctZhuyin": "ㄑㄩㄢˊ"
+  },
+  {
+    "key": "xy0008#1",
+    "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+    "char": "卷",
+    "correctZhuyin": "ㄐㄩㄢˇ"
+  },
+  {
+    "key": "xy0008#2",
+    "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+    "char": "卷",
+    "correctZhuyin": "ㄐㄩㄢˋ"
+  },
+  {
+    "key": "xy0008#3",
+    "sentence": "他燙了一頭「卷」髮／我有一「卷」寬膠帶／蘇黃共閱一手「卷」／漫「卷」詩書喜欲狂",
+    "char": "卷",
+    "correctZhuyin": "ㄐㄩㄢˇ"
+  },
+  {
+    "key": "xy0009#0",
+    "sentence": "割捨了纏綿「悱」惻的情感，他緊閉窗「扉」，足不出戶",
+    "char": "悱",
+    "correctZhuyin": "ㄈㄟˇ"
+  },
+  {
+    "key": "xy0009#1",
+    "sentence": "割捨了纏綿「悱」惻的情感，他緊閉窗「扉」，足不出戶",
+    "char": "扉",
+    "correctZhuyin": "ㄈㄟ"
+  },
+  {
+    "key": "xy0009#2",
+    "sentence": "影壇巨星「遽」然而逝，他所主演的連續「劇」被迫停工",
+    "char": "遽",
+    "correctZhuyin": "ㄐㄩˋ"
+  },
+  {
+    "key": "xy0009#3",
+    "sentence": "影壇巨星「遽」然而逝，他所主演的連續「劇」被迫停工",
+    "char": "劇",
+    "correctZhuyin": "ㄐㄩˋ"
+  },
+  {
+    "key": "xy0009#4",
+    "sentence": "母親「催」促孩子用功讀書，將來才會有「璀」璨的前途",
+    "char": "催",
+    "correctZhuyin": "ㄘㄨㄟ"
+  },
+  {
+    "key": "xy0009#5",
+    "sentence": "母親「催」促孩子用功讀書，將來才會有「璀」璨的前途",
+    "char": "璀",
+    "correctZhuyin": "ㄘㄨㄟˇ"
+  },
+  {
+    "key": "xy0009#6",
+    "sentence": "他勤奮不「輟」的努力後，終於將這個古物補「綴」完成",
+    "char": "輟",
+    "correctZhuyin": "ㄔㄨㄛˋ"
+  },
+  {
+    "key": "xy0009#7",
+    "sentence": "他勤奮不「輟」的努力後，終於將這個古物補「綴」完成",
+    "char": "綴",
+    "correctZhuyin": "ㄓㄨㄟˋ"
+  },
+  {
+    "key": "xy0010#0",
+    "sentence": "妄自「菲」薄／自視「非」凡",
+    "char": "菲",
+    "correctZhuyin": "ㄈㄟˇ"
+  },
+  {
+    "key": "xy0010#1",
+    "sentence": "妄自「菲」薄／自視「非」凡",
+    "char": "非",
+    "correctZhuyin": "ㄈㄟ"
+  },
+  {
+    "key": "xy0010#2",
+    "sentence": "技術精「湛」／「綻」放光芒",
+    "char": "湛",
+    "correctZhuyin": "ㄓㄢˋ"
+  },
+  {
+    "key": "xy0010#3",
+    "sentence": "技術精「湛」／「綻」放光芒",
+    "char": "綻",
+    "correctZhuyin": "ㄓㄢˋ"
+  },
+  {
+    "key": "xy0010#4",
+    "sentence": "「諄」諄告誡／民風「淳」樸",
+    "char": "諄",
+    "correctZhuyin": "ㄓㄨㄣ"
+  },
+  {
+    "key": "xy0010#5",
+    "sentence": "「諄」諄告誡／民風「淳」樸",
+    "char": "淳",
+    "correctZhuyin": "ㄔㄨㄣˊ"
+  },
+  {
+    "key": "xy0010#6",
+    "sentence": "一「畦」菜圃／井底之「蛙」",
+    "char": "畦",
+    "correctZhuyin": "ㄑㄧˊ"
+  },
+  {
+    "key": "xy0010#7",
+    "sentence": "一「畦」菜圃／井底之「蛙」",
+    "char": "蛙",
+    "correctZhuyin": "ㄨㄚ"
+  }
+]

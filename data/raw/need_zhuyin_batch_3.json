@@ -1,0 +1,440 @@
+[
+  {
+    "key": "xy0033#3",
+    "sentence": "含「氟」牙膏／春風「拂」面",
+    "char": "拂",
+    "correctZhuyin": "ㄈㄨˊ"
+  },
+  {
+    "key": "xy0033#4",
+    "sentence": "「匍」伏前進／灌溉花「圃」",
+    "char": "匍",
+    "correctZhuyin": "ㄆㄨˊ"
+  },
+  {
+    "key": "xy0033#5",
+    "sentence": "「匍」伏前進／灌溉花「圃」",
+    "char": "圃",
+    "correctZhuyin": "ㄆㄨˇ"
+  },
+  {
+    "key": "xy0033#6",
+    "sentence": "滿目「瘡」痍／「愴」然涕下",
+    "char": "瘡",
+    "correctZhuyin": "ㄔㄨㄤ"
+  },
+  {
+    "key": "xy0033#7",
+    "sentence": "滿目「瘡」痍／「愴」然涕下",
+    "char": "愴",
+    "correctZhuyin": "ㄔㄨㄤˋ"
+  },
+  {
+    "key": "xy0034#0",
+    "sentence": "春寒料「峭」",
+    "char": "峭",
+    "correctZhuyin": "ㄑㄧㄠˋ"
+  },
+  {
+    "key": "xy0034#1",
+    "sentence": "「湛」藍天空",
+    "char": "湛",
+    "correctZhuyin": "ㄓㄢˋ"
+  },
+  {
+    "key": "xy0034#2",
+    "sentence": "一掃陰「霾」",
+    "char": "霾",
+    "correctZhuyin": "ㄇㄞˊ"
+  },
+  {
+    "key": "xy0034#3",
+    "sentence": "胼手「胝」足",
+    "char": "胝",
+    "correctZhuyin": "ㄓ"
+  },
+  {
+    "key": "xy0035#0",
+    "sentence": "他對朋友的要求總是「慨」然應允",
+    "char": "慨",
+    "correctZhuyin": "ㄎㄞˇ"
+  },
+  {
+    "key": "xy0035#1",
+    "sentence": "「囿」於成見，他一直排斥這項工作",
+    "char": "囿",
+    "correctZhuyin": "ㄧㄡˋ"
+  },
+  {
+    "key": "xy0035#2",
+    "sentence": "警方追捕多年的通「緝」犯，終於在今日落網",
+    "char": "緝",
+    "correctZhuyin": "ㄑㄧˋ"
+  },
+  {
+    "key": "xy0035#3",
+    "sentence": "這家公司處理消費糾紛的過程粗「糙」，引起民眾反彈",
+    "char": "糙",
+    "correctZhuyin": "ㄘㄠ"
+  },
+  {
+    "key": "xy0036#0",
+    "sentence": "對舞者精采的表演、「嫵」媚的姿態，觀眾都「撫」掌叫好",
+    "char": "嫵",
+    "correctZhuyin": "ㄨˇ"
+  },
+  {
+    "key": "xy0036#1",
+    "sentence": "對舞者精采的表演、「嫵」媚的姿態，觀眾都「撫」掌叫好",
+    "char": "撫",
+    "correctZhuyin": "ㄈㄨˇ"
+  },
+  {
+    "key": "xy0036#2",
+    "sentence": "勤於公事、案「牘」勞形的他，竟然遭人指控貪汙「瀆」職",
+    "char": "牘",
+    "correctZhuyin": "ㄉㄨˊ"
+  },
+  {
+    "key": "xy0036#3",
+    "sentence": "勤於公事、案「牘」勞形的他，竟然遭人指控貪汙「瀆」職",
+    "char": "瀆",
+    "correctZhuyin": "ㄉㄨˊ"
+  },
+  {
+    "key": "xy0036#4",
+    "sentence": "災難現場滿目「瘡」痍，受難家屬仰望「蒼」天，悲慟難平",
+    "char": "瘡",
+    "correctZhuyin": "ㄔㄨㄤ"
+  },
+  {
+    "key": "xy0036#5",
+    "sentence": "災難現場滿目「瘡」痍，受難家屬仰望「蒼」天，悲慟難平",
+    "char": "蒼",
+    "correctZhuyin": "ㄘㄤ"
+  },
+  {
+    "key": "xy0036#6",
+    "sentence": "彩券開獎後，中獎者滿臉笑「靨」，槓龜者卻是一場夢「魘」",
+    "char": "靨",
+    "correctZhuyin": "ㄧㄝˋ"
+  },
+  {
+    "key": "xy0036#7",
+    "sentence": "彩券開獎後，中獎者滿臉笑「靨」，槓龜者卻是一場夢「魘」",
+    "char": "魘",
+    "correctZhuyin": "ㄧㄢˇ"
+  },
+  {
+    "key": "xy0037#0",
+    "sentence": "「恪」守本分／獨創一「格」",
+    "char": "恪",
+    "correctZhuyin": "ㄎㄜˋ"
+  },
+  {
+    "key": "xy0037#1",
+    "sentence": "「恪」守本分／獨創一「格」",
+    "char": "格",
+    "correctZhuyin": "ㄍㄜˊ"
+  },
+  {
+    "key": "xy0037#2",
+    "sentence": "「抵」死不從／蒞臨府「邸」",
+    "char": "抵",
+    "correctZhuyin": "ㄉㄧˇ"
+  },
+  {
+    "key": "xy0037#3",
+    "sentence": "「抵」死不從／蒞臨府「邸」",
+    "char": "邸",
+    "correctZhuyin": "ㄉㄧˇ"
+  },
+  {
+    "key": "xy0037#4",
+    "sentence": "字「斟」句酌／「勘」正訛誤",
+    "char": "斟",
+    "correctZhuyin": "ㄓㄣ"
+  },
+  {
+    "key": "xy0037#5",
+    "sentence": "字「斟」句酌／「勘」正訛誤",
+    "char": "勘",
+    "correctZhuyin": "ㄎㄢ"
+  },
+  {
+    "key": "xy0037#6",
+    "sentence": "鍾靈「毓」秀／才「疏」學淺",
+    "char": "毓",
+    "correctZhuyin": "ㄩˋ"
+  },
+  {
+    "key": "xy0037#7",
+    "sentence": "鍾靈「毓」秀／才「疏」學淺",
+    "char": "疏",
+    "correctZhuyin": "ㄕㄨ"
+  },
+  {
+    "key": "xy0038#0",
+    "sentence": "「潰」不成軍／回「饋」鄉里",
+    "char": "潰",
+    "correctZhuyin": "ㄎㄨㄟˋ"
+  },
+  {
+    "key": "xy0038#1",
+    "sentence": "「潰」不成軍／回「饋」鄉里",
+    "char": "饋",
+    "correctZhuyin": "ㄎㄨㄟˋ"
+  },
+  {
+    "key": "xy0038#2",
+    "sentence": "險要關「隘」／滿而不「溢」",
+    "char": "隘",
+    "correctZhuyin": "ㄞˋ"
+  },
+  {
+    "key": "xy0038#3",
+    "sentence": "險要關「隘」／滿而不「溢」",
+    "char": "溢",
+    "correctZhuyin": "ㄧˋ"
+  },
+  {
+    "key": "xy0038#4",
+    "sentence": "雀「屏」中選／「摒」除陋習",
+    "char": "屏",
+    "correctZhuyin": "ㄆㄧㄥˊ"
+  },
+  {
+    "key": "xy0038#5",
+    "sentence": "雀「屏」中選／「摒」除陋習",
+    "char": "摒",
+    "correctZhuyin": "ㄅㄧㄥˋ"
+  },
+  {
+    "key": "xy0038#6",
+    "sentence": "「咀」嚼玩味／風雨無「阻」",
+    "char": "咀",
+    "correctZhuyin": "ㄐㄩˇ"
+  },
+  {
+    "key": "xy0038#7",
+    "sentence": "「咀」嚼玩味／風雨無「阻」",
+    "char": "阻",
+    "correctZhuyin": "ㄗㄨˇ"
+  },
+  {
+    "key": "xy0039#0",
+    "sentence": "悲傷哽「咽」／食不下「咽」",
+    "char": "咽",
+    "correctZhuyin": "ㄧㄝˋ"
+  },
+  {
+    "key": "xy0039#1",
+    "sentence": "悲傷哽「咽」／食不下「咽」",
+    "char": "咽",
+    "correctZhuyin": "ㄧㄢ"
+  },
+  {
+    "key": "xy0039#2",
+    "sentence": "悶不「吭」聲／引「吭」高歌",
+    "char": "吭",
+    "correctZhuyin": "ㄎㄥ"
+  },
+  {
+    "key": "xy0039#3",
+    "sentence": "悶不「吭」聲／引「吭」高歌",
+    "char": "吭",
+    "correctZhuyin": "ㄏㄤˊ"
+  },
+  {
+    "key": "xy0039#4",
+    "sentence": "語帶「禪」機／「禪」讓政治",
+    "char": "禪",
+    "correctZhuyin": "ㄔㄢˊ"
+  },
+  {
+    "key": "xy0039#5",
+    "sentence": "語帶「禪」機／「禪」讓政治",
+    "char": "禪",
+    "correctZhuyin": "ㄕㄢˋ"
+  },
+  {
+    "key": "xy0039#6",
+    "sentence": "「撒」謊成習／恃寵「撒」嬌",
+    "char": "撒",
+    "correctZhuyin": "ㄙㄚ"
+  },
+  {
+    "key": "xy0039#7",
+    "sentence": "「撒」謊成習／恃寵「撒」嬌",
+    "char": "撒",
+    "correctZhuyin": "ㄙㄚ"
+  },
+  {
+    "key": "xy0040#0",
+    "sentence": "莫札特的音樂膾「炙」人口，流傳久遠",
+    "char": "炙",
+    "correctZhuyin": "ㄓˋ"
+  },
+  {
+    "key": "xy0040#1",
+    "sentence": "膽小的他，想到要去鬼屋探險，便頸縮股「慄」",
+    "char": "慄",
+    "correctZhuyin": "ㄌㄧˋ"
+  },
+  {
+    "key": "xy0040#2",
+    "sentence": "倉「猝」之間，設想不周，難免做了錯誤的決定",
+    "char": "猝",
+    "correctZhuyin": "ㄘㄨˋ"
+  },
+  {
+    "key": "xy0040#3",
+    "sentence": "臺灣東部「瀕」臨太平洋，搭船出遊可望看到鯨豚",
+    "char": "瀕",
+    "correctZhuyin": "ㄅㄧㄣ"
+  },
+  {
+    "key": "xy0041#0",
+    "sentence": "「迄」今未成／「屹」立不搖",
+    "char": "迄",
+    "correctZhuyin": "ㄑㄧˋ"
+  },
+  {
+    "key": "xy0041#1",
+    "sentence": "「迄」今未成／「屹」立不搖",
+    "char": "屹",
+    "correctZhuyin": "ㄧˋ"
+  },
+  {
+    "key": "xy0041#2",
+    "sentence": "金鑲玉「嵌」／命運「坎」坷",
+    "char": "嵌",
+    "correctZhuyin": "ㄑㄧㄢ"
+  },
+  {
+    "key": "xy0041#3",
+    "sentence": "金鑲玉「嵌」／命運「坎」坷",
+    "char": "坎",
+    "correctZhuyin": "ㄎㄢˇ"
+  },
+  {
+    "key": "xy0041#4",
+    "sentence": "寂「寥」冷清／「謬」誤百出",
+    "char": "寥",
+    "correctZhuyin": "ㄌㄧㄠˊ"
+  },
+  {
+    "key": "xy0041#5",
+    "sentence": "寂「寥」冷清／「謬」誤百出",
+    "char": "謬",
+    "correctZhuyin": "ㄇㄧㄡˋ"
+  },
+  {
+    "key": "xy0041#6",
+    "sentence": "千叮萬「囑」／引人「矚」目",
+    "char": "囑",
+    "correctZhuyin": "ㄓㄨˇ"
+  },
+  {
+    "key": "xy0041#7",
+    "sentence": "千叮萬「囑」／引人「矚」目",
+    "char": "矚",
+    "correctZhuyin": "ㄓㄨˇ"
+  },
+  {
+    "key": "xy0042#0",
+    "sentence": "師恩浩蕩，刻「鏤」在學子的心頭",
+    "char": "鏤",
+    "correctZhuyin": "ㄌㄡˋ"
+  },
+  {
+    "key": "xy0042#1",
+    "sentence": "他不小心受傷，痛得齜牙「咧」嘴",
+    "char": "咧",
+    "correctZhuyin": "ㄌㄧㄝˇ"
+  },
+  {
+    "key": "xy0042#2",
+    "sentence": "努力多時，他「祈」望能考上理想的學校",
+    "char": "祈",
+    "correctZhuyin": "ㄑㄧˊ"
+  },
+  {
+    "key": "xy0042#3",
+    "sentence": "這座國家公園裡群山「峙」立，是知名的勝景",
+    "char": "峙",
+    "correctZhuyin": "ㄓˋ"
+  },
+  {
+    "key": "xy0043#0",
+    "sentence": "在賣場集滿點數就可「兌」換商品",
+    "char": "兌",
+    "correctZhuyin": "ㄉㄨㄟˋ"
+  },
+  {
+    "key": "xy0043#1",
+    "sentence": "一望無「垠」的海面上漂流著幾艘小船",
+    "char": "垠",
+    "correctZhuyin": "ㄧㄣˊ"
+  },
+  {
+    "key": "xy0043#2",
+    "sentence": "這場音樂會的門票開賣不久就售「罄」",
+    "char": "罄",
+    "correctZhuyin": "ㄑㄧㄥˋ"
+  },
+  {
+    "key": "xy0043#3",
+    "sentence": "櫃檯上的花瓶插了一束紫色的「桔」梗花",
+    "char": "桔",
+    "correctZhuyin": "ㄐㄧㄝˊ"
+  },
+  {
+    "key": "xy0044#0",
+    "sentence": "有些玩笑話沒拿捏好分寸，就可能變成「揶」揄",
+    "char": "揶",
+    "correctZhuyin": "ㄧㄝˊ"
+  },
+  {
+    "key": "xy0044#1",
+    "sentence": "這家賣場備有各種「晾」晒工具，提供消費者選購",
+    "char": "晾",
+    "correctZhuyin": "ㄌㄧㄤˋ"
+  },
+  {
+    "key": "xy0044#2",
+    "sentence": "這齣音樂劇結合不同族群的元素，打破文化的「藩」籬",
+    "char": "藩",
+    "correctZhuyin": "ㄈㄢˊ"
+  },
+  {
+    "key": "xy0044#3",
+    "sentence": "原以為勝券在握，卻因一時疏忽，竟從雲端「栽」了下來",
+    "char": "栽",
+    "correctZhuyin": "ㄗㄞ"
+  },
+  {
+    "key": "xy0045#0",
+    "sentence": "海嘯過後，小鎮滿目「瘡」痍",
+    "char": "瘡",
+    "correctZhuyin": "ㄔㄨㄤ"
+  },
+  {
+    "key": "xy0045#1",
+    "sentence": "此事部長的心意已決，不容他人置「喙」",
+    "char": "喙",
+    "correctZhuyin": "ㄏㄨㄟˋ"
+  },
+  {
+    "key": "xy0045#2",
+    "sentence": "電影首映會當晚，導演「偕」同主要演員一起出席",
+    "char": "偕",
+    "correctZhuyin": "ㄒㄧㄝˊ"
+  },
+  {
+    "key": "xy0045#3",
+    "sentence": "這兩者「孰」輕孰重，你要考慮清楚，以免將來後悔",
+    "char": "孰",
+    "correctZhuyin": "ㄕㄨˊ"
+  }
+]

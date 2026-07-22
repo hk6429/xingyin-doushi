@@ -1,0 +1,212 @@
+[
+  {
+    "key": "xf0025#6",
+    "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+    "target": "ㄔㄥˊ",
+    "correct": "承",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#7",
+    "sentence": "子「ㄔㄥˊ」父志／「ㄔㄥˊ」風破浪",
+    "target": "ㄔㄥˊ",
+    "correct": "乘",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0028#0",
+    "sentence": "「悵」然若失／「帳」目管理",
+    "target": "悵",
+    "correct": "悵",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#1",
+    "sentence": "「悵」然若失／「帳」目管理",
+    "target": "帳",
+    "correct": "帳",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#2",
+    "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+    "target": "祟",
+    "correct": "崇",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#3",
+    "sentence": "「祟」山峻嶺／鬼鬼「崇崇」",
+    "target": "崇崇",
+    "correct": "祟",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#4",
+    "sentence": "「既」時努力／「即」往不咎",
+    "target": "既",
+    "correct": "及",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#5",
+    "sentence": "「既」時努力／「即」往不咎",
+    "target": "即",
+    "correct": "既",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#6",
+    "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+    "target": "拼",
+    "correct": "拚",
+    "mode": "char"
+  },
+  {
+    "key": "xf0028#7",
+    "sentence": "愛「拼」才會贏／「拚」圖遊戲",
+    "target": "拚",
+    "correct": "拼",
+    "mode": "char"
+  },
+  {
+    "key": "xf0034#0",
+    "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+    "target": "ㄩˊ",
+    "correct": "虞",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#1",
+    "sentence": "不「ㄩˊ」匱乏／行有「ㄩˊ」力",
+    "target": "ㄩˊ",
+    "correct": "餘",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#2",
+    "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+    "target": "ㄍㄨㄟ",
+    "correct": "規",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#3",
+    "sentence": "「ㄍㄨㄟ」勸好友／墨守成「ㄍㄨㄟ」",
+    "target": "ㄍㄨㄟ",
+    "correct": "規",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#4",
+    "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+    "target": "ㄎㄨㄤ",
+    "correct": "眶",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#5",
+    "sentence": "紅著眼「ㄎㄨㄤ」／兩「ㄎㄨㄤ」蘿蔔",
+    "target": "ㄎㄨㄤ",
+    "correct": "筐",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#6",
+    "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+    "target": "ㄎㄨㄛˋ",
+    "correct": "擴",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0034#7",
+    "sentence": "「ㄎㄨㄛˋ」大營業／店面寬「ㄎㄨㄛˋ」",
+    "target": "ㄎㄨㄛˋ",
+    "correct": "闊",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#0",
+    "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+    "target": "ㄒㄧㄝˊ",
+    "correct": "諧",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#1",
+    "sentence": "言語詼「ㄒㄧㄝˊ」／「ㄒㄧㄝˊ」助發展",
+    "target": "ㄒㄧㄝˊ",
+    "correct": "協",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#2",
+    "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+    "target": "ㄓㄢˋ",
+    "correct": "湛",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#3",
+    "sentence": "天空「ㄓㄢˋ」藍／表演精「ㄓㄢˋ」",
+    "target": "ㄓㄢˋ",
+    "correct": "湛",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#4",
+    "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+    "target": "ㄐㄧㄡˋ",
+    "correct": "究",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#5",
+    "sentence": "追根「ㄐㄧㄡˋ」柢／歸「ㄐㄧㄡˋ」他人",
+    "target": "ㄐㄧㄡˋ",
+    "correct": "咎",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#6",
+    "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+    "target": "ㄉㄧˇ",
+    "correct": "砥",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0036#7",
+    "sentence": "「ㄉㄧˇ」志礪行／將功「ㄉㄧˇ」罪",
+    "target": "ㄉㄧˇ",
+    "correct": "抵",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#0",
+    "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+    "target": "ㄒㄧ",
+    "correct": "蟋",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#1",
+    "sentence": "「ㄒㄧ」蟀鳴唱／「ㄒㄧ」蜴爬樹",
+    "target": "ㄒㄧ",
+    "correct": "蜥",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#2",
+    "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+    "target": "ㄗㄞˋ",
+    "correct": "載",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0041#3",
+    "sentence": "「ㄗㄞˋ」舟覆舟／車「ㄗㄞˋ」斗量",
+    "target": "ㄗㄞˋ",
+    "correct": "載",
+    "mode": "reading"
+  }
+]

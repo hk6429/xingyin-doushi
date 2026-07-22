@@ -1,0 +1,212 @@
+[
+  {
+    "key": "xf0002#0",
+    "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+    "target": "磋",
+    "correct": "磋",
+    "mode": "char"
+  },
+  {
+    "key": "xf0002#1",
+    "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+    "target": "嗟",
+    "correct": "搓",
+    "mode": "char"
+  },
+  {
+    "key": "xf0002#2",
+    "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+    "target": "蹉",
+    "correct": "嗟",
+    "mode": "char"
+  },
+  {
+    "key": "xf0002#3",
+    "sentence": "青春年少時，終日流連電動玩具間，只圖玩樂，不知與同儕(甲)切「磋」進取；而今鬢髮霜白，臨事僅能(乙)「嗟」揉著雙手，苦無良計可施，徒自(丙)「蹉」嘆年華已(丁)「搓」跎！",
+    "target": "搓",
+    "correct": "蹉",
+    "mode": "char"
+  },
+  {
+    "key": "xf0003#0",
+    "sentence": "神態和「靄」",
+    "target": "靄",
+    "correct": "藹",
+    "mode": "char"
+  },
+  {
+    "key": "xf0003#1",
+    "sentence": "暮「藹」沉沉",
+    "target": "藹",
+    "correct": "靄",
+    "mode": "char"
+  },
+  {
+    "key": "xf0003#2",
+    "sentence": "「偈」見長官",
+    "target": "偈",
+    "correct": "謁",
+    "mode": "char"
+  },
+  {
+    "key": "xf0003#3",
+    "sentence": "筋疲力「竭」",
+    "target": "竭",
+    "correct": "竭",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#0",
+    "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+    "target": "烈",
+    "correct": "烈",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#1",
+    "sentence": "在熱「烈」的演唱會中，歌迷撕「裂」了主唱者的外衣",
+    "target": "裂",
+    "correct": "裂",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#2",
+    "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+    "target": "梢",
+    "correct": "稍",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#3",
+    "sentence": "「梢」後，月亮出現在樹「稍」上，灑下銀白色的光芒",
+    "target": "稍",
+    "correct": "梢",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#4",
+    "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+    "target": "期",
+    "correct": "期",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#5",
+    "sentence": "大家「期」待她能越過敵人的防線，把國「棋」送過來",
+    "target": "棋",
+    "correct": "旗",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#6",
+    "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+    "target": "決",
+    "correct": "決",
+    "mode": "char"
+  },
+  {
+    "key": "xf0005#7",
+    "sentence": "他「決」心為國捐軀，毅然寫了一封「絕」別書給家人",
+    "target": "絕",
+    "correct": "訣",
+    "mode": "char"
+  },
+  {
+    "key": "xf0014#0",
+    "sentence": "這部電影拍得很美，實在引人「蕸」思",
+    "target": "蕸",
+    "correct": "遐",
+    "mode": "char"
+  },
+  {
+    "key": "xf0014#1",
+    "sentence": "癩「蝦」蟆想吃天鵝肉，太自不量力了",
+    "target": "蝦",
+    "correct": "蝦",
+    "mode": "char"
+  },
+  {
+    "key": "xf0014#2",
+    "sentence": "公餘之「暇」，她總是到孤兒院做義工",
+    "target": "暇",
+    "correct": "暇",
+    "mode": "char"
+  },
+  {
+    "key": "xf0014#3",
+    "sentence": "這件事的處理方式似乎稍有「瑕」疵",
+    "target": "瑕",
+    "correct": "瑕",
+    "mode": "char"
+  },
+  {
+    "key": "xf0016#0",
+    "sentence": "清「徹」見底",
+    "target": "徹",
+    "correct": "澈",
+    "mode": "char"
+  },
+  {
+    "key": "xf0016#1",
+    "sentence": "重蹈覆「轍」",
+    "target": "轍",
+    "correct": "轍",
+    "mode": "char"
+  },
+  {
+    "key": "xf0016#2",
+    "sentence": "貫「撤」始終",
+    "target": "撤",
+    "correct": "徹",
+    "mode": "char"
+  },
+  {
+    "key": "xf0016#3",
+    "sentence": "大軍「澈」退",
+    "target": "澈",
+    "correct": "撤",
+    "mode": "char"
+  },
+  {
+    "key": "xf0025#0",
+    "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+    "target": "ㄎㄜ",
+    "correct": "顆",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#1",
+    "sentence": "一「ㄎㄜ」芳心／兩「ㄎㄜ」老樹",
+    "target": "ㄎㄜ",
+    "correct": "棵",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#2",
+    "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+    "target": "ㄊㄨˊ",
+    "correct": "圖",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#3",
+    "sentence": "「ㄊㄨˊ」窮匕現／窮「ㄊㄨˊ」末路",
+    "target": "ㄊㄨˊ",
+    "correct": "途",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#4",
+    "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+    "target": "ㄉㄢˋ",
+    "correct": "誕",
+    "mode": "reading"
+  },
+  {
+    "key": "xf0025#5",
+    "sentence": "言行荒「ㄉㄢˋ」／聖「ㄉㄢˋ」快樂",
+    "target": "ㄉㄢˋ",
+    "correct": "誕",
+    "mode": "reading"
+  }
+]
