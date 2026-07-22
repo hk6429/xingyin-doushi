@@ -117,6 +117,25 @@ await page.waitForSelector('#view-dex:not(.hidden)');
 await page.waitForSelector('.dex-card');
 const dexCount = await page.$$eval('.dex-card', (els) => els.length);
 
+// 4b. 迴歸測試：isCorrectAsIs 的字形題不可在句子裡洩漏正解字
+const maskedSentenceHTML = await page.evaluate(() => {
+  const fakeUnit = {
+    id: 'test#0', kind: 'mc-char', mode: 'char',
+    sentence: '這是「測」試句', target: '測', isCorrectAsIs: true,
+    correct: '測', options: ['測', '側', '惻', '策'],
+  };
+  const div = document.createElement('div');
+  document.body.appendChild(div);
+  XYQuestionUI.render(div, fakeUnit, { onDone: () => {}, onNext: () => {} });
+  const html = div.querySelector('.quiz-sentence').innerHTML;
+  div.remove();
+  return html;
+});
+if (maskedSentenceHTML.includes('>測<')) {
+  console.log('FAIL: isCorrectAsIs question leaks the correct character in the sentence:', maskedSentenceHTML);
+  process.exit(1);
+}
+
 // 5. 備份／還原：匯出框應該非空，還原按鈕可觸發不炸頁面
 await page.click('#view-dex [data-action="home"]');
 await page.waitForSelector('#view-home:not(.hidden)');

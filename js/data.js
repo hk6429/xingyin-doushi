@@ -51,6 +51,7 @@ const XYData = (() => {
             units.push({
               id: unitId, kind: 'mc-char', meta,
               sentence: p.sentence, target: p.target, mode: p.mode,
+              isCorrectAsIs: !!p.isCorrectAsIs,
               correct, options: opts,
             });
             addCharIndex(correct, unitId);

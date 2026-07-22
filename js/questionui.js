@@ -2,16 +2,17 @@
 // (battle.js). Battle only wraps XYQuiz.check()'s result into damage -- it does
 // not re-implement question rendering or scoring logic.
 const XYQuestionUI = (() => {
-  function sentenceHTML(sentence, targetLiteral) {
+  function sentenceHTML(sentence, targetLiteral, masked) {
     if (!targetLiteral) return sentence;
-    return sentence.replace(`「${targetLiteral}」`, `「<span class="blank-target">${targetLiteral}</span>」`);
+    const shown = masked ? '＿＿' : targetLiteral;
+    return sentence.replace(`「${targetLiteral}」`, `「<span class="blank-target">${shown}</span>」`);
   }
 
   function html(unit) {
     if (unit.kind === 'mc-char') {
       const label = unit.mode === 'reading' ? '請選出讀音正確的字：' : '這句中標記的字，正確寫法是？';
       return `
-        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.target)}</div>
+        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.target, unit.isCorrectAsIs)}</div>
         <div class="qlabel">${label}</div>
         <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${kbdHint(i)}${o}</button>`).join('')}</div>
         <div id="feedback"></div>`;
@@ -105,8 +106,15 @@ const XYQuestionUI = (() => {
       const fb = feedbackEl();
       const nextBtn = opts.showNextButton === false ? '' : '<button class="next-btn" data-action="next">下一題</button>';
       fb.innerHTML = `<div class="feedback-bar ${result.correct ? 'correct' : 'wrong'}">${result.correct ? '答對了！' : '答錯了'}　${correctionText(unit)}</div>${nextBtn}`;
+      let advanced = false;
+      const doNext = () => {
+        if (advanced) return;
+        advanced = true;
+        opts.onNext && opts.onNext();
+      };
       const nb = fb.querySelector('[data-action="next"]');
-      if (nb) nb.addEventListener('click', () => opts.onNext && opts.onNext());
+      if (nb) nb.addEventListener('click', doNext);
+      if (result.correct && opts.showNextButton !== false) setTimeout(doNext, 900);
       opts.onDone(result);
     }
 
