@@ -96,8 +96,38 @@ function loadStore() {
   S2.importProgress(dump);
   assert.strictEqual(S2.isMastered('e1'), true, 'imported mastery should match source');
   assert.deepStrictEqual(S2.wrongBookUnitIds(), ['e2'], 'imported wrongbook should match source');
-  assert.deepStrictEqual(S2.getBattle(), { wins: 3, unlocked: 4 }, 'imported battle progress should match source');
+  assert.deepStrictEqual(S2.getBattle(), { wins: 3, unlocked: 4, hardWins: 0, hardUnlocked: 0 }, 'imported battle progress should match source');
   assert.strictEqual(S2.getDaily().prog.correct, 1, 'imported daily quest progress should match source');
+}
+
+// 8. getBattle() backfills hard-mode fields for old saves that predate them
+{
+  const S = loadStore();
+  S.saveBattle({ wins: 2, unlocked: 3 });
+  assert.deepStrictEqual(S.getBattle(), { wins: 2, unlocked: 3, hardWins: 0, hardUnlocked: 0 });
+}
+
+// 9. streak: only bumps once per day, breaks on a skipped day
+{
+  const S = loadStore();
+  assert.strictEqual(S.getStreak().current, 0);
+  S.recordAnswer('s1', true, []);
+  assert.strictEqual(S.getStreak().current, 1, 'first correct answer of the day starts streak at 1');
+  S.recordAnswer('s2', true, []);
+  assert.strictEqual(S.getStreak().current, 1, 'second correct answer same day should not double-count');
+  S.recordAnswer('s3', false, []);
+  assert.strictEqual(S.getStreak().current, 1, 'a wrong answer should not affect streak');
+}
+
+// 10. reviewDueUnitIds: a wrong answer resets box to 0 (0ms interval) so it's
+// immediately due again; a correct first-try answer advances to box 1 (1 day
+// interval) so it is NOT due yet. Only practiced units (present in boxes) count.
+{
+  const S = loadStore();
+  S.recordAnswer('r1', true, ['字']);
+  assert.deepStrictEqual(S.reviewDueUnitIds(), [], 'first-try correct advances past the due-now box');
+  S.recordAnswer('r2', false, []);
+  assert.deepStrictEqual(S.reviewDueUnitIds(), ['r2'], 'a wrong answer resets to the immediately-due box');
 }
 
 console.log('store.test.mjs: all assertions passed');

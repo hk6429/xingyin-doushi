@@ -248,15 +248,28 @@ main { max-width: 720px; margin: 0 auto; padding: 16px; }
   box-shadow: 0 2px 6px rgba(179,37,30,0.25);
 }
 .battle-enemy-portrait.hidden { display: none; }
+#battle-hard-section.hidden { display: none; }
+.roster-item.hard.cleared { border-color: var(--red); background: #fbeceb; }
 
 .dex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; }
-.dex-card { aspect-ratio: 1; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; border: 2px solid #c9bda0; background: #efe7d4; color: #b9ac8e; background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(0,0,0,.03) 4px, rgba(0,0,0,.03) 8px); }
+.dex-card { position: relative; aspect-ratio: 1; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; border: 2px solid #c9bda0; background: #efe7d4; color: #b9ac8e; background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(0,0,0,.03) 4px, rgba(0,0,0,.03) 8px); }
+.dex-hint {
+  position: absolute; top: -5px; right: -5px;
+  background: var(--red); color: #fff; font-size: 0.55rem; font-weight: bold;
+  border-radius: 999px; padding: 1px 5px; line-height: 1.4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
 .dex-card.bronze { background: radial-gradient(circle at 35% 30%, #fbead0, #f3e1c9 60%, #e6c690); border-color: #c98b3f; color: var(--ink); }
 .dex-card.silver { background: radial-gradient(circle at 35% 30%, #f5f7fa, #e9edf2 60%, #d3d9e0); border-color: #9aa7b4; color: var(--ink); }
 .dex-card.gold {
   background: radial-gradient(circle at 35% 30%, #fff9e0, #fff3cf 60%, #f0d998);
   border: 3px double var(--gold); color: var(--red); font-weight: bold;
   font-size: 1.6rem; text-shadow: 0 1px 0 rgba(255,255,255,.6);
+}
+
+.streak-badge {
+  text-align: center; font-size: 0.85rem; font-weight: bold;
+  color: var(--red); margin-bottom: 8px; min-height: 1em;
 }
 
 .quest-panel {

@@ -19,6 +19,7 @@
 
   <section id="view-home" class="view">
     <img class="hero-banner" src="assets/art/hero-banner.png" alt="倉頡造字">
+    <div id="streak-badge" class="streak-badge"></div>
     <div id="daily-quest-panel" class="quest-panel"></div>
     <div class="section-label">開始練習</div>
     <div class="mode-grid">
@@ -52,6 +53,13 @@
           <span class="mode-title">錯題本複習</span>
         </div>
         <span class="mode-desc" id="wrongbook-count">目前 0 題待複習</span>
+      </button>
+      <button class="mode-card" data-mode="due">
+        <div class="mode-card-top">
+          <img class="mode-icon" src="assets/art/icon-due.png" alt="">
+          <span class="mode-title">到期複習</span>
+        </div>
+        <span class="mode-desc" id="due-count">目前 0 題到期</span>
       </button>
       <button class="mode-card" data-mode="battle">
         <div class="mode-card-top">
@@ -108,6 +116,10 @@
     </div>
     <div class="quiz-card" id="battle-card"></div>
     <div id="battle-roster" class="roster-grid"></div>
+    <div id="battle-hard-section" class="hidden">
+      <div class="section-label">困難模式</div>
+      <div id="battle-hard-roster" class="roster-grid"></div>
+    </div>
   </section>
 
   <section id="view-dex" class="view hidden">

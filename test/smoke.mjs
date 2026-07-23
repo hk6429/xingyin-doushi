@@ -99,11 +99,27 @@ const resultText = await page.$eval('#result-summary', (el) => el.textContent);
 await page.click('#view-result [data-action="home"]');
 await page.waitForSelector('#view-home:not(.hidden)');
 const wrongbookText = await page.$eval('#wrongbook-count', (el) => el.textContent);
+const dueText = await page.$eval('#due-count', (el) => el.textContent);
+const streakText = await page.$eval('#streak-badge', (el) => el.textContent);
+
+// 2b. 到期複習模式：至少能進場（有沒有題目視隨機作答結果而定，不強制斷言題數）
+await page.click('[data-mode="due"]');
+await page.waitForTimeout(300);
+const dueModeOk = await page.evaluate(() => {
+  const quizVisible = !document.querySelector('#view-quiz').classList.contains('hidden');
+  const homeVisible = !document.querySelector('#view-home').classList.contains('hidden');
+  return quizVisible || homeVisible; // either drew a round, or alerted "沒有到期" and stayed home
+});
+if (!dueModeOk) { console.log('FAIL: due-review mode entered an unexpected view'); process.exit(1); }
+await page.goto('http://localhost:4174');
+await page.waitForSelector('#view-home:not(.hidden)');
 
 // 3. 對戰模式：可以看到考官列表、點第一位開打、答一題看血條變化
 await page.click('[data-mode="battle"]');
 await page.waitForSelector('#view-battle:not(.hidden)');
 await page.waitForSelector('.roster-item:not(.locked)');
+const hardSectionHiddenBeforeWin = await page.$eval('#battle-hard-section', (el) => el.classList.contains('hidden'));
+if (!hardSectionHiddenBeforeWin) { console.log('FAIL: hard mode section should stay hidden before clearing the normal roster'); process.exit(1); }
 await page.click('.roster-item:not(.locked)');
 await answerOneQuestion('#battle-card');
 await page.waitForTimeout(1200);
@@ -151,6 +167,8 @@ console.log('mode cards:', modeCount);
 console.log('daily quest panel after keyboard-answered question:', dailyPanelText);
 console.log('round result:', resultText);
 console.log('wrongbook after round:', wrongbookText);
+console.log('due-review count after round:', dueText);
+console.log('streak badge after round:', streakText);
 console.log('battle enemy hp bar width after 1 hit:', hpEnemyWidth);
 console.log('dex cards rendered:', dexCount);
 console.log('backup export textarea length:', exportLen);

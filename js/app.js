@@ -11,7 +11,14 @@ const XYApp = (() => {
 
   function updateHome() {
     $('#wrongbook-count').textContent = `目前 ${XYStore.wrongBookUnitIds().length} 題待複習`;
+    $('#due-count').textContent = `目前 ${XYStore.reviewDueUnitIds().length} 題到期`;
     renderDaily();
+    renderStreak();
+  }
+
+  function renderStreak() {
+    const s = XYStore.getStreak();
+    $('#streak-badge').textContent = s.current > 0 ? `🔥 連續練習 ${s.current} 天` : '';
   }
 
   function renderDaily() {
@@ -40,13 +47,19 @@ const XYApp = (() => {
       const ids = new Set(XYStore.wrongBookUnitIds());
       return XYData.all().filter((u) => ids.has(u.id));
     }
+    if (mode === 'due') {
+      const ids = new Set(XYStore.reviewDueUnitIds());
+      return XYData.all().filter((u) => ids.has(u.id));
+    }
     return XYData.all();
   }
 
   function startRound(mode) {
     const pool = poolForMode(mode);
     if (!pool.length) {
-      alert(mode === 'wrongbook' ? '目前沒有錯題，太厲害了！' : '題庫載入中，請稍後再試。');
+      if (mode === 'wrongbook') alert('目前沒有錯題，太厲害了！');
+      else if (mode === 'due') alert('目前沒有到期的複習題，明天再來看看！');
+      else alert('題庫載入中，請稍後再試。');
       return;
     }
     session = { units: XYQuiz.drawUnits(pool, Math.min(ROUND_SIZE, pool.length)), idx: 0, score: 0, mode };
