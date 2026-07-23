@@ -2,24 +2,35 @@
 // (battle.js). Battle only wraps XYQuiz.check()'s result into damage -- it does
 // not re-implement question rendering or scoring logic.
 const XYQuestionUI = (() => {
-  function sentenceHTML(sentence, targetLiteral, masked) {
+  function sentenceHTML(sentence, targetLiteral, masked, occurrence) {
     if (!targetLiteral) return sentence;
     const shown = masked ? '＿＿' : targetLiteral;
-    return sentence.replace(`「${targetLiteral}」`, `「<span class="blank-target">${shown}</span>」`);
+    const needle = `「${targetLiteral}」`;
+    const replacement = `「<span class="blank-target">${shown}</span>」`;
+    // 一句話裡可能有兩處空格字面完全相同（如兩處都標「ㄋㄨㄥˊ」），
+    // 一定要用 occurrence 指到「這一題問的那一格」，不能只換第一個 match。
+    let idx = -1;
+    let from = 0;
+    for (let i = 0; i <= (occurrence || 0); i++) {
+      idx = sentence.indexOf(needle, from);
+      if (idx === -1) return sentence;
+      from = idx + needle.length;
+    }
+    return sentence.slice(0, idx) + replacement + sentence.slice(idx + needle.length);
   }
 
   function html(unit) {
     if (unit.kind === 'mc-char') {
       const label = unit.mode === 'reading' ? '請選出讀音正確的字：' : '這句中標記的字，正確寫法是？';
       return `
-        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.target, unit.isCorrectAsIs)}</div>
+        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.target, unit.isCorrectAsIs, unit.targetOccurrence)}</div>
         <div class="qlabel">${label}</div>
         <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${kbdHint(i)}${o}</button>`).join('')}</div>
         <div id="feedback"></div>`;
     }
     if (unit.kind === 'mc-zhuyin') {
       return `
-        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.char)}</div>
+        <div class="quiz-sentence">${sentenceHTML(unit.sentence, unit.char, false, unit.targetOccurrence)}</div>
         <div class="qlabel">「${unit.char}」在這裡的正確注音是？</div>
         <div class="opt-grid" id="opt-grid">${unit.options.map((o, i) => `<button class="opt-btn" data-i="${i}">${kbdHint(i)}${o}</button>`).join('')}</div>
         <div id="feedback"></div>`;

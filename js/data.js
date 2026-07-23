@@ -30,6 +30,15 @@ const XYData = (() => {
     charIndex = new Map();
     for (const it of items) {
       const meta = { itemId: it.id, examTag: it.examTag, level: it.level, year: it.year, type: it.type };
+      // 同一題如果兩個空格的注音字面完全相同（如「傷口化膿／蜂蜜濃稠」皆標「ㄋㄨㄥˊ」），
+      // 標記畫面要框對「這一格」而不是永遠框到第一格，靠這個計數器記錄第幾次出現。
+      const occurrenceCount = new Map();
+      const nextOccurrence = (sentence, target) => {
+        const key = `${sentence}|${target}`;
+        const occ = occurrenceCount.get(key) || 0;
+        occurrenceCount.set(key, occ + 1);
+        return occ;
+      };
       if (it.type === 'xingxing') {
         if (it.groupMode === 'pickCorrect') {
           const options = it.parts.map((p) => ({
@@ -61,6 +70,7 @@ const XYData = (() => {
             units.push({
               id: unitId, kind: 'mc-char', meta,
               sentence: p.sentence, target: p.target, mode: p.mode,
+              targetOccurrence: nextOccurrence(p.sentence, p.target),
               isCorrectAsIs: !!p.isCorrectAsIs,
               correct, options: opts,
             });
@@ -74,6 +84,7 @@ const XYData = (() => {
           units.push({
             id: unitId, kind: 'mc-zhuyin', meta,
             sentence: p.sentence, char: p.target,
+            targetOccurrence: nextOccurrence(p.sentence, p.target),
             correct: p.correctZhuyin, options: opts,
           });
           addCharIndex(p.target, unitId);
@@ -83,7 +94,7 @@ const XYData = (() => {
   }
 
   async function load() {
-    const res = await fetch('data/items.json?v=202607230200');
+    const res = await fetch('data/items.json?v=202607230300');
     items = await res.json();
     buildUnits();
     return units;
