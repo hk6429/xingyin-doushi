@@ -8,3 +8,13 @@
   from = "/api/report-issue"
   to = "/.netlify/functions/report-issue"
   status = 200
+
+[[redirects]]
+  from = "/api/backup-save"
+  to = "/.netlify/functions/backup-save"
+  status = 200
+
+[[redirects]]
+  from = "/api/backup-load"
+  to = "/.netlify/functions/backup-load"
+  status = 200

@@ -161,6 +161,17 @@
       <div>備份／還原</div>
     </div>
     <div class="paper-note">匯出目前進度備份，或貼上／上傳先前的備份來還原。還原會覆蓋目前的練習紀錄，請謹慎操作。</div>
+    <p class="backup-label">雲端備份（推薦：換裝置最方便）</p>
+    <div class="paper-note">按「上傳雲端備份」會產生一組 6 位代碼，記下代碼後在別的裝置按「用代碼還原」輸入就能拿回進度。代碼半年沒用會失效。</div>
+    <div class="backup-actions">
+      <button class="btn-primary" data-action="cloud-upload">上傳雲端備份</button>
+    </div>
+    <div id="cloud-code-display" class="cloud-code-display hidden"></div>
+    <div class="backup-actions">
+      <input type="text" id="cloud-code-input" class="cloud-code-input" placeholder="輸入 6 位代碼" maxlength="6">
+      <button class="btn-secondary" data-action="cloud-restore">用代碼還原</button>
+    </div>
+    <span id="cloud-status" class="report-status"></span>
     <p class="backup-label">目前進度（可複製或下載）</p>
     <textarea id="backup-export" class="backup-textarea" readonly></textarea>
     <div class="backup-actions">
@@ -178,15 +189,15 @@
 
 </main>
 
-<script src="js/data.js?v=202607230500"></script>
-<script src="js/store.js?v=202607230500"></script>
-<script src="js/quiz.js?v=202607230500"></script>
-<script src="js/report.js?v=202607230500"></script>
-<script src="js/questionui.js?v=202607230500"></script>
-<script src="js/dex.js?v=202607230500"></script>
-<script src="js/battle.js?v=202607230500"></script>
-<script src="js/backup.js?v=202607230500"></script>
-<script src="js/app.js?v=202607230500"></script>
+<script src="js/data.js?v=202607230600"></script>
+<script src="js/store.js?v=202607230600"></script>
+<script src="js/quiz.js?v=202607230600"></script>
+<script src="js/report.js?v=202607230600"></script>
+<script src="js/questionui.js?v=202607230600"></script>
+<script src="js/dex.js?v=202607230600"></script>
+<script src="js/battle.js?v=202607230600"></script>
+<script src="js/backup.js?v=202607230600"></script>
+<script src="js/app.js?v=202607230600"></script>
 <a id="gc-visitors" href="https://hk6429.goatcounter.com" target="_blank" rel="noopener" title="訪客人數（GoatCounter）" style="position:fixed;right:14px;bottom:14px;z-index:2147483000;font:600 12px/1 -apple-system,'PingFang TC','Noto Sans TC',system-ui,sans-serif;color:#fff;background:rgba(0,0,0,.58);padding:7px 12px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);text-decoration:none;display:none">👁 <span id="gc-visitors-n">–</span></a>
 <script>(function(){fetch('https://hk6429.goatcounter.com/counter/'+encodeURIComponent(location.host+'/')+'.json').then(function(r){return r.ok?r.json():null;}).then(function(d){if(!d)return;var a=document.getElementById('gc-visitors');document.getElementById('gc-visitors-n').textContent=d.count_unique;a.style.display='';}).catch(function(){});})();</script>
 <script>window.goatcounter = {path: p => location.host + p}</script>

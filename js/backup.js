@@ -39,6 +39,52 @@ const XYBackup = (() => {
     }
   }
 
+  // 換裝置時同一台裝置重複上傳沿用同一組代碼，不用每次都產生新的、
+  // 讓學生每次都要重新記一組。
+  const CLOUD_CODE_KEY = 'xyd_cloud_code';
+
+  function cloudUpload() {
+    const statusEl = $('#cloud-status');
+    const btn = $('[data-action="cloud-upload"]');
+    btn.disabled = true;
+    statusEl.textContent = '上傳中…';
+    const code = localStorage.getItem(CLOUD_CODE_KEY) || undefined;
+    fetch('/api/backup-save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code, data: XYStore.exportProgress() }),
+    }).then((r) => r.json()).then((j) => {
+      if (!j.ok) throw new Error('save failed');
+      localStorage.setItem(CLOUD_CODE_KEY, j.code);
+      const display = $('#cloud-code-display');
+      display.textContent = `你的備份代碼：${j.code}`;
+      display.classList.remove('hidden');
+      statusEl.textContent = '上傳成功！';
+    }).catch(() => {
+      statusEl.textContent = '上傳失敗，請稍後再試';
+    }).finally(() => { btn.disabled = false; });
+  }
+
+  function cloudRestore() {
+    const code = $('#cloud-code-input').value.trim().toUpperCase();
+    const statusEl = $('#cloud-status');
+    if (!/^[23456789A-HJ-NP-Z]{6}$/.test(code)) {
+      statusEl.textContent = '代碼格式不對，請確認 6 位代碼';
+      return;
+    }
+    statusEl.textContent = '還原中…';
+    fetch(`/api/backup-load?code=${code}`).then((r) => r.json()).then((j) => {
+      if (!j.ok) throw new Error('not found');
+      XYStore.importProgress(j.data);
+      localStorage.setItem(CLOUD_CODE_KEY, code);
+      alert('已還原進度');
+      render();
+      statusEl.textContent = '';
+    }).catch(() => {
+      statusEl.textContent = '找不到這組代碼，或已經過期';
+    });
+  }
+
   function initNav() {
     $('[data-action="backup-copy"]').addEventListener('click', () => {
       navigator.clipboard.writeText($('#backup-export').value);
@@ -61,6 +107,8 @@ const XYBackup = (() => {
       reader.onload = () => importFromText(reader.result);
       reader.readAsText(file);
     });
+    $('[data-action="cloud-upload"]').addEventListener('click', cloudUpload);
+    $('[data-action="cloud-restore"]').addEventListener('click', cloudRestore);
   }
 
   return { render, initNav };

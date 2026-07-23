@@ -308,6 +308,17 @@ main { max-width: 720px; margin: 0 auto; padding: 16px; }
 }
 .backup-actions { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
 .backup-file-label { cursor: pointer; }
+.cloud-code-display {
+  margin-top: 10px; padding: 12px; text-align: center; font-size: 1.3rem;
+  font-weight: 700; letter-spacing: 0.15em; color: var(--indigo);
+  background: #fffdf8; border: 2px dashed var(--gold); border-radius: 8px;
+}
+.cloud-code-display.hidden { display: none; }
+.cloud-code-input {
+  font-family: monospace; font-size: 1rem; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 8px 10px; border: 2px solid #c9bda0; border-radius: 6px; background: #fffdf8;
+  width: 140px;
+}
 
 .mode-card:focus-visible, .opt-btn:focus-visible, .judge-btn:focus-visible,
 .pick-option:focus-visible, .roster-item:focus-visible,

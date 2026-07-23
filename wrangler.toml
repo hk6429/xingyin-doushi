@@ -1,0 +1,7 @@
+name = "xingyin-doushi"
+pages_build_output_dir = "."
+compatibility_date = "2026-01-01"
+
+[[kv_namespaces]]
+binding = "BACKUP_KV"
+id = "91ca1321577e4ade8ec96b9fbbacc651"
