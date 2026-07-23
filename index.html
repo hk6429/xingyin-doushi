@@ -99,7 +99,7 @@
   <section id="view-quiz" class="view hidden">
     <div class="quiz-topbar">
       <button class="btn-back" data-action="home">← 返回</button>
-      <div class="quiz-progress"><span id="quiz-index">1</span> / <span id="quiz-total">10</span></div>
+      <div class="quiz-counter"><span id="quiz-index">1</span> / <span id="quiz-total">10</span></div>
       <div class="quiz-score">✓ <span id="quiz-score">0</span></div>
     </div>
     <div class="quiz-card" id="quiz-card" aria-live="polite"></div>
@@ -177,7 +177,8 @@
 <script src="js/battle.js?v=202607230100"></script>
 <script src="js/backup.js?v=202607230100"></script>
 <script src="js/app.js?v=202607230100"></script>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=hk6429.xingyin-doushi" alt="訪客人數" loading="lazy" style="position:fixed;right:14px;bottom:14px;z-index:2147483000;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);">
+<a id="gc-visitors" href="https://hk6429.goatcounter.com" target="_blank" rel="noopener" title="訪客人數（GoatCounter）" style="position:fixed;right:14px;bottom:14px;z-index:2147483000;font:600 12px/1 -apple-system,'PingFang TC','Noto Sans TC',system-ui,sans-serif;color:#fff;background:rgba(0,0,0,.58);padding:7px 12px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);text-decoration:none;display:none">👁 <span id="gc-visitors-n">–</span></a>
+<script>(function(){fetch('https://hk6429.goatcounter.com/counter/'+encodeURIComponent(location.host+'/')+'.json').then(function(r){return r.ok?r.json():null;}).then(function(d){if(!d)return;var a=document.getElementById('gc-visitors');document.getElementById('gc-visitors-n').textContent=d.count_unique;a.style.display='';}).catch(function(){});})();</script>
 <script>window.goatcounter = {path: p => location.host + p}</script>
 <script data-goatcounter="https://hk6429.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>
