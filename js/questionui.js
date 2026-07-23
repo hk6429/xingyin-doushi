@@ -152,8 +152,10 @@ const XYQuestionUI = (() => {
           submitBtn.disabled = false;
         });
       });
-      // 答對／答錯都自動前進（答錯多留一點時間看正解），不用逼學生每次答錯都多按一次。
-      if (opts.showNextButton !== false) setTimeout(doNext, result.correct ? 900 : 1800);
+      // 練習模式一律要手動按「下一題」才前進——曾經自動推進過，但學生反映
+      // 答錯想按「回報這題有問題」時常常來不及點，畫面就先跳走了。
+      // 對戰模式沒有下一題按鈕（showNextButton:false），仍要靠計時器自動前進。
+      if (opts.showNextButton === false) setTimeout(doNext, result.correct ? 900 : 1800);
       fb.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       opts.onDone(result);
     }

@@ -1,4 +1,4 @@
-const CACHE = 'xyd-v202607230400';
+const CACHE = 'xyd-v202607230500';
 const ASSETS = [
   './', './index.html', './style.css', './manifest.json',
   './js/data.js', './js/store.js', './js/quiz.js', './js/report.js', './js/questionui.js',
