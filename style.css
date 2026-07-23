@@ -375,3 +375,66 @@ body.font-large { font-size: 1.15em; }
     scroll-behavior: auto !important;
   }
 }
+
+.summary-card {
+  font-size: 0.85rem;
+  color: var(--indigo);
+  text-align: center;
+  margin-bottom: 6px;
+  min-height: 1.2em;
+}
+
+.mark-icon { font-weight: bold; margin-right: 6px; }
+.opt-btn.correct .mark-icon, .judge-btn.correct .mark-icon, .pick-option.correct .mark-icon { color: var(--green-ok); }
+.opt-btn.wrong .mark-icon, .judge-btn.wrong .mark-icon, .pick-option.wrong .mark-icon { color: var(--red); }
+
+.report-btn {
+  display: block;
+  margin: 10px auto 0;
+  background: none;
+  border: none;
+  color: #8a7c62;
+  font-size: 0.78rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 6px;
+}
+.report-form { margin-top: 8px; text-align: center; }
+.report-form.hidden { display: none; }
+.report-note {
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  border: 1px solid var(--paper-line);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  resize: none;
+}
+.report-status { display: block; font-size: 0.8rem; color: var(--jade); margin-top: 4px; }
+
+.dex-tier-badge {
+  position: absolute;
+  top: 4px; left: 4px;
+  font-size: 0.65rem;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+.dex-pct {
+  position: absolute;
+  bottom: 3px; left: 0; right: 0;
+  text-align: center;
+  font-size: 0.62rem;
+  color: #574a38;
+}
+.dex-card.dex-clickable { cursor: pointer; }
+.dex-card.dex-clickable:hover { box-shadow: 0 0 0 2px var(--indigo) inset; }
+
+@media (min-width: 768px) {
+  main { max-width: 960px; }
+  .mode-grid { grid-template-columns: repeat(3, 1fr); }
+  .roster-grid { grid-template-columns: repeat(4, 1fr); }
+}

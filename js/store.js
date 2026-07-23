@@ -83,7 +83,9 @@ const XYStore = (() => {
     } else {
       rec.streak = 0;
       rec.everWrong = true;
-      rec.box = 0;
+      // 答錯只退一格而非整個歸零：避免一次失誤把先前累積的間隔全部打掉，
+      // 對低自信學生比較不挫折，但仍然會縮短下次複習間隔。
+      rec.box = Math.max(0, rec.box - 1);
     }
     rec.due = Date.now() + BOX_INTERVALS_MS[rec.box];
     boxes[unitId] = rec;

@@ -126,7 +126,7 @@ const XYBattle = (() => {
   }
 
   function onLose() {
-    $('#battle-card').innerHTML = `<div class="result-card"><h2>被 ${state.opp.name} 考倒了……</h2><button class="btn-primary" data-action="battle-again">再挑戰一次</button></div>`;
+    $('#battle-card').innerHTML = `<div class="result-card"><h2>這次沒能贏過 ${state.opp.name}，練熟弱點再挑戰一次！</h2><button class="btn-primary" data-action="battle-again">再挑戰一次</button></div>`;
     $('#battle-card').querySelector('[data-action="battle-again"]').addEventListener('click', showRoster);
   }
 

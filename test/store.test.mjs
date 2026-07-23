@@ -130,4 +130,17 @@ function loadStore() {
   assert.deepStrictEqual(S.reviewDueUnitIds(), ['r2'], 'a wrong answer resets to the immediately-due box');
 }
 
+// 11. a wrong answer softens (decrements box by 1) instead of fully resetting
+// to box 0, so a couple of prior correct answers aren't wiped out by one mistake.
+{
+  const S = loadStore();
+  S.recordAnswer('sft1', true, []); // box 0 -> 1
+  S.recordAnswer('sft1', true, []); // box 1 -> 2
+  S.recordAnswer('sft1', false, []); // box 2 -> 1 (softened), not reset to 0
+  assert.deepStrictEqual(
+    S.reviewDueUnitIds(), [],
+    'wrong answer after prior progress should soften to a 1-day interval, not reset to due-now',
+  );
+}
+
 console.log('store.test.mjs: all assertions passed');

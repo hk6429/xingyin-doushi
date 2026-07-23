@@ -80,6 +80,9 @@ const XYQuestionUI = (() => {
     container.querySelectorAll('button').forEach((b) => { b.disabled = true; });
   }
 
+  // 對錯不能只靠顏色深淺分辨（色弱學生反映看不出差異），一律加勾叉文字符號。
+  function markIcon(symbol) { return `<span class="mark-icon">${symbol}</span>`; }
+
   // render(container, unit, { onDone(result), showNextButton, onNext })
   function render(container, unit, opts) {
     const progressHTML = opts.progress
@@ -108,7 +111,13 @@ const XYQuestionUI = (() => {
     function finish(result) {
       const fb = feedbackEl();
       const nextBtn = opts.showNextButton === false ? '' : '<button class="next-btn" data-action="next">下一題</button>';
-      fb.innerHTML = `<div class="feedback-bar ${result.correct ? 'correct' : 'wrong'}">${result.correct ? '答對了！' : '答錯了'}　${correctionText(unit)}</div>${nextBtn}`;
+      fb.innerHTML = `<div class="feedback-bar ${result.correct ? 'correct' : 'wrong'}">${result.correct ? '答對了！' : '答錯了，沒關係，看看正解再繼續'}　${correctionText(unit)}</div>${nextBtn}` +
+        `<button class="report-btn" data-action="report-toggle">回報這題有問題</button>` +
+        `<div class="report-form hidden">
+          <textarea class="report-note" maxlength="200" placeholder="（選填）說說看哪裡怪怪的"></textarea>
+          <button class="btn-secondary" data-action="report-submit">送出回報</button>
+          <span class="report-status"></span>
+        </div>`;
       let advanced = false;
       const doNext = () => {
         if (advanced) return;
@@ -117,7 +126,24 @@ const XYQuestionUI = (() => {
       };
       const nb = fb.querySelector('[data-action="next"]');
       if (nb) nb.addEventListener('click', doNext);
-      if (result.correct && opts.showNextButton !== false) setTimeout(doNext, 900);
+      const toggleBtn = fb.querySelector('[data-action="report-toggle"]');
+      const reportForm = fb.querySelector('.report-form');
+      toggleBtn.addEventListener('click', () => reportForm.classList.toggle('hidden'));
+      const submitBtn = fb.querySelector('[data-action="report-submit"]');
+      submitBtn.addEventListener('click', () => {
+        const note = fb.querySelector('.report-note').value.trim();
+        const statusEl = fb.querySelector('.report-status');
+        submitBtn.disabled = true;
+        XYReport.send(unit, note).then(() => {
+          statusEl.textContent = '已回報，謝謝你！';
+        }).catch(() => {
+          statusEl.textContent = '回報失敗，請稍後再試';
+          submitBtn.disabled = false;
+        });
+      });
+      // 答對／答錯都自動前進（答錯多留一點時間看正解），不用逼學生每次答錯都多按一次。
+      if (opts.showNextButton !== false) setTimeout(doNext, result.correct ? 900 : 1800);
+      fb.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       opts.onDone(result);
     }
 
@@ -128,27 +154,35 @@ const XYQuestionUI = (() => {
           const result = XYQuiz.check(unit, chosen);
           lockButtons(container.querySelector('#opt-grid'));
           container.querySelectorAll('.opt-btn').forEach((b) => {
-            if (unit.options[Number(b.dataset.i)] === unit.correct) b.classList.add('correct');
-            else if (b === btn) b.classList.add('wrong');
+            if (unit.options[Number(b.dataset.i)] === unit.correct) { b.classList.add('correct'); b.insertAdjacentHTML('afterbegin', markIcon('✓')); }
+            else if (b === btn) { b.classList.add('wrong'); b.insertAdjacentHTML('afterbegin', markIcon('✗')); }
           });
           finish(result);
         });
       });
     } else if (unit.kind === 'judge') {
+      const markJudge = (chosenBtn, correctFlag) => {
+        const correctV = unit.isCorrectAsIs ? 'true' : 'false';
+        container.querySelectorAll('.judge-btn').forEach((b) => {
+          b.disabled = true;
+          if (b.dataset.v === correctV) { b.classList.add('correct'); b.insertAdjacentHTML('afterbegin', markIcon('✓')); }
+          else if (b === chosenBtn && !correctFlag) { b.classList.add('wrong'); b.insertAdjacentHTML('afterbegin', markIcon('✗')); }
+        });
+      };
       container.querySelectorAll('.judge-btn').forEach((btn) => {
         btn.addEventListener('click', () => {
           const isCorrectChoice = btn.dataset.v === 'true';
           if (!unit.isCorrectAsIs && isCorrectChoice) {
-            container.querySelectorAll('.judge-btn').forEach((b) => { b.disabled = true; });
+            markJudge(btn, false);
             finish({ correct: false });
             return;
           }
           if (unit.isCorrectAsIs) {
-            container.querySelectorAll('.judge-btn').forEach((b) => { b.disabled = true; });
+            markJudge(btn, isCorrectChoice);
             finish(XYQuiz.check(unit, { isCorrect: isCorrectChoice }));
             return;
           }
-          container.querySelectorAll('.judge-btn').forEach((b) => { b.disabled = true; });
+          markJudge(btn, true);
           const n = unit.answers.length;
           const fillArea = container.querySelector('#fill-area');
           fillArea.innerHTML = `<div class="fill-row">${Array.from({ length: n }, (_, i) => `<input class="fill-input" maxlength="4" data-i="${i}">`).join('')}</div><button class="next-btn" data-action="submit-fill">確認送出</button>`;
@@ -166,8 +200,8 @@ const XYQuestionUI = (() => {
           const result = XYQuiz.check(unit, i);
           lockButtons(container.querySelector('#pick-list'));
           container.querySelectorAll('.pick-option').forEach((b) => {
-            if (Number(b.dataset.i) === unit.correctIndex) b.classList.add('correct');
-            else if (b === btn) b.classList.add('wrong');
+            if (Number(b.dataset.i) === unit.correctIndex) { b.classList.add('correct'); b.insertAdjacentHTML('afterbegin', markIcon('✓')); }
+            else if (b === btn) { b.classList.add('wrong'); b.insertAdjacentHTML('afterbegin', markIcon('✗')); }
           });
           finish(result);
         });

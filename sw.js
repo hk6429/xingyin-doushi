@@ -1,7 +1,7 @@
-const CACHE = 'xyd-v202607230100';
+const CACHE = 'xyd-v202607230200';
 const ASSETS = [
   './', './index.html', './style.css', './manifest.json',
-  './js/data.js', './js/store.js', './js/quiz.js', './js/questionui.js',
+  './js/data.js', './js/store.js', './js/quiz.js', './js/report.js', './js/questionui.js',
   './js/dex.js', './js/battle.js', './js/backup.js', './js/app.js',
   './data/items.json',
 ];

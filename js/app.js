@@ -14,6 +14,14 @@ const XYApp = (() => {
     $('#due-count').textContent = `目前 ${XYStore.reviewDueUnitIds().length} 題到期`;
     renderDaily();
     renderStreak();
+    renderSummary();
+  }
+
+  function renderSummary() {
+    const s = XYStore.summaryStats();
+    $('#summary-card').textContent = s.totalChars
+      ? `已接觸 ${s.totalChars} 字（精通 ${s.masteredChars} 字）・已練習 ${s.practiced} 題（精通 ${s.masteredUnits} 題）`
+      : '';
   }
 
   function renderStreak() {
@@ -41,11 +49,13 @@ const XYApp = (() => {
   }
 
   function getLevelFilter() { return localStorage.getItem('xyd_level_filter') || ''; }
+  function getRoundSize() { return Number(localStorage.getItem('xyd_round_size')) || ROUND_SIZE; }
 
   // 錯題本／到期複習看的是「你自己過去答錯/該複習的題目」，範圍篩選只影響
   // 出全新題的三種練習模式，不影響這兩種個人化複習模式。
   function poolForMode(mode) {
     const level = getLevelFilter() || undefined;
+    if (mode.startsWith('char:')) return XYData.unitsForChar(mode.slice(5));
     if (mode === 'xingxing') return XYData.filterUnits({ type: 'xingxing', level });
     if (mode === 'yinyin') return XYData.filterUnits({ type: 'yinyin', level });
     if (mode === 'mix') return XYData.filterUnits({ level });
@@ -68,7 +78,8 @@ const XYApp = (() => {
       else alert('題庫載入中，請稍後再試。');
       return;
     }
-    session = { units: XYQuiz.drawUnits(pool, Math.min(ROUND_SIZE, pool.length)), idx: 0, score: 0, mode };
+    const size = mode.startsWith('char:') ? pool.length : Math.min(getRoundSize(), pool.length);
+    session = { units: XYQuiz.drawUnits(pool, size), idx: 0, score: 0, mode };
     show('#view-quiz');
     renderQuestion();
   }
@@ -128,6 +139,12 @@ const XYApp = (() => {
     sel.addEventListener('change', () => localStorage.setItem('xyd_level_filter', sel.value));
   }
 
+  function initRoundSize() {
+    const sel = $('#round-size');
+    sel.value = String(getRoundSize());
+    sel.addEventListener('change', () => localStorage.setItem('xyd_round_size', sel.value));
+  }
+
   function initNav() {
     document.querySelectorAll('[data-mode]').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -157,11 +174,12 @@ const XYApp = (() => {
     initOnboarding();
     initFontToggle();
     initLevelFilter();
+    initRoundSize();
     updateHome();
     show('#view-home');
   }
 
-  return { init, show, $, poolForMode };
+  return { init, show, $, poolForMode, startRound };
 })();
 
 document.addEventListener('DOMContentLoaded', XYApp.init);

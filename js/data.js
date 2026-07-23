@@ -83,7 +83,7 @@ const XYData = (() => {
   }
 
   async function load() {
-    const res = await fetch('data/items.json?v=202607230100');
+    const res = await fetch('data/items.json?v=202607230200');
     items = await res.json();
     buildUnits();
     return units;
