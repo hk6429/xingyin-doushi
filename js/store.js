@@ -146,6 +146,25 @@ const XYStore = (() => {
     return Object.keys(getWrongBook());
   }
 
+  // 給「複製戰績摘要」用的彙總數字，全部來自既有紀錄，不新造任何數值。
+  function summaryStats() {
+    const boxes = getBoxes();
+    const unitIds = Object.keys(boxes);
+    const masteredUnits = unitIds.filter((id) => isMastered(id)).length;
+    const stats = getCharStats();
+    const chars = Object.keys(stats);
+    const masteredChars = chars.filter((ch) => charMastery(ch).ratio === 1).length;
+    return {
+      practiced: unitIds.length,
+      masteredUnits,
+      totalChars: chars.length,
+      masteredChars,
+      wrongbook: wrongBookUnitIds().length,
+      streak: getStreak().current,
+      battle: getBattle(),
+    };
+  }
+
   function exportProgress() {
     return JSON.stringify({
       boxes: getBoxes(), stats: getCharStats(), wrong: getWrongBook(), battle: getBattle(),
@@ -166,6 +185,6 @@ const XYStore = (() => {
   return {
     recordAnswer, isMastered, charMastery, dueUnits, wrongBookUnitIds,
     getBattle, saveBattle, exportProgress, importProgress,
-    rollDaily, getDaily, getStreak, reviewDueUnitIds,
+    rollDaily, getDaily, getStreak, reviewDueUnitIds, summaryStats,
   };
 })();

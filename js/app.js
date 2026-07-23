@@ -40,9 +40,15 @@ const XYApp = (() => {
     $('#daily-quest-panel').innerHTML = row('答', '今日答對', 'correct') + row('精', '今日新精通', 'mastered');
   }
 
+  function getLevelFilter() { return localStorage.getItem('xyd_level_filter') || ''; }
+
+  // 錯題本／到期複習看的是「你自己過去答錯/該複習的題目」，範圍篩選只影響
+  // 出全新題的三種練習模式，不影響這兩種個人化複習模式。
   function poolForMode(mode) {
-    if (mode === 'xingxing') return XYData.filterUnits({ type: 'xingxing' });
-    if (mode === 'yinyin') return XYData.filterUnits({ type: 'yinyin' });
+    const level = getLevelFilter() || undefined;
+    if (mode === 'xingxing') return XYData.filterUnits({ type: 'xingxing', level });
+    if (mode === 'yinyin') return XYData.filterUnits({ type: 'yinyin', level });
+    if (mode === 'mix') return XYData.filterUnits({ level });
     if (mode === 'wrongbook') {
       const ids = new Set(XYStore.wrongBookUnitIds());
       return XYData.all().filter((u) => ids.has(u.id));
@@ -96,6 +102,32 @@ const XYApp = (() => {
     updateHome();
   }
 
+  function initOnboarding() {
+    if (!localStorage.getItem('xyd_onboarding_seen')) {
+      $('#onboarding-banner').classList.remove('hidden');
+    }
+    $('[data-action="onboarding-dismiss"]').addEventListener('click', () => {
+      localStorage.setItem('xyd_onboarding_seen', '1');
+      $('#onboarding-banner').classList.add('hidden');
+    });
+  }
+
+  function initFontToggle() {
+    const KEY = 'xyd_font_large';
+    const apply = () => document.body.classList.toggle('font-large', localStorage.getItem(KEY) === '1');
+    apply();
+    $('[data-action="font-toggle"]').addEventListener('click', () => {
+      localStorage.setItem(KEY, localStorage.getItem(KEY) === '1' ? '0' : '1');
+      apply();
+    });
+  }
+
+  function initLevelFilter() {
+    const sel = $('#level-filter');
+    sel.value = getLevelFilter();
+    sel.addEventListener('change', () => localStorage.setItem('xyd_level_filter', sel.value));
+  }
+
   function initNav() {
     document.querySelectorAll('[data-mode]').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -122,6 +154,9 @@ const XYApp = (() => {
     await XYData.load();
     XYStore.rollDaily();
     initNav();
+    initOnboarding();
+    initFontToggle();
+    initLevelFilter();
     updateHome();
     show('#view-home');
   }

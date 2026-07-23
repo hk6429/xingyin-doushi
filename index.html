@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2c4a52">
 <title>形音鬥士｜歷屆基測會考字形字音挑戰</title>
 <link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
 </head>
 <body>
 <header class="topbar">
@@ -13,14 +15,28 @@
     <h1>形音鬥士</h1>
     <p class="subtitle">歷屆基測會考字形字音總複習</p>
   </div>
+  <button class="font-toggle-btn" data-action="font-toggle" aria-label="切換大字體模式">Aa</button>
 </header>
 
 <main id="app">
 
   <section id="view-home" class="view">
     <img class="hero-banner" src="assets/art/hero-banner.png" alt="倉頡造字">
+    <div id="onboarding-banner" class="onboarding-banner hidden">
+      <p><strong>提醒：</strong>練習進度只存在這台裝置的瀏覽器裡，不會自動同步雲端，清除瀏覽器資料會遺失，建議定期用下方「備份／還原」匯出存檔。</p>
+      <p class="onboarding-modes">字形挑戰／字音挑戰是單一類型出題；混合模式兩種都考；錯題本／到期複習是針對你答錯或該複習的題目；考官對戰是把答對答錯變成打怪；圖鑑是看你精通了哪些字。</p>
+      <button class="btn-link" data-action="onboarding-dismiss">我知道了，不再顯示</button>
+    </div>
     <div id="streak-badge" class="streak-badge"></div>
     <div id="daily-quest-panel" class="quest-panel"></div>
+    <div class="filter-row">
+      <label for="level-filter">出題範圍：</label>
+      <select id="level-filter">
+        <option value="">全部（基測＋會考）</option>
+        <option value="基測">僅基測（90～102）</option>
+        <option value="會考">僅會考（103～）</option>
+      </select>
+    </div>
     <div class="section-label">開始練習</div>
     <div class="mode-grid">
       <button class="mode-card" data-mode="xingxing">
@@ -86,7 +102,7 @@
       <div class="quiz-progress"><span id="quiz-index">1</span> / <span id="quiz-total">10</span></div>
       <div class="quiz-score">✓ <span id="quiz-score">0</span></div>
     </div>
-    <div class="quiz-card" id="quiz-card"></div>
+    <div class="quiz-card" id="quiz-card" aria-live="polite"></div>
   </section>
 
   <section id="view-result" class="view hidden">
@@ -114,7 +130,7 @@
         </div>
       </div>
     </div>
-    <div class="quiz-card" id="battle-card"></div>
+    <div class="quiz-card" id="battle-card" aria-live="polite"></div>
     <div id="battle-roster" class="roster-grid"></div>
     <div id="battle-hard-section" class="hidden">
       <div class="section-label">困難模式</div>
@@ -141,6 +157,7 @@
     <div class="backup-actions">
       <button class="btn-secondary" data-action="backup-copy">複製</button>
       <button class="btn-secondary" data-action="backup-download">下載成檔案</button>
+      <button class="btn-secondary" data-action="summary-copy">複製戰績摘要（給老師/家長看）</button>
     </div>
     <p class="backup-label">還原進度</p>
     <textarea id="backup-import" class="backup-textarea" placeholder="貼上備份內容"></textarea>
@@ -152,16 +169,17 @@
 
 </main>
 
-<script src="js/data.js?v=202607230036"></script>
-<script src="js/store.js?v=202607230036"></script>
-<script src="js/quiz.js?v=202607230036"></script>
-<script src="js/questionui.js?v=202607230036"></script>
-<script src="js/dex.js?v=202607230036"></script>
-<script src="js/battle.js?v=202607230036"></script>
-<script src="js/backup.js?v=202607230036"></script>
-<script src="js/app.js?v=202607230036"></script>
+<script src="js/data.js?v=202607230100"></script>
+<script src="js/store.js?v=202607230100"></script>
+<script src="js/quiz.js?v=202607230100"></script>
+<script src="js/questionui.js?v=202607230100"></script>
+<script src="js/dex.js?v=202607230100"></script>
+<script src="js/battle.js?v=202607230100"></script>
+<script src="js/backup.js?v=202607230100"></script>
+<script src="js/app.js?v=202607230100"></script>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=hk6429.xingyin-doushi" alt="訪客人數" loading="lazy" style="position:fixed;right:14px;bottom:14px;z-index:2147483000;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);">
 <script>window.goatcounter = {path: p => location.host + p}</script>
 <script data-goatcounter="https://hk6429.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>
 </body>
 </html>

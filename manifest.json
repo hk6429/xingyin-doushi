@@ -1,0 +1,11 @@
+{
+  "name": "形音鬥士｜歷屆基測會考字形字音挑戰",
+  "short_name": "形音鬥士",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f0e2",
+  "theme_color": "#2c4a52",
+  "icons": [
+    { "src": "assets/art/mascot-cangjie.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
